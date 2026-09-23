@@ -7,7 +7,14 @@ const BlogCategoryDropdown = () => {
   const [isOpen, setIsOpen] = useState(false);
   
   const categories = [
-    { name: 'Account & Login', href: '/blog/create-bn55-account-and-login' },
+    { name: 'Account & Login', href: '/blog/create-pk365-account-and-login' },
+    { name: 'Download & Install', href: '/blog/how-to-download-install-pk365-apk-pakistan' },
+    { name: 'Deposit Guide', href: '/blog/pk365-deposit-jazzcash-easypaisa-guide' },
+    { name: 'Withdraw Guide', href: '/blog/pk365-withdraw-money-guide' },
+    { name: 'Bonuses', href: '/blog/pk365-welcome-bonus-guide' },
+    { name: 'App Review', href: '/blog/pk365-app-review-2026' },
+    { name: 'Safety', href: '/blog/is-pk365-safe-legal-pakistan' },
+    { name: 'Tips', href: '/blog/tips-to-win-big-in-pk365' },
   ];
 
   return (

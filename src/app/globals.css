@@ -69,18 +69,38 @@ section {
   contain: layout;
 }
 
+section.overflow-visible {
+  contain: none;
+}
+
 .download-btn {
   position: relative;
   overflow: hidden;
-  transition: all 0.3s ease;
+  transition: transform 0.3s ease;
+  animation: download-soft-blink 2.2s ease-in-out infinite;
 }
 
 .download-btn:hover {
   transform: translateY(-1px);
+  animation-play-state: paused;
 }
 
 .download-btn:hover .download-icon {
   animation: bounce 0.5s ease infinite;
+}
+
+@keyframes download-soft-blink {
+  0%,
+  100% {
+    opacity: 1;
+    box-shadow: 0 0 0 0 rgba(14, 165, 233, 0.35);
+    border-color: #0ea5e9;
+  }
+  50% {
+    opacity: 0.72;
+    box-shadow: 0 0 18px 2px rgba(14, 165, 233, 0.45);
+    border-color: #38bdf8;
+  }
 }
 
 @keyframes bounce {
@@ -89,6 +109,13 @@ section {
   }
   50% {
     transform: translateY(-2px);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .download-btn {
+    animation: none;
+    opacity: 1;
   }
 }
 
@@ -113,4 +140,88 @@ section {
 /* Prevent layout shift by ensuring content takes up space */
 .stars-bg {
   pointer-events: none;
-} 
+}
+
+/* Screenshot marquee — gentle horizontal scroll */
+.screenshot-marquee {
+  width: 100%;
+  overflow: hidden;
+  mask-image: linear-gradient(to right, transparent, #000 6%, #000 94%, transparent);
+  -webkit-mask-image: linear-gradient(to right, transparent, #000 6%, #000 94%, transparent);
+}
+
+.screenshot-marquee-track {
+  display: flex;
+  width: max-content;
+  gap: 1.25rem;
+  padding: 0.5rem 1rem 1rem;
+  animation: screenshot-marquee 40s linear infinite;
+}
+
+.screenshot-marquee-item {
+  width: 180px;
+  transition: transform 0.35s ease, border-color 0.35s ease;
+}
+
+@media (min-width: 768px) {
+  .screenshot-marquee-item {
+    width: 220px;
+  }
+}
+
+.screenshot-marquee:hover .screenshot-marquee-track {
+  animation-play-state: paused;
+}
+
+.screenshot-marquee-item:hover {
+  transform: translateY(-6px);
+  border-color: #ffa500;
+}
+
+@keyframes screenshot-marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .screenshot-marquee-track {
+    animation: none;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+  }
+}
+
+/* PK365 Guides & FAQs — grow on hover */
+.pk365-guide-card,
+.pk365-faq-card {
+  transform: scale(1);
+  transform-origin: center center;
+  transition:
+    transform 0.3s ease,
+    border-color 0.3s ease,
+    box-shadow 0.3s ease;
+  will-change: transform;
+}
+
+.pk365-guide-card:hover,
+.pk365-faq-card:hover {
+  transform: scale(1.08);
+  box-shadow: 0 16px 32px rgba(0, 0, 0, 0.35);
+  z-index: 2;
+  border-color: #ffa500;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .pk365-guide-card,
+  .pk365-guide-card:hover,
+  .pk365-faq-card,
+  .pk365-faq-card:hover {
+    transform: none;
+  }
+}
+ 

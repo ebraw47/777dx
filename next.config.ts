@@ -1,26 +1,21 @@
 import type { NextConfig } from "next";
 
 /**
- * BN55 - Next.js Configuration
- * Single config for Next.js 16 (Turbopack default)
+ * PK365 - Next.js Configuration
  */
 const nextConfig: NextConfig = {
   poweredByHeader: false,
   reactStrictMode: true,
   compress: true,
-
-  // Silence Next 16 Turbopack + webpack warning; keep webpack for --webpack builds
   turbopack: {},
-
   compiler: {
     removeConsole: process.env.NODE_ENV === "production",
   },
-
   images: {
     remotePatterns: [
       {
         protocol: "https",
-        hostname: "slotspk.com.pk",
+        hostname: "pk365-app.pk",
       },
     ],
     formats: ["image/avif", "image/webp"],
@@ -32,49 +27,30 @@ const nextConfig: NextConfig = {
 
   async redirects() {
     return [
-      // Legacy image
-      { source: "/3-patti-world.webp", destination: "/BN55.webp", permanent: true },
-      { source: "/3-patti-world-logo.webp", destination: "/BN55.webp", permanent: true },
-      // Old 3 Patti World routes to BN55
-      { source: "/download-3-patti-world", destination: "/download-bn55", permanent: true },
-      { source: "/deposit-money-in-3-patti-world", destination: "/deposit-money-in-bn55", permanent: true },
-      { source: "/withdraw-money-from-3-patti-world", destination: "/withdraw-money-from-bn55", permanent: true },
-      { source: "/3-patti-world-for-pc", destination: "/bn55-for-pc", permanent: true },
-      { source: "/blog/is-3-patti-world-real-or-fake", destination: "/blog/is-bn55-real-or-fake", permanent: true },
-      { source: "/blog/create-3-patti-world-account-and-login", destination: "/blog/create-bn55-account-and-login", permanent: true },
-      { source: "/blog/tips-to-win-big-in-3-patti-world", destination: "/blog/tips-to-win-big-in-bn55", permanent: true },
-      { source: "/blog/3-patti-world-app-review-2026", destination: "/blog/bn55-app-review-2026", permanent: true },
-      { source: "/blog/3-patti-world-bonuses-vip-guide", destination: "/blog/bn55-bonuses-vip-guide", permanent: true },
-      { source: "/blog/3-patti-world-tips-10-smart-tricks", destination: "/blog/bn55-tips-10-smart-tricks", permanent: true },
-      { source: "/blog/how-to-use-3-patti-world-app-pakistan-guide-2026", destination: "/blog/how-to-use-bn55-app-pakistan-guide-2026", permanent: true },
-      { source: "/blog/is-3-patti-world-safe-legal-pakistan", destination: "/blog/is-bn55-safe-legal-pakistan", permanent: true },
-      { source: "/blog/responsible-gaming-guide-3-patti-world", destination: "/blog/responsible-gaming-guide-bn55", permanent: true },
-      { source: "/blog/3patti-blue-vs-3-patti-world", destination: "/blog/3patti-blue-vs-bn55", permanent: true },
-      { source: "/blog/3patti-gold-vs-3-patti-world", destination: "/blog/3patti-gold-vs-bn55", permanent: true },
-      { source: "/blog/3patti-lucky-vs-3-patti-world", destination: "/blog/3patti-lucky-vs-bn55", permanent: true },
-      { source: "/blog/3patti-room-vs-3-patti-world", destination: "/blog/3patti-room-vs-bn55", permanent: true },
-      { source: "/blog/3patti-world-latest-version-new-features-2026-updates", destination: "/blog/bn55-latest-version-new-features-2026-updates", permanent: true },
-      { source: "/blog/3patti-world-login-problems-solutions-2026-guide", destination: "/blog/bn55-login-problems-solutions-2026-guide", permanent: true },
-      { source: "/blog/ips-exceed-issue-3-patti-world-how-to-fix", destination: "/blog/ips-exceed-issue-bn55-how-to-fix", permanent: true },
-      { source: "/blog/ways-to-earn-money-with-3-patti-world-2026", destination: "/blog/ways-to-earn-money-with-bn55-2026", permanent: true },
-      // Older Card Rummy routes → BN55
-      { source: "/download-card-rummy", destination: "/download-bn55", permanent: true },
-      { source: "/deposit-money-in-card-rummy", destination: "/deposit-money-in-bn55", permanent: true },
-      { source: "/withdraw-money-from-card-rummy", destination: "/withdraw-money-from-bn55", permanent: true },
-      { source: "/card-rummy-for-pc", destination: "/bn55-for-pc", permanent: true },
-      { source: "/blog/is-card-rummy-real-or-fake", destination: "/blog/is-bn55-real-or-fake", permanent: true },
-      { source: "/blog/create-card-rummy-account-and-login", destination: "/blog/create-bn55-account-and-login", permanent: true },
-      { source: "/blog/tips-to-win-big-in-card-rummy", destination: "/blog/tips-to-win-big-in-bn55", permanent: true },
-      { source: "/blog/card-rummy-app-review-2026", destination: "/blog/bn55-app-review-2026", permanent: true },
-      { source: "/blog/card-rummy-bonuses-vip-guide", destination: "/blog/bn55-bonuses-vip-guide", permanent: true },
-      { source: "/blog/card-rummy-tips-10-smart-tricks", destination: "/blog/bn55-tips-10-smart-tricks", permanent: true },
-      { source: "/blog/how-to-use-card-rummy-app-pakistan-guide-2026", destination: "/blog/how-to-use-bn55-app-pakistan-guide-2026", permanent: true },
-      { source: "/blog/is-card-rummy-safe-legal-pakistan", destination: "/blog/is-bn55-safe-legal-pakistan", permanent: true },
-      { source: "/blog/responsible-gaming-guide-card-rummy", destination: "/blog/responsible-gaming-guide-bn55", permanent: true },
-      { source: "/blog/3patti-blue-vs-card-rummy", destination: "/blog/3patti-blue-vs-bn55", permanent: true },
-      { source: "/blog/3patti-gold-vs-card-rummy", destination: "/blog/3patti-gold-vs-bn55", permanent: true },
-      { source: "/blog/3patti-lucky-vs-card-rummy", destination: "/blog/3patti-lucky-vs-bn55", permanent: true },
-      { source: "/blog/3patti-room-vs-card-rummy", destination: "/blog/3patti-room-vs-bn55", permanent: true },
+      // Legacy BN55 routes → PK365
+      { source: "/download-bn55", destination: "/download-pk365", permanent: true },
+      { source: "/deposit-money-in-bn55", destination: "/deposit-money-in-pk365", permanent: true },
+      { source: "/withdraw-money-from-bn55", destination: "/withdraw-money-from-pk365", permanent: true },
+      { source: "/bn55-for-pc", destination: "/pk365-for-pc", permanent: true },
+      { source: "/BN55.webp", destination: "/PK365-Game-Icon.webp", permanent: true },
+      // Older brand routes → PK365
+      { source: "/download-3-patti-world", destination: "/download-pk365", permanent: true },
+      { source: "/deposit-money-in-3-patti-world", destination: "/deposit-money-in-pk365", permanent: true },
+      { source: "/withdraw-money-from-3-patti-world", destination: "/withdraw-money-from-pk365", permanent: true },
+      { source: "/3-patti-world-for-pc", destination: "/pk365-for-pc", permanent: true },
+      { source: "/download-card-rummy", destination: "/download-pk365", permanent: true },
+      { source: "/deposit-money-in-card-rummy", destination: "/deposit-money-in-pk365", permanent: true },
+      { source: "/withdraw-money-from-card-rummy", destination: "/withdraw-money-from-pk365", permanent: true },
+      { source: "/card-rummy-for-pc", destination: "/pk365-for-pc", permanent: true },
+      // Legacy blog catch-alls → new blog hub
+      { source: "/blog/is-bn55-real-or-fake", destination: "/blog/is-pk365-safe-legal-pakistan", permanent: true },
+      { source: "/blog/create-bn55-account-and-login", destination: "/blog/create-pk365-account-and-login", permanent: true },
+      { source: "/blog/tips-to-win-big-in-bn55", destination: "/blog/tips-to-win-big-in-pk365", permanent: true },
+      { source: "/blog/bn55-app-review-2026", destination: "/blog/pk365-app-review-2026", permanent: true },
+      { source: "/blog/bn55-bonuses-vip-guide", destination: "/blog/pk365-welcome-bonus-guide", permanent: true },
+      { source: "/blog/how-to-use-bn55-app-pakistan-guide-2026", destination: "/blog/how-to-use-pk365-app-pakistan-guide", permanent: true },
+      { source: "/blog/is-bn55-safe-legal-pakistan", destination: "/blog/is-pk365-safe-legal-pakistan", permanent: true },
+      { source: "/blog/ways-to-earn-money-with-bn55-2026", destination: "/blog/ways-to-earn-money-with-pk365-2026", permanent: true },
     ];
   },
 
@@ -83,10 +59,6 @@ const nextConfig: NextConfig = {
       {
         source: "/.well-known/:path*",
         destination: "/.well-known/:path*",
-      },
-      {
-        source: "/3-patti-blue-logo.webp",
-        destination: "/BN55.webp",
       },
     ];
   },
@@ -107,7 +79,6 @@ const nextConfig: NextConfig = {
           },
         ],
       },
-      // Long-cache only hashed static assets (not HTML pages, not /_next/static override in a way that breaks Turbopack/dev)
       {
         source: "/css/:path*",
         headers: [
@@ -130,7 +101,6 @@ const nextConfig: NextConfig = {
     ];
   },
 
-  // Used when running with `next dev --webpack` / `next build --webpack`
   webpack: (config, { isServer }) => {
     if (!isServer) {
       config.resolve.fallback = {

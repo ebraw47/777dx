@@ -20,7 +20,7 @@
 - Card Rummy online
 - Card Rummy play
 - Card Rummy earn money
-- BN55
+- PK365
 - Card Rummy 2026
 
 **Implementation:**

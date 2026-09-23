@@ -239,7 +239,7 @@ Add these throughout content:
 - card rummy online
 - download card rummy apk
 - card rummy real money
-- BN55
+- PK365
 
 ### Long-Tail Keywords (Lower Competition)
 - how to play card rummy

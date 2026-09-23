@@ -2,23 +2,23 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Disclaimer - BN55 | Legal Information',
-  description: 'Read the disclaimer for BN55. Important legal information about the use of this blog and third-party platforms.',
-  keywords: ['BN55 disclaimer', 'legal disclaimer', 'terms', 'conditions', 'gambling disclaimer'],
+  title: 'Disclaimer - PK365 | Legal Information',
+  description: 'Read the disclaimer for PK365. Important legal information about the use of this blog and third-party platforms.',
+  keywords: ['PK365 disclaimer', 'legal disclaimer', 'terms', 'conditions', 'gambling disclaimer'],
   openGraph: {
-    title: 'Disclaimer - BN55',
-    description: 'Legal disclaimer and important information about BN55.',
-    url: 'https://bn55apk.net.pk/disclaimer',
-    siteName: 'BN55',
+    title: 'Disclaimer - PK365',
+    description: 'Legal disclaimer and important information about PK365.',
+    url: 'https://pk365-app.pk/disclaimer',
+    siteName: 'PK365',
     type: 'website',
   },
   twitter: {
     card: 'summary',
-    title: 'Disclaimer - BN55',
-    description: 'Legal disclaimer and important information about BN55.',
+    title: 'Disclaimer - PK365',
+    description: 'Legal disclaimer and important information about PK365.',
   },
   alternates: {
-    canonical: 'https://bn55apk.net.pk/disclaimer',
+    canonical: 'https://pk365-app.pk/disclaimer',
   },
   robots: {
     index: true,
@@ -58,7 +58,7 @@ export default function Disclaimer() {
               {/* Main Disclaimer Content */}
               <div className="space-y-6 text-gray-300">
                 <p className="text-lg leading-relaxed">
-                  The information provided on this blog (<a href="https://www.bn55apk.net.pk" className="text-accent hover:text-accent font-semibold" target="_blank" rel="noopener noreferrer">www.bn55apk.net.pk</a>) about <Link href="/" className="text-accent hover:underline font-semibold">BN55</Link> is for <strong>general informational and entertainment purposes only</strong>. We do not host, promote, or encourage any form of gambling or betting activities.
+                  The information provided on this blog (<a href="https://www.pk365-app.pk" className="text-accent hover:text-accent font-semibold" target="_blank" rel="noopener noreferrer">www.pk365-app.pk</a>) about <Link href="/" className="text-accent hover:underline font-semibold">PK365</Link> is for <strong>general informational and entertainment purposes only</strong>. We do not host, promote, or encourage any form of gambling or betting activities.
                 </p>
 
                 <div className="bg-[#104008] rounded-xl p-6 border border-accent">
@@ -66,7 +66,7 @@ export default function Disclaimer() {
                   <ul className="space-y-3 text-gray-300">
                     <li className="flex items-start">
                       <span className="text-accent mr-2 font-bold">•</span>
-                      <span>BN55 is a card game that may involve <strong>real money</strong> when played on certain platforms.</span>
+                      <span>PK365 is a card game that may involve <strong>real money</strong> when played on certain platforms.</span>
                     </li>
                     <li className="flex items-start">
                       <span className="text-accent mr-2 font-bold">•</span>
@@ -140,9 +140,9 @@ export default function Disclaimer() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "WebPage",
-            "name": "Disclaimer - BN55",
-            "description": "Legal disclaimer and important information about BN55 website.",
-            "url": "https://bn55apk.net.pk/disclaimer"
+            "name": "Disclaimer - PK365",
+            "description": "Legal disclaimer and important information about PK365 website.",
+            "url": "https://pk365-app.pk/disclaimer"
           })
         }}
       />

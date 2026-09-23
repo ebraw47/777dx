@@ -30,7 +30,7 @@ const MAIN_LINKS: NavItem[] = [
     ),
   },
   {
-    href: '/download-bn55',
+    href: '/download-pk365',
     label: 'Download',
     icon: (
       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-5 h-5">
@@ -42,7 +42,7 @@ const MAIN_LINKS: NavItem[] = [
 
 const GUIDE_LINKS: NavItem[] = [
   {
-    href: '/deposit-money-in-bn55',
+    href: '/deposit-money-in-pk365',
     label: 'Deposit Guide',
     icon: (
       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-5 h-5">
@@ -51,7 +51,7 @@ const GUIDE_LINKS: NavItem[] = [
     ),
   },
   {
-    href: '/withdraw-money-from-bn55',
+    href: '/withdraw-money-from-pk365',
     label: 'Withdraw Guide',
     icon: (
       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-5 h-5">
@@ -60,7 +60,7 @@ const GUIDE_LINKS: NavItem[] = [
     ),
   },
   {
-    href: '/bn55-for-pc',
+    href: '/pk365-for-pc',
     label: 'PC Version',
     icon: (
       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-5 h-5">
@@ -206,15 +206,15 @@ export default function MobileNavigation() {
             <Link href="/" className="flex items-center gap-3" onClick={close}>
               <div className="relative w-9 h-9 flex-shrink-0 rounded-lg overflow-hidden">
                 <Image
-                  src="/BN55.webp"
-                  alt="BN55 Logo"
+                  src="/PK365-Game-Icon.webp"
+                  alt="PK365 Logo"
                   fill
                   sizes="36px"
                   className="object-contain"
                   priority
                 />
               </div>
-              <span className="text-white text-lg font-bold tracking-tight">BN55</span>
+              <span className="text-white text-lg font-bold tracking-tight">PK365</span>
             </Link>
             <button
               onClick={close}
@@ -241,7 +241,7 @@ export default function MobileNavigation() {
           <div className="px-5 pt-4 pb-8 border-t border-gray-800/80 flex flex-col items-center">
             <DownloadButton size="sm" />
             <p className="text-center text-gray-500 text-xs mt-3">
-              49MB · Android 5.0+ · V1.168(1) (2026 Update)
+              ~20MB · Android 6.0+ · 2026 Update
             </p>
           </div>
         </div>

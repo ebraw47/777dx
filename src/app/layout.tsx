@@ -26,27 +26,27 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://bn55apk.net.pk'),
+  metadataBase: new URL('https://pk365-app.pk'),
   title: {
-    default: "BN55 Pakistan v1.168 Free Download Official APK",
-    template: "%s | BN55"
+    default: "PK365 Pakistan Free Download Official APK 2026",
+    template: "%s | PK365"
   },
-  description: "BN55 2026 - Download BN55 APK for Android. Play with friends, earn real cash, daily rewards. JazzCash & EasyPaisa withdrawals.",
+  description: "PK365 2026 - Download PK365 APK for Android. Play with friends, earn real cash, daily rewards. JazzCash & EasyPaisa withdrawals.",
   keywords: [
-    "BN55",
-    "BN55 APK",
-    "BN55 download",
-    "BN55 Pakistan",
-    "BN55 game",
-    "BN55 app",
+    "PK365",
+    "PK365 APK",
+    "PK365 download",
+    "PK365 Pakistan",
+    "PK365 game",
+    "PK365 app",
     "Teen Patti Pakistan",
-    "BN55 earning game",
-    "BN55 2026",
-    "bn55apk.net.pk"
+    "PK365 earning game",
+    "PK365 2026",
+    "pk365-app.pk"
   ],
-  authors: [{ name: "BN55 Team" }],
-  creator: "BN55",
-  publisher: "BN55",
+  authors: [{ name: "PK365 Team" }],
+  creator: "PK365",
+  publisher: "PK365",
   robots: {
     index: true,
     follow: true,
@@ -61,10 +61,10 @@ export const metadata: Metadata = {
   icons: {
     icon: [
       { url: '/favicon.ico', sizes: 'any' },
-      { url: '/BN55.webp', type: 'image/webp', sizes: '1000x1000' }
+      { url: '/PK365-Game-Icon.webp', type: 'image/webp', sizes: '1000x1000' }
     ],
     apple: [
-      { url: '/BN55.webp', sizes: '180x180' }
+      { url: '/PK365-Game-Icon.webp', sizes: '180x180' }
     ],
     shortcut: '/favicon.ico'
   },
@@ -72,45 +72,45 @@ export const metadata: Metadata = {
     google: "8a7c21f6e90a89ef",
   },
   alternates: {
-    canonical: "https://bn55apk.net.pk",
+    canonical: "https://pk365-app.pk",
   },
   openGraph: {
-    title: "BN55 Pakistan v1.168 Free Download Official APK",
-    description: "BN55 2026 - Download BN55 APK. Play with friends, earn real cash, daily rewards. JazzCash & EasyPaisa withdrawals.",
-    url: "https://bn55apk.net.pk",
-    siteName: "BN55",
+    title: "PK365 Pakistan Free Download Official APK 2026",
+    description: "PK365 2026 - Download PK365 APK. Play with friends, earn real cash, daily rewards. JazzCash & EasyPaisa withdrawals.",
+    url: "https://pk365-app.pk",
+    siteName: "PK365",
     locale: "en_US",
     type: "website",
     images: [
       {
-        url: "https://bn55apk.net.pk/feature/og-image.webp",
+        url: "https://pk365-app.pk/feature/og-image.webp",
         width: 1200,
         height: 630,
-        alt: "BN55 - Teen Patti Earning Game",
+        alt: "PK365 - Teen Patti Earning Game",
       },
       {
-        url: "https://bn55apk.net.pk/feature/og-image-square.webp",
+        url: "https://pk365-app.pk/feature/og-image-square.webp",
         width: 800,
         height: 800,
-        alt: "BN55 - Teen Patti Earning Game",
+        alt: "PK365 - Teen Patti Earning Game",
       }
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "BN55 Pakistan v1.168 Free Download Official APK",
-    description: "BN55 2026 - Download BN55 APK. Play with friends, earn real cash, daily rewards.",
-    creator: "@bn55apk",
+    title: "PK365 Pakistan Free Download Official APK 2026",
+    description: "PK365 2026 - Download PK365 APK. Play with friends, earn real cash, daily rewards.",
+    creator: "@pk365app",
     images: [
       {
-        url: "https://bn55apk.net.pk/feature/twitter-card.webp",
+        url: "https://pk365-app.pk/feature/twitter-card.webp",
         width: 1200,
         height: 600,
-        alt: "BN55 - Teen Patti Earning Game",
+        alt: "PK365 - Teen Patti Earning Game",
       }
     ],
   },
-  applicationName: "BN55",
+  applicationName: "PK365",
   category: "Gaming",
   classification: "Teen Patti Gaming Platform",
 };
@@ -129,9 +129,9 @@ export default function RootLayout({
         <meta name="geo.region" content="PK" />
         <meta name="geo.placename" content="Pakistan" />
         <link rel="icon" href="/favicon.ico" sizes="any" />
-        <link rel="icon" href="/BN55.webp" type="image/webp" sizes="1000x1000" />
+        <link rel="icon" href="/PK365-Game-Icon.webp" type="image/webp" sizes="1000x1000" />
         <link rel="shortcut icon" href="/favicon.ico" />
-        <link rel="apple-touch-icon" href="/BN55.webp" sizes="180x180" />
+        <link rel="apple-touch-icon" href="/PK365-Game-Icon.webp" sizes="180x180" />
 
         {/* Preconnect to external domains for faster loading */}
         <link rel="preconnect" href="https://www.googletagmanager.com" crossOrigin="anonymous" />
@@ -193,27 +193,26 @@ export default function RootLayout({
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "Organization",
-              "@id": "https://bn55apk.net.pk/#organization",
-              "name": "BN55",
-              "url": "https://bn55apk.net.pk",
+              "@id": "https://pk365-app.pk/#organization",
+              "name": "PK365",
+              "url": "https://pk365-app.pk",
               "logo": {
                 "@type": "ImageObject",
-                "url": "https://bn55apk.net.pk/BN55.webp",
+                "url": "https://pk365-app.pk/PK365-Game-Icon.webp",
                 "width": 1000,
                 "height": 1000
               },
-              "description": "BN55 is Pakistan's premier Teen Patti gaming platform with real cash rewards. Download APK, play Teen Patti, Rummy, Dragon vs Tiger. JazzCash and EasyPaisa deposits and withdrawals.",
+              "description": "PK365 is Pakistan's premier Teen Patti gaming platform with real cash rewards. Download APK, play Teen Patti, Rummy, Dragon vs Tiger. JazzCash and EasyPaisa deposits and withdrawals.",
               "areaServed": { "@type": "Country", "name": "Pakistan", "alternateName": "PK" },
               "contactPoint": {
                 "@type": "ContactPoint",
                 "contactType": "Customer Support",
-                "email": "support@bn55apk.net.pk",
+                "email": "support@pk365-app.pk",
                 "areaServed": "PK",
                 "availableLanguage": ["English", "Urdu"]
               },
               "sameAs": [
-                "https://www.facebook.com/share/1brVugEVok/?mibextid=wwXIfr",
-                "https://twitter.com/bn55apk"
+                "https://www.facebook.com/share/1C1XW5hdAv/?mibextid=wwXIfr"
               ]
             })
           }}

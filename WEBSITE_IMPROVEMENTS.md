@@ -10,7 +10,7 @@ This document suggests changes to improve search visibility and fix “0 impress
 - **Wrong property in GSC** – You might be viewing `www` vs non-`www`, or `http` vs `https`. Add all variants and use the one that matches your canonical URLs.
 - **Robots / noindex** – A single `noindex` or misconfigured `robots.txt` can block indexing.
 - **No backlinks / no traffic** – Google discovers and ranks pages partly via links and usage; no links often means slow or no impressions.
-- **Very competitive keywords** – Terms like “BN55 download” or “teen patti real money” are crowded; without strong signals you may get few or zero impressions.
+- **Very competitive keywords** – Terms like “PK365 download” or “teen patti real money” are crowded; without strong signals you may get few or zero impressions.
 
 ---
 
@@ -18,10 +18,10 @@ This document suggests changes to improve search visibility and fix “0 impress
 
 ### 2.1 Google Search Console
 
-- Add and verify **all** URL variants: `https://bn55apk.net.pk`, `https://www.bn55apk.net.pk` (if you use www).
+- Add and verify **all** URL variants: `https://pk365-app.pk`, `https://www.pk365-app.pk` (if you use www).
 - Use **URL Inspection** on your homepage and 2–3 key URLs. Request indexing after fixing any issues.
 - Check **Coverage / Pages**: see if pages are “Indexed”, “Discovered – currently not indexed”, or “Crawled – currently not indexed”. Fix errors and remove unnecessary blocks.
-- Confirm **Sitemaps**: submit `https://bn55apk.net.pk/sitemap.xml` (or your dynamic sitemap URL). Ensure all important pages are listed and return 200.
+- Confirm **Sitemaps**: submit `https://pk365-app.pk/sitemap.xml` (or your dynamic sitemap URL). Ensure all important pages are listed and return 200.
 
 ### 2.2 Robots & Canonical
 
@@ -45,14 +45,14 @@ This document suggests changes to improve search visibility and fix “0 impress
 
 ### 3.2 Target Clear Queries
 
-- **Informational**: “how to deposit in BN55”, “is BN55 safe”, “BN55 withdrawal time”.
-- **Transactional**: “BN55 download”, “BN55 APK Pakistan”, “BN55 latest version”.
+- **Informational**: “how to deposit in PK365”, “is PK365 safe”, “PK365 withdrawal time”.
+- **Transactional**: “PK365 download”, “PK365 APK Pakistan”, “PK365 latest version”.
 - Use one main keyword per page in title, meta description, and one H1. Keep titles under ~60 characters and descriptions under ~155 so they don’t get cut off in results.
 
 ### 3.3 Content Depth & Uniqueness
 
 - Add **unique value**: comparison tables, step-by-step with exact button names, min/max amounts, screenshots (with alt text), FAQs that match real user questions.
-- **Blog**: Publish new guides (e.g. “BN55 vs [other app]”, “How to fix login/OTP issues”, “JazzCash deposit not showing”). Update old posts with new info and dates.
+- **Blog**: Publish new guides (e.g. “PK365 vs [other app]”, “How to fix login/OTP issues”, “JazzCash deposit not showing”). Update old posts with new info and dates.
 - **Internal links**: Link from homepage and blog index to each important guide; link between related posts (e.g. deposit ↔ withdraw, account ↔ login). You already have some – expand deliberately.
 
 ---
@@ -61,7 +61,7 @@ This document suggests changes to improve search visibility and fix “0 impress
 
 - **Backlinks**: Get links from Pakistani tech/gaming forums, WhatsApp groups (share useful guides), or relevant directories. Quality and relevance matter more than quantity.
 - **Social**: Share new posts and the download page on Facebook, Twitter, or any platform your audience uses. Consistent sharing can lead to more visits and eventually more crawls and impressions.
-- **Brand searches**: If people search “bn55apk” or “BN55 official”, a clear site name and consistent NAP (name, address, phone if you show them) help.
+- **Brand searches**: If people search “PK365apk” or “PK365 official”, a clear site name and consistent NAP (name, address, phone if you show them) help.
 
 ---
 
@@ -86,11 +86,11 @@ The following are already in place to support **rich results**, **GEO (Generativ
 
 ### 6.1 HowTo Schema
 
-- **Homepage**: HowTo “How to Download and Install BN55 APK on Android” in the `@graph` (5 steps, totalTime PT5M, url with #download).
-- **Deposit page** (`/deposit-money-in-bn55`): HowTo + WebPage in `@graph` (7 steps, totalTime PT3M).
-- **Withdraw page** (`/withdraw-money-from-bn55`): HowTo + WebPage in `@graph` (9 steps, totalTime PT5M).
-- **Create account blog** (`/blog/create-bn55-account-and-login`): HowTo in `@graph` with BlogPosting (8 steps, totalTime PT2M).
-- **How-to-use guide** (`/blog/how-to-use-bn55-app-pakistan-guide-2026`): HowTo “How to Use BN55 App in Pakistan” (6 steps, totalTime PT15M).
+- **Homepage**: HowTo “How to Download and Install PK365 APK on Android” in the `@graph` (5 steps, totalTime PT5M, url with #download).
+- **Deposit page** (`/deposit-money-in-pk365`): HowTo + WebPage in `@graph` (7 steps, totalTime PT3M).
+- **Withdraw page** (`/withdraw-money-from-pk365`): HowTo + WebPage in `@graph` (9 steps, totalTime PT5M).
+- **Create account blog** (`/blog/create-PK365-account-and-login`): HowTo in `@graph` with BlogPosting (8 steps, totalTime PT2M).
+- **How-to-use guide** (`/blog/how-to-use-PK365-app-pakistan-guide-2026`): HowTo “How to Use PK365 App in Pakistan” (6 steps, totalTime PT15M).
 
 Reusable component: `src/components/HowToSchema.tsx` for future step-by-step pages.
 

@@ -2,23 +2,23 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Contact Us - BN55 | Get Help & Support',
-  description: 'Contact BN55 support team for help with the app, content, privacy policy, and more. We are here to assist you.',
-  keywords: 'contact BN55, BN55 support, BN55 email, customer support, help BN55',
+  title: 'Contact Us - PK365 | Get Help & Support',
+  description: 'Contact PK365 support team for help with the app, content, privacy policy, and more. We are here to assist you.',
+  keywords: 'contact PK365, PK365 support, PK365 email, customer support, help PK365',
   openGraph: {
-    title: 'Contact Us - BN55',
-    description: 'Get in touch with BN55 support team for any queries or assistance.',
-    url: 'https://bn55apk.net.pk/contact-us',
-    siteName: 'BN55',
+    title: 'Contact Us - PK365',
+    description: 'Get in touch with PK365 support team for any queries or assistance.',
+    url: 'https://pk365-app.pk/contact-us',
+    siteName: 'PK365',
     type: 'website',
   },
   twitter: {
     card: 'summary',
-    title: 'Contact Us - BN55',
-    description: 'Get in touch with BN55 support team for any queries or assistance.',
+    title: 'Contact Us - PK365',
+    description: 'Get in touch with PK365 support team for any queries or assistance.',
   },
   alternates: {
-    canonical: 'https://bn55apk.net.pk/contact-us',
+    canonical: 'https://pk365-app.pk/contact-us',
   },
   robots: {
     index: true,
@@ -41,7 +41,7 @@ export default function Contact() {
           <div className="bg-secondary rounded-2xl shadow-xl p-8 md:p-12 mb-8">
             <div className="prose prose-lg max-w-none">
               <p className="text-lg text-gray-300 leading-relaxed mb-8">
-                Welcome to the Contact Us page of this site. Here, we will share the source to contact us. Feel free to contact us if you are facing any problems regarding our site, such as <Link href="/" className="text-accent hover:underline font-semibold">BN55</Link> APP related content or <Link href="/about-us" className="text-accent hover:text-accent font-semibold">About us</Link>, <Link href="/privacy" className="text-accent hover:text-accent font-semibold">privacy policy</Link>, etc.
+                Welcome to the Contact Us page of this site. Here, we will share the source to contact us. Feel free to contact us if you are facing any problems regarding our site, such as <Link href="/" className="text-accent hover:underline font-semibold">PK365</Link> APP related content or <Link href="/about-us" className="text-accent hover:text-accent font-semibold">About us</Link>, <Link href="/privacy" className="text-accent hover:text-accent font-semibold">privacy policy</Link>, etc.
               </p>
 
               {/* Email Contact Section */}
@@ -55,13 +55,13 @@ export default function Contact() {
                 <p className="text-center mb-4 text-gray-400">Send us your questions or concerns via email</p>
                 <div className="text-center">
                   <a 
-                    href="mailto:support@bn55apk.net.pk" 
+                    href="mailto:support@pk365-app.pk" 
                     className="inline-flex items-center justify-center bg-accent hover:bg-accent/90 text-primary font-bold py-4 px-8 rounded-full text-lg transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105"
                   >
                     <svg className="w-6 h-6 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
                     </svg>
-                    support@bn55apk.net.pk
+                    support@pk365-app.pk
                   </a>
                 </div>
               </div>
@@ -77,7 +77,7 @@ export default function Contact() {
                 </svg>
               </div>
               <h3 className="text-xl font-bold mb-2 text-white">App Information</h3>
-              <p className="text-gray-400 mb-4">Need help with the BN55 app?</p>
+              <p className="text-gray-400 mb-4">Need help with the PK365 app?</p>
               <Link href="/" className="text-accent hover:text-accent font-semibold">
                 Learn More →
               </Link>
@@ -121,11 +121,11 @@ export default function Contact() {
             "@type": "ContactPage",
             "mainEntity": {
               "@type": "Organization",
-              "name": "BN55",
-              "url": "https://bn55apk.net.pk",
+              "name": "PK365",
+              "url": "https://pk365-app.pk",
               "contactPoint": {
                 "@type": "ContactPoint",
-                "email": "support@bn55apk.net.pk",
+                "email": "support@pk365-app.pk",
                 "contactType": "Customer Support",
                 "availableLanguage": ["English", "Urdu"]
               }

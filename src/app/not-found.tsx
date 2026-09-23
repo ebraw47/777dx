@@ -2,8 +2,8 @@ import Link from 'next/link';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Page Not Found - BN55',
-  description: 'The page you are looking for does not exist. Return to BN55 homepage.',
+  title: 'Page Not Found - PK365',
+  description: 'The page you are looking for does not exist. Return to PK365 homepage.',
   robots: {
     index: false,
     follow: true,

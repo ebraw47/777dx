@@ -1,6 +1,8 @@
-# BN55 — Official Website
+# PK365
 
-Pakistan Teen Patti / real-cash gaming brand site for **[bn55apk.net.pk](https://bn55apk.net.pk)**.
+Official website for **PK365** — Pakistan's real-money gaming app (Teen Patti, slots, sports) with JazzCash & EasyPaisa.
+
+**Domain:** [pk365-app.pk](https://pk365-app.pk)
 
 ## Getting Started
 
@@ -15,12 +17,13 @@ Open [http://localhost:3000](http://localhost:3000).
 
 - `npm run dev` — development server
 - `npm run build` — production build
-- `npm run start` — start production server
+- `npm start` — start production server
 - `npm run lint` — ESLint
 
 ## Env
 
 Copy `.env.example` to `.env.local` and set:
 
-- `NEXT_PUBLIC_SITE_URL=https://bn55apk.net.pk`
-- Optional: `NEXT_PUBLIC_GA_MEASUREMENT_ID`
+- `NEXT_PUBLIC_SITE_URL` (default `https://pk365-app.pk`)
+- `NEXT_PUBLIC_DOWNLOAD_URL` (optional APK / affiliate link)
+- `NEXT_PUBLIC_GA_MEASUREMENT_ID` (optional)

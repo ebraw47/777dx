@@ -11,7 +11,7 @@ module.exports = {
         sans: ['var(--font-poppins)', 'Poppins', 'system-ui', 'sans-serif'],
       },
       colors: {
-        // Dark greens sampled from BN55 logo
+        // Dark greens sampled from PK365 logo
         primary: '#083000',
         secondary: '#104008',
         accent: '#FFC107',

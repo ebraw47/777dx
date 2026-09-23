@@ -12,8 +12,8 @@ export default function Header() {
         <Link href="/" className="flex items-center">
           <div className="relative h-10 w-10 mr-2">
             <Image
-              src="/BN55.webp"
-              alt="BN55 Logo"
+              src="/PK365-Game-Icon.webp"
+              alt="PK365 Logo"
               width={40}
               height={40}
               className="object-contain"
@@ -22,7 +22,7 @@ export default function Header() {
             />
           </div>
           <span className="text-accent text-xl md:text-2xl font-bold">
-            BN55
+            PK365
           </span>
         </Link>
 
@@ -31,16 +31,16 @@ export default function Header() {
           <Link href="/" className="text-white hover:text-accent font-medium transition-colors">
             Home
           </Link>
-          <Link href="/download-bn55" className="text-white hover:text-accent font-medium transition-colors">
+          <Link href="/download-pk365" className="text-white hover:text-accent font-medium transition-colors">
             Download
           </Link>
-          <Link href="/deposit-money-in-bn55" className="text-white hover:text-accent font-medium transition-colors">
+          <Link href="/deposit-money-in-pk365" className="text-white hover:text-accent font-medium transition-colors">
             Deposit
           </Link>
-          <Link href="/withdraw-money-from-bn55" className="text-white hover:text-accent font-medium transition-colors">
+          <Link href="/withdraw-money-from-pk365" className="text-white hover:text-accent font-medium transition-colors">
             Withdraw
           </Link>
-          <Link href="/bn55-for-pc" className="text-white hover:text-accent font-medium transition-colors">
+          <Link href="/pk365-for-pc" className="text-white hover:text-accent font-medium transition-colors">
             PC Version
           </Link>
           <Link href="/about-us" className="text-white hover:text-accent font-medium transition-colors">
