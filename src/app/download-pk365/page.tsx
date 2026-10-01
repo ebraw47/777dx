@@ -123,7 +123,7 @@ export default function DownloadPage() {
         </div>
 
         <div className="flex justify-center mb-8">
-          <span className="bg-[#104008] text-[#4ade80] px-6 py-2 rounded-full text-sm font-semibold">
+          <span className="bg-[#004038] text-[#4ade80] px-6 py-2 rounded-full text-sm font-semibold">
             ⚡ Fast APK Download
           </span>
         </div>
@@ -152,27 +152,27 @@ export default function DownloadPage() {
           <div className="overflow-x-auto">
             <table className="min-w-full divide-y divide-gray-800">
               <tbody className="divide-y divide-gray-800">
-                <tr className="bg-[#104008]/50">
+                <tr className="bg-[#004038]/50">
                   <td className="py-4 px-6 text-left font-medium text-white">App Name</td>
                   <td className="py-4 px-6 text-left text-white">PK365</td>
                 </tr>
-                <tr className="bg-[#083000]/50">
+                <tr className="bg-[#002c27]/50">
                   <td className="py-4 px-6 text-left font-medium text-white">Version</td>
                   <td className="py-4 px-6 text-left text-white">Latest 2026</td>
                 </tr>
-                <tr className="bg-[#104008]/50">
+                <tr className="bg-[#004038]/50">
                   <td className="py-4 px-6 text-left font-medium text-white">Size</td>
                   <td className="py-4 px-6 text-left text-white">~20MB</td>
                 </tr>
-                <tr className="bg-[#083000]/50">
+                <tr className="bg-[#002c27]/50">
                   <td className="py-4 px-6 text-left font-medium text-white">Required OS</td>
                   <td className="py-4 px-6 text-left text-white">Android 6.0+</td>
                 </tr>
-                <tr className="bg-[#104008]/50">
+                <tr className="bg-[#004038]/50">
                   <td className="py-4 px-6 text-left font-medium text-white">Update</td>
                   <td className="py-4 px-6 text-left text-white">5th January 2026</td>
                 </tr>
-                <tr className="bg-[#083000]/50">
+                <tr className="bg-[#002c27]/50">
                   <td className="py-4 px-6 text-left font-medium text-white">Price</td>
                   <td className="py-4 px-6 text-left text-white">Free (0$)</td>
                 </tr>
@@ -196,7 +196,7 @@ export default function DownloadPage() {
           
           <div className="space-y-6 max-w-4xl mx-auto">
             {/* Step 01 */}
-            <div className="bg-[#104008] rounded-lg p-6 border-l-4 border-[#FFA500]">
+            <div className="bg-[#004038] rounded-lg p-6 border-l-4 border-[#FFA500]">
               <h3 className="text-xl font-bold text-[#FFA500] mb-3">Step 01: Download APK</h3>
               <p className="text-gray-300 leading-relaxed">
                 Click on download button to get PK365 Game APK. Wait for automatic download completion.
@@ -204,7 +204,7 @@ export default function DownloadPage() {
             </div>
 
             {/* Step 02 */}
-            <div className="bg-[#104008] rounded-lg p-6 border-l-4 border-[#4ade80]">
+            <div className="bg-[#004038] rounded-lg p-6 border-l-4 border-[#4ade80]">
               <h3 className="text-xl font-bold text-[#4ade80] mb-3">Step 02: Enable Unknown Sources</h3>
               <p className="text-gray-300 leading-relaxed">
                 Go to device privacy settings and allow "install from unknown resources".
@@ -212,7 +212,7 @@ export default function DownloadPage() {
             </div>
 
             {/* Step 03 */}
-            <div className="bg-[#104008] rounded-lg p-6 border-l-4 border-[#60a5fa]">
+            <div className="bg-[#004038] rounded-lg p-6 border-l-4 border-[#60a5fa]">
               <h3 className="text-xl font-bold text-[#60a5fa] mb-3">Step 03: Install APK</h3>
               <p className="text-gray-300 leading-relaxed">
                 Locate the downloaded file, tap on it and click on install. Let this process to be done automatically.
@@ -220,7 +220,7 @@ export default function DownloadPage() {
             </div>
 
             {/* Step 04 */}
-            <div className="bg-[#104008] rounded-lg p-6 border-l-4 border-[#f97316]">
+            <div className="bg-[#004038] rounded-lg p-6 border-l-4 border-[#f97316]">
               <h3 className="text-xl font-bold text-[#f97316] mb-3">Step 04: Start Earning</h3>
               <p className="text-gray-300 leading-relaxed">
                 Finally, PK365 is successfully installed on your device, open it and start your journey with your first deposit in this earning app and grab opportunity to earn a lot of money.

@@ -75,7 +75,7 @@ export default function Pk365WelcomeBonusPage() {
             <p className="mb-4">
               Bonus money is rarely withdrawable immediately. You may need to bet the bonus (or bonus + deposit) several times on eligible games. Slots and certain tables count differently—check promo FAQ in-app.
             </p>
-            <div className="bg-[#083000] border border-[#FFA500]/40 rounded-xl p-5 text-sm">
+            <div className="bg-[#002c27] border border-[#FFA500]/40 rounded-xl p-5 text-sm">
               <strong className="text-[#FFA500]">Example pattern (illustrative only):</strong> Rs 365 bonus with 10× turnover means Rs 3,650 in qualifying bets before that bonus portion can cash out. Real multipliers vary—never assume without reading terms.
             </div>
           </section>
@@ -89,7 +89,7 @@ export default function Pk365WelcomeBonusPage() {
             </ul>
           </section>
 
-          <div className="bg-[#083000] border border-[#104008] rounded-xl p-6 text-sm">
+          <div className="bg-[#002c27] border border-[#004038] rounded-xl p-6 text-sm">
             <strong className="text-white">18+ responsible gaming:</strong> Bonuses encourage more play; set limits. Entertainment only—legal status in Pakistan is unclear.
           </div>
 

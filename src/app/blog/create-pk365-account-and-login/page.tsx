@@ -86,7 +86,7 @@ export default function CreatePk365AccountPage() {
             <p>One account per person and per phone number keeps withdrawals smoother. Never share OTPs with &quot;agents&quot; on WhatsApp claiming to fix withdrawals.</p>
           </section>
 
-          <div className="bg-[#083000] border border-[#104008] rounded-xl p-6 text-sm">
+          <div className="bg-[#002c27] border border-[#004038] rounded-xl p-6 text-sm">
             <strong className="text-white">18+:</strong> Registration is for adults only. Real-money play is entertainment at your own risk.
           </div>
 

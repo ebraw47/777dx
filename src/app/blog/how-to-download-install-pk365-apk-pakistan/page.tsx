@@ -92,7 +92,7 @@ export default function DownloadInstallPk365Page() {
             </ul>
           </section>
 
-          <div className="bg-[#083000] border border-[#104008] rounded-xl p-6 text-sm">
+          <div className="bg-[#002c27] border border-[#004038] rounded-xl p-6 text-sm">
             <strong className="text-white">18+ responsible gaming:</strong> Installing PK365 gives access to real-money games. Legal status in Pakistan is unclear; play for entertainment at your own risk and only with money you can afford to lose.
           </div>
 

@@ -200,7 +200,7 @@ export default function MobileNavigation() {
       </button>
 
       {isOpen && (
-        <div className="fixed inset-0 z-50 flex flex-col bg-[#083000]">
+        <div className="fixed inset-0 z-50 flex flex-col bg-[#002c27]">
           {/* Header */}
           <div className="flex justify-between items-center px-5 py-4 border-b border-gray-800/80">
             <Link href="/" className="flex items-center gap-3" onClick={close}>

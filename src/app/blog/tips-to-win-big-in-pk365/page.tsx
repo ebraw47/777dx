@@ -89,7 +89,7 @@ export default function TipsToWinPk365Page() {
             </p>
           </section>
 
-          <div className="bg-[#083000] border border-[#104008] rounded-xl p-6 text-sm">
+          <div className="bg-[#002c27] border border-[#004038] rounded-xl p-6 text-sm">
             <strong className="text-white">18+ responsible gaming:</strong> If tips feel like pressure to gamble more, ignore them. Entertainment only—legal status in Pakistan is unclear; you play at your own risk.
           </div>
 

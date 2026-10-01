@@ -4,8 +4,8 @@
   "description": "Pakistan's premier real-money gaming platform. Teen Patti, slots, sports — JazzCash & EasyPaisa.",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#083000",
-  "theme_color": "#083000",
+  "background_color": "#002c27",
+  "theme_color": "#002c27",
   "icons": [
     {
       "src": "/favicon.ico",

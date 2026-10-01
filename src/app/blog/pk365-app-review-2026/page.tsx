@@ -93,7 +93,7 @@ export default function Pk365AppReview2026Page() {
           </section>
 
           <section className="grid md:grid-cols-2 gap-6">
-            <div className="bg-secondary rounded-xl p-6 border border-[#104008]">
+            <div className="bg-secondary rounded-xl p-6 border border-[#004038]">
               <h3 className="text-xl font-bold text-accent mb-3">Pros</h3>
               <ul className="list-disc pl-5 space-y-2 text-sm">
                 <li>Familiar JazzCash / EasyPaisa flow for PK users</li>
@@ -128,7 +128,7 @@ export default function Pk365AppReview2026Page() {
             </p>
           </section>
 
-          <div className="bg-[#083000] border border-[#104008] rounded-xl p-6 text-sm text-gray-300">
+          <div className="bg-[#002c27] border border-[#004038] rounded-xl p-6 text-sm text-gray-300">
             <strong className="text-white">Responsible gaming:</strong> You must be 18+. Online real-money gaming exists in a legal grey area in Pakistan; play at your own risk. If gaming stops being fun, take a break and seek help from trusted friends or family.
           </div>
 

@@ -240,7 +240,7 @@ export default function HomePage() {
               <p className="text-sm text-gray-500 mt-4">*Available for Android devices</p>
             </div>
             <div className="flex-shrink-0">
-              <div className="relative w-[260px] h-[260px] md:w-[340px] md:h-[340px] rounded-2xl overflow-hidden bg-[#104008]/80 border border-gray-700/60 shadow-[0_0_60px_rgba(255,165,0,0.12)]">
+              <div className="relative w-[260px] h-[260px] md:w-[340px] md:h-[340px] rounded-2xl overflow-hidden bg-[#004038]/80 border border-gray-700/60 shadow-[0_0_60px_rgba(255,165,0,0.12)]">
                 <Image
                   src="/PK365-Game-Icon.webp"
                   alt="PK365 Official Logo"

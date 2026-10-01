@@ -31,7 +31,7 @@ export default function PrivacyPolicyPage() {
           <div className="bg-secondary rounded-2xl shadow-xl p-8 md:p-12">
             <div className="prose prose-lg max-w-none">
               
-              <div className="bg-[#104008] border-l-4 border-accent rounded-r-lg p-6 mb-8">
+              <div className="bg-[#004038] border-l-4 border-accent rounded-r-lg p-6 mb-8">
                 <h2 className="text-2xl font-bold mb-4 text-white">Introduction</h2>
                 <p className="text-gray-300 mb-4">
                   <Link href="/" className="text-accent hover:underline font-semibold">PK365</Link> ("we", "our", or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our mobile application and website at <a href="https://www.pk365-app.pk" className="text-accent hover:underline" target="_blank" rel="noopener noreferrer">www.pk365-app.pk</a> (collectively, the "Service").
@@ -43,7 +43,7 @@ export default function PrivacyPolicyPage() {
               
               <h2 className="text-3xl font-bold mt-12 mb-6 text-white">Information We Collect</h2>
               
-              <div className="bg-[#104008] rounded-xl p-6 mb-6">
+              <div className="bg-[#004038] rounded-xl p-6 mb-6">
                 <h3 className="text-2xl font-semibold mb-4 text-accent">Personal Data</h3>
                 <p className="text-gray-300 mb-4">
                 When you use our Service, we may collect personally identifiable information, such as:
@@ -59,7 +59,7 @@ export default function PrivacyPolicyPage() {
               </ul>
               </div>
               
-              <div className="bg-[#104008] rounded-xl p-6 mb-8">
+              <div className="bg-[#004038] rounded-xl p-6 mb-8">
                 <h3 className="text-2xl font-semibold mb-4 text-accent">Usage Data</h3>
                 <p className="text-gray-300 mb-4">
                 We may also collect information on how the Service is accessed and used ("Usage Data"). This Usage Data may include:
@@ -75,7 +75,7 @@ export default function PrivacyPolicyPage() {
               </div>
               
               <h2 className="text-3xl font-bold mt-12 mb-6 text-white">How We Use Your Information</h2>
-              <div className="bg-[#104008] rounded-xl p-6 mb-8">
+              <div className="bg-[#004038] rounded-xl p-6 mb-8">
                 <p className="text-gray-300 mb-4">
                 We use the collected data for various purposes:
               </p>
@@ -94,7 +94,7 @@ export default function PrivacyPolicyPage() {
               </div>
               
               <h2 className="text-3xl font-bold mt-12 mb-6 text-white">Payment Information Security</h2>
-              <div className="bg-[#104008] rounded-xl p-6 mb-8">
+              <div className="bg-[#004038] rounded-xl p-6 mb-8">
                 <p className="text-gray-300 mb-4">
                   Your payment security is our top priority. When you use JazzCash or EasyPaisa for deposits and withdrawals:
                 </p>
@@ -109,14 +109,14 @@ export default function PrivacyPolicyPage() {
               
               <h2 className="text-3xl font-bold mt-12 mb-6 text-white">Disclosure of Data</h2>
               
-              <div className="bg-[#104008] rounded-xl p-6 mb-6">
+              <div className="bg-[#004038] rounded-xl p-6 mb-6">
                 <h3 className="text-2xl font-semibold mb-4 text-accent">Legal Requirements</h3>
                 <p className="text-gray-300">
                   We may disclose your Personal Data if required to do so by law or in response to valid requests by public authorities in Pakistan (e.g., a court or a government agency).
               </p>
               </div>
               
-              <div className="bg-[#104008] rounded-xl p-6 mb-8">
+              <div className="bg-[#004038] rounded-xl p-6 mb-8">
                 <h3 className="text-2xl font-semibold mb-4 text-accent">Third-Party Services</h3>
                 <p className="text-gray-300 mb-4">
                   We may share limited data with:
@@ -132,7 +132,7 @@ export default function PrivacyPolicyPage() {
               </div>
               
               <h2 className="text-3xl font-bold mt-12 mb-6 text-white">Data Security</h2>
-              <div className="bg-[#104008] rounded-xl p-6 mb-8">
+              <div className="bg-[#004038] rounded-xl p-6 mb-8">
                 <p className="text-gray-300 mb-4">
                   The security of your data is important to us. We implement various security measures including:
                 </p>
@@ -149,7 +149,7 @@ export default function PrivacyPolicyPage() {
               </div>
               
               <h2 className="text-3xl font-bold mt-12 mb-6 text-white">Your Data Protection Rights</h2>
-              <div className="bg-[#104008] rounded-xl p-6 mb-8">
+              <div className="bg-[#004038] rounded-xl p-6 mb-8">
                 <p className="text-gray-300 mb-4">
                   You have the following rights regarding your personal data:
               </p>
@@ -177,7 +177,7 @@ export default function PrivacyPolicyPage() {
               </div>
               
               <h2 className="text-3xl font-bold mt-12 mb-6 text-white">Cookies and Tracking</h2>
-              <div className="bg-[#104008] rounded-xl p-6 mb-8">
+              <div className="bg-[#004038] rounded-xl p-6 mb-8">
                 <p className="text-gray-300 mb-4">
                   We use cookies and similar tracking technologies to track activity on our Service and hold certain information. Cookies are files with small amounts of data which may include an anonymous unique identifier.
                 </p>
@@ -187,7 +187,7 @@ export default function PrivacyPolicyPage() {
               </div>
               
               <h2 className="text-3xl font-bold mt-12 mb-6 text-white">Changes to This Privacy Policy</h2>
-              <div className="bg-[#104008] rounded-xl p-6 mb-8">
+              <div className="bg-[#004038] rounded-xl p-6 mb-8">
                 <p className="text-gray-300 mb-4">
                   We may update our Privacy Policy from time to time to reflect changes in our practices or for legal, regulatory, or operational reasons. We will notify you of any material changes by:
                 </p>
@@ -233,7 +233,7 @@ export default function PrivacyPolicyPage() {
               </ul>
               </div>
               
-              <div className="bg-[#104008] rounded-xl p-6 mt-8 text-center">
+              <div className="bg-[#004038] rounded-xl p-6 mt-8 text-center">
                 <p className="text-gray-400 text-sm mb-4">
                   By using PK365, you consent to this Privacy Policy and agree to its terms.
                 </p>

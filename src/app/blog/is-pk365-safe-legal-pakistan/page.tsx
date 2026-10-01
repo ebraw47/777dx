@@ -95,7 +95,7 @@ export default function IsPk365SafeLegalPage() {
             </p>
           </section>
 
-          <div className="bg-[#083000] border border-[#104008] rounded-xl p-6 text-sm">
+          <div className="bg-[#002c27] border border-[#004038] rounded-xl p-6 text-sm">
             <strong className="text-white">18+ responsible gaming:</strong> Set deposit limits, take breaks, and stop if you chase losses. Seek help if gaming harms work or family life.
           </div>
 

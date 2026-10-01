@@ -60,7 +60,7 @@ export default function AboutPage() {
             <div className="flex flex-col md:flex-row items-center gap-10 md:gap-14 mb-8">
               <div className="w-full md:w-1/3 flex-shrink-0 flex justify-center md:justify-start">
                 <Link href="/" className="block">
-                  <div className="relative w-[280px] h-[280px] md:w-[320px] md:h-[320px] mx-auto md:mx-0 rounded-lg overflow-hidden bg-[#104008]">
+                  <div className="relative w-[280px] h-[280px] md:w-[320px] md:h-[320px] mx-auto md:mx-0 rounded-lg overflow-hidden bg-[#004038]">
                     <Image 
                       src="/PK365-Game-Icon.webp" 
                       alt="PK365 Logo" 

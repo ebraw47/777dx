@@ -66,7 +66,7 @@ export default function HowToUsePk365GuidePage() {
             { step: '6', title: 'Withdraw winnings', body: <>Follow <Link href="/withdraw-money-from-pk365" className="text-accent hover:underline">withdrawal instructions</Link> and <Link href="/blog/pk365-withdraw-money-guide" className="text-accent hover:underline">troubleshooting tips</Link>.</> },
           ].map(({ step, title, body }) => (
             <section key={step} className="bg-secondary rounded-xl p-6 md:p-8 flex gap-4">
-              <span className="flex-shrink-0 w-10 h-10 rounded-full bg-[#104008] text-white flex items-center justify-center font-bold">{step}</span>
+              <span className="flex-shrink-0 w-10 h-10 rounded-full bg-[#004038] text-white flex items-center justify-center font-bold">{step}</span>
               <div>
                 <h2 className="text-xl font-bold text-white mb-2">{title}</h2>
                 <p>{body}</p>
@@ -83,7 +83,7 @@ export default function HowToUsePk365GuidePage() {
             </ul>
           </section>
 
-          <div className="bg-[#083000] border border-[#104008] rounded-xl p-6 text-sm">
+          <div className="bg-[#002c27] border border-[#004038] rounded-xl p-6 text-sm">
             <strong className="text-white">Legal & responsible play:</strong> 18+ only. Online real-money gaming is not clearly legalized in Pakistan; treat PK365 as paid entertainment. Set a budget and stick to it.
           </div>
 

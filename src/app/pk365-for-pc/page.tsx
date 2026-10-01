@@ -124,35 +124,35 @@ export default function CardRummyForPCPage() {
           <div className="overflow-x-auto">
             <table className="min-w-full divide-y divide-gray-800">
               <tbody className="divide-y divide-gray-800">
-                <tr className="bg-[#104008]/50">
+                <tr className="bg-[#004038]/50">
                   <td className="py-4 px-6 text-left font-medium text-white">App Name</td>
                   <td className="py-4 px-6 text-left text-white">PK365</td>
                 </tr>
-                <tr className="bg-[#083000]/50">
+                <tr className="bg-[#002c27]/50">
                   <td className="py-4 px-6 text-left font-medium text-white">Category</td>
                   <td className="py-4 px-6 text-left text-white">Cards, Game</td>
                 </tr>
-                <tr className="bg-[#104008]/50">
+                <tr className="bg-[#004038]/50">
                   <td className="py-4 px-6 text-left font-medium text-white">Size</td>
                   <td className="py-4 px-6 text-left text-white">~20MB</td>
                 </tr>
-                <tr className="bg-[#083000]/50">
+                <tr className="bg-[#002c27]/50">
                   <td className="py-4 px-6 text-left font-medium text-white">Latest Version</td>
                   <td className="py-4 px-6 text-left text-white">Latest 2026</td>
                 </tr>
-                <tr className="bg-[#104008]/50">
+                <tr className="bg-[#004038]/50">
                   <td className="py-4 px-6 text-left font-medium text-white">Update</td>
                   <td className="py-4 px-6 text-left text-white">Today</td>
                 </tr>
-                <tr className="bg-[#083000]/50">
+                <tr className="bg-[#002c27]/50">
                   <td className="py-4 px-6 text-left font-medium text-white">Downloads</td>
                   <td className="py-4 px-6 text-left text-white">600k+</td>
                 </tr>
-                <tr className="bg-[#104008]/50">
+                <tr className="bg-[#004038]/50">
                   <td className="py-4 px-6 text-left font-medium text-white">Language</td>
                   <td className="py-4 px-6 text-left text-white">English, Urdu</td>
                 </tr>
-                <tr className="bg-[#083000]/50">
+                <tr className="bg-[#002c27]/50">
                   <td className="py-4 px-6 text-left font-medium text-white">Price</td>
                   <td className="py-4 px-6 text-left text-white">Free (0$)</td>
                 </tr>
@@ -181,22 +181,22 @@ export default function CardRummyForPCPage() {
           <p className="text-gray-300 mb-8">Using PK365 on PC offers several advantages over mobile devices. The following are the key features:</p>
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <div className="bg-[#104008] p-6 rounded-lg border-l-4 border-[#FFA500]">
+            <div className="bg-[#004038] p-6 rounded-lg border-l-4 border-[#FFA500]">
               <h3 className="text-xl font-bold text-[#FFA500] mb-3">🖥️ Large Screen</h3>
               <p className="text-gray-300">Playing PK365 games on a larger screen gives you a better, easier-to-view experience.</p>
             </div>
 
-            <div className="bg-[#104008] p-6 rounded-lg border-l-4 border-[#4ade80]">
+            <div className="bg-[#004038] p-6 rounded-lg border-l-4 border-[#4ade80]">
               <h3 className="text-xl font-bold text-[#4ade80] mb-3">⚡ Better Performance</h3>
               <p className="text-gray-300">PCs offer better processing power, reducing crashes.</p>
             </div>
 
-            <div className="bg-[#104008] p-6 rounded-lg border-l-4 border-[#60a5fa]">
+            <div className="bg-[#004038] p-6 rounded-lg border-l-4 border-[#60a5fa]">
               <h3 className="text-xl font-bold text-[#60a5fa] mb-3">🎮 Smooth Gameplay</h3>
               <p className="text-gray-300">More precise and comfortable gameplay with a mouse and keyboard compared to mobile devices.</p>
             </div>
 
-            <div className="bg-[#104008] p-6 rounded-lg border-l-4 border-[#f97316]">
+            <div className="bg-[#004038] p-6 rounded-lg border-l-4 border-[#f97316]">
               <h3 className="text-xl font-bold text-[#f97316] mb-3">🔄 Multitasking Support</h3>
               <p className="text-gray-300">On PC, you can play games while running other apps. So, PK365 on PC offers multitasking support.</p>
             </div>
@@ -211,27 +211,27 @@ export default function CardRummyForPCPage() {
           <p className="text-gray-300 mb-6">Here is the step-by-step process you can follow to download PK365 on PC:</p>
           
           <div className="space-y-4">
-            <div className="bg-[#104008] rounded-lg p-6 border-l-4 border-[#FFA500]">
+            <div className="bg-[#004038] rounded-lg p-6 border-l-4 border-[#FFA500]">
               <h3 className="text-lg font-bold text-white mb-2">Step 1:</h3>
               <p className="text-gray-300">First, find the official website of PK365, like <Link href="/" className="text-[#0ea5e9] hover:underline">www.pk365-app.pk</Link>.</p>
             </div>
 
-            <div className="bg-[#104008] rounded-lg p-6 border-l-4 border-[#4ade80]">
+            <div className="bg-[#004038] rounded-lg p-6 border-l-4 border-[#4ade80]">
               <h3 className="text-lg font-bold text-white mb-2">Step 2:</h3>
               <p className="text-gray-300">Install an Android Emulator on your device.</p>
             </div>
 
-            <div className="bg-[#104008] rounded-lg p-6 border-l-4 border-[#60a5fa]">
+            <div className="bg-[#004038] rounded-lg p-6 border-l-4 border-[#60a5fa]">
               <h3 className="text-lg font-bold text-white mb-2">Step 3:</h3>
               <p className="text-gray-300">Download the latest version of PK365.</p>
             </div>
 
-            <div className="bg-[#104008] rounded-lg p-6 border-l-4 border-[#a855f7]">
+            <div className="bg-[#004038] rounded-lg p-6 border-l-4 border-[#a855f7]">
               <h3 className="text-lg font-bold text-white mb-2">Step 4:</h3>
               <p className="text-gray-300">Open the Emulator and locate the install APK option.</p>
             </div>
 
-            <div className="bg-[#104008] rounded-lg p-6 border-l-4 border-[#f97316]">
+            <div className="bg-[#004038] rounded-lg p-6 border-l-4 border-[#f97316]">
               <h3 className="text-lg font-bold text-white mb-2">Step 5:</h3>
               <p className="text-gray-300">Once installed, register or log in to the app and start playing.</p>
             </div>
@@ -251,17 +251,17 @@ export default function CardRummyForPCPage() {
           <p className="text-gray-300 mb-8">You can use different emulators to run or install PK365 on PC:</p>
           
           <div className="space-y-6">
-            <div className="bg-[#104008] p-6 rounded-lg">
+            <div className="bg-[#004038] p-6 rounded-lg">
               <h3 className="text-xl font-bold text-white mb-3">💎 BlueStacks Emulator</h3>
               <p className="text-gray-300">BlueStacks is the most popular emulator, giving you high performance and a beginner-friendly interface.</p>
             </div>
 
-            <div className="bg-[#104008] p-6 rounded-lg">
+            <div className="bg-[#004038] p-6 rounded-lg">
               <h3 className="text-xl font-bold text-white mb-3">⚡ LD Player</h3>
               <p className="text-gray-300">Lightweight and fast. Best for low-end devices.</p>
             </div>
 
-            <div className="bg-[#104008] p-6 rounded-lg">
+            <div className="bg-[#004038] p-6 rounded-lg">
               <h3 className="text-xl font-bold text-white mb-3">🎯 Nox Player</h3>
               <p className="text-gray-300">Easy installation and good compatibility with card games.</p>
             </div>
@@ -277,7 +277,7 @@ export default function CardRummyForPCPage() {
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {/* Minimum Requirements */}
-            <div className="bg-[#104008] p-6 rounded-lg">
+            <div className="bg-[#004038] p-6 rounded-lg">
               <h3 className="text-2xl font-bold text-[#FFA500] mb-4">Minimum Requirements:</h3>
               <ul className="space-y-3 text-gray-300">
                 <li className="flex items-start">
@@ -300,7 +300,7 @@ export default function CardRummyForPCPage() {
             </div>
 
             {/* Recommended Requirements */}
-            <div className="bg-[#104008] p-6 rounded-lg">
+            <div className="bg-[#004038] p-6 rounded-lg">
               <h3 className="text-2xl font-bold text-[#4ade80] mb-4">Recommended Requirements:</h3>
               <ul className="space-y-3 text-gray-300">
                 <li className="flex items-start">
@@ -332,7 +332,7 @@ export default function CardRummyForPCPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div>
               <h3 className="text-2xl font-bold mb-4 text-[#4ade80]">Pros:</h3>
-              <div className="bg-[#104008] p-6 rounded-lg">
+              <div className="bg-[#004038] p-6 rounded-lg">
                 <ul className="space-y-3 text-gray-300">
                   <li className="flex items-start">
                     <span className="text-[#4ade80] mr-2">✓</span>
@@ -356,7 +356,7 @@ export default function CardRummyForPCPage() {
 
             <div>
               <h3 className="text-2xl font-bold mb-4 text-[#f87171]">Cons:</h3>
-              <div className="bg-[#104008] p-6 rounded-lg">
+              <div className="bg-[#004038] p-6 rounded-lg">
                 <ul className="space-y-3 text-gray-300">
                   <li className="flex items-start">
                     <span className="text-[#f87171] mr-2">✗</span>
@@ -388,7 +388,7 @@ export default function CardRummyForPCPage() {
         <div className="bg-secondary rounded-xl p-8">
           <h2 className="text-3xl font-bold mb-8 text-[#FFA500]">Frequently Asked Questions</h2>
           <div className="space-y-4">
-            <details className="group bg-[#104008]/50 rounded-xl">
+            <details className="group bg-[#004038]/50 rounded-xl">
               <summary className="flex items-center justify-between p-4 cursor-pointer text-white font-medium">
                 Is an emulator safe to use on a PC?
                 <span className="transition group-open:rotate-180">
@@ -402,7 +402,7 @@ export default function CardRummyForPCPage() {
               </div>
             </details>
 
-            <details className="group bg-[#104008]/50 rounded-xl">
+            <details className="group bg-[#004038]/50 rounded-xl">
               <summary className="flex items-center justify-between p-4 cursor-pointer text-white font-medium">
                 Why is the APK not installed on my device?
                 <span className="transition group-open:rotate-180">
@@ -416,7 +416,7 @@ export default function CardRummyForPCPage() {
               </div>
             </details>
 
-            <details className="group bg-[#104008]/50 rounded-xl">
+            <details className="group bg-[#004038]/50 rounded-xl">
               <summary className="flex items-center justify-between p-4 cursor-pointer text-white font-medium">
                 Which emulator is best for PK365?
                 <span className="transition group-open:rotate-180">

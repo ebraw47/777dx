@@ -20,7 +20,7 @@ export const viewport: Viewport = {
   initialScale: 1,
   maximumScale: 5,
   userScalable: true,
-  themeColor: "#083000",
+  themeColor: "#002c27",
   viewportFit: "cover",
   interactiveWidget: "resizes-visual",
 };
@@ -168,10 +168,10 @@ export default function RootLayout({
       <body
         className={`${poppins.className} antialiased bg-primary text-white min-h-screen flex flex-col`}
         style={{
-          backgroundImage: "radial-gradient(circle at 10% 20%, rgba(16, 64, 8, 0.55) 0%, rgba(8, 48, 0, 0.15) 90%)",
+          backgroundImage: "radial-gradient(circle at 10% 20%, rgba(0, 80, 71, 0.45) 0%, rgba(0, 44, 39, 0.15) 90%)",
           backgroundAttachment: "fixed",
           minHeight: "100vh",
-          backgroundColor: "#083000",
+          backgroundColor: "#002c27",
         }}
         suppressHydrationWarning
       >

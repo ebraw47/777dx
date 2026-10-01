@@ -85,7 +85,7 @@ export default function WaysToEarnPk365Page() {
             </p>
           </section>
 
-          <div className="bg-[#083000] border border-[#104008] rounded-xl p-6 text-sm">
+          <div className="bg-[#002c27] border border-[#004038] rounded-xl p-6 text-sm">
             <strong className="text-white">Reality check:</strong> There is no stable &quot;job&quot; here. 18+ only. Play at your own risk; never borrow money to play.
           </div>
 

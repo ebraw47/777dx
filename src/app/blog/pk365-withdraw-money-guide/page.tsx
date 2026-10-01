@@ -87,7 +87,7 @@ export default function Pk365WithdrawGuidePage() {
             <p>Withdrawals are not guaranteed profit—many players deposit more than they withdraw. Keep records and never pay &quot;processing fees&quot; to strangers on social media to unlock payouts.</p>
           </section>
 
-          <div className="bg-[#083000] border border-[#104008] rounded-xl p-6 text-sm">
+          <div className="bg-[#002c27] border border-[#004038] rounded-xl p-6 text-sm">
             <strong className="text-white">18+ entertainment:</strong> Legal ambiguity applies in Pakistan; you assume all financial risk when playing.
           </div>
 
