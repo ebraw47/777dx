@@ -1,11 +1,11 @@
 {
-  "name": "PK365",
-  "short_name": "PK365",
-  "description": "Pakistan's premier real-money gaming platform. Teen Patti, slots, sports — JazzCash & EasyPaisa.",
+  "name": "JZ666",
+  "short_name": "JZ666",
+  "description": "Pakistan's real-money gaming platform — slots, cards, fishing. JazzCash & EasyPaisa.",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#002c27",
-  "theme_color": "#002c27",
+  "background_color": "#14100c",
+  "theme_color": "#14100c",
   "icons": [
     {
       "src": "/favicon.ico",
@@ -13,7 +13,7 @@
       "type": "image/x-icon"
     },
     {
-      "src": "/PK365-Game-Icon.webp",
+      "src": "/JZ666-Game-Icon.webp",
       "sizes": "512x512",
       "type": "image/webp",
       "purpose": "any maskable"

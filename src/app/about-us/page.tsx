@@ -5,9 +5,9 @@ import { DOWNLOAD_APP_URL } from '@/lib/constants';
 import Script from 'next/script';
 
 export const metadata: Metadata = {
-  title: 'About PK365 - Pakistan\'s Premier Card Gaming Platform',
-  description: 'Learn about PK365, our history, mission, and vision for creating the best card gaming platform in Pakistan with Teen Patti, Rummy and more.',
-  keywords: ['PK365 about', 'about us', 'gaming company Pakistan', 'PK365 history', 'card gaming platform', 'Teen Patti', 'PK365'],
+  title: 'About JZ666 - Pakistan\'s Premier Gaming Platform',
+  description: 'Learn about JZ666, our history, mission, and vision for creating the best gaming platform in Pakistan with slots, cards, fishing and more.',
+  keywords: ['JZ666 about', 'about us', 'gaming company Pakistan', 'JZ666 history', 'gaming platform', 'slots', 'JZ666'],
   robots: {
     index: true,
     follow: true,
@@ -19,29 +19,29 @@ export const metadata: Metadata = {
     },
   },
   alternates: {
-    canonical: "https://pk365-app.pk/about-us",
+    canonical: "https://jz666apk.com.pk/about-us",
   },
   openGraph: {
-    title: 'About PK365 - Pakistan\'s Premier Card Gaming Platform',
-    description: 'Learn about PK365, our history, mission, and vision for creating the best card gaming platform in Pakistan with real cash rewards.',
-    url: "https://pk365-app.pk/about-us",
-    siteName: "PK365",
+    title: 'About JZ666 - Pakistan\'s Premier Gaming Platform',
+    description: 'Learn about JZ666, our history, mission, and vision for creating the best gaming platform in Pakistan with real cash rewards.',
+    url: "https://jz666apk.com.pk/about-us",
+    siteName: "JZ666",
     locale: "en_US",
     type: "website",
     images: [
       {
-        url: "https://pk365-app.pk/PK365-Game-Icon.webp",
+        url: "https://jz666apk.com.pk/JZ666-Game-Icon.webp",
         width: 1200,
         height: 630,
-        alt: "About PK365 - Premier Card Gaming Platform",
+        alt: "About JZ666 - Premier Gaming Platform",
       }
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: 'About PK365 - Pakistan\'s Premier Card Gaming Platform',
-    description: 'Learn about PK365, our history, mission, and vision for creating the best card gaming platform in Pakistan with real cash rewards.',
-    images: ["https://pk365-app.pk/PK365-Game-Icon.webp"],
+    title: 'About JZ666 - Pakistan\'s Premier Gaming Platform',
+    description: 'Learn about JZ666, our history, mission, and vision for creating the best gaming platform in Pakistan with real cash rewards.',
+    images: ["https://jz666apk.com.pk/JZ666-Game-Icon.webp"],
   },
 };
 
@@ -60,10 +60,10 @@ export default function AboutPage() {
             <div className="flex flex-col md:flex-row items-center gap-10 md:gap-14 mb-8">
               <div className="w-full md:w-1/3 flex-shrink-0 flex justify-center md:justify-start">
                 <Link href="/" className="block">
-                  <div className="relative w-[280px] h-[280px] md:w-[320px] md:h-[320px] mx-auto md:mx-0 rounded-lg overflow-hidden bg-[#004038]">
+                  <div className="relative w-[280px] h-[280px] md:w-[320px] md:h-[320px] mx-auto md:mx-0 rounded-lg overflow-hidden bg-[#241c14]">
                     <Image 
-                      src="/PK365-Game-Icon.webp" 
-                      alt="PK365 Logo" 
+                      src="/JZ666-Game-Icon.webp" 
+                      alt="JZ666 Logo" 
                       width={320}
                       height={320}
                       sizes="(max-width: 768px) 280px, 320px"
@@ -76,7 +76,7 @@ export default function AboutPage() {
               <div className="w-full md:w-2/3 md:pl-4">
                 <div className="prose prose-lg max-w-none">
                   <p className="text-lg text-gray-300 leading-relaxed mb-6">
-                    Welcome to <a href="https://www.pk365-app.pk/" className="text-accent hover:text-accent font-semibold" target="_blank" rel="noopener noreferrer">www.pk365-app.pk</a>, a trusted platform to provide the latest information about <Link href="/" className="text-accent hover:underline font-semibold">PK365</Link>. This is one of the most popular online casino games in Pakistan, having <span className="font-bold text-accent">100K+ users</span>. <a href={DOWNLOAD_APP_URL} target="_blank" rel="noopener noreferrer" className="text-accent hover:underline font-semibold">Download PK365</a> now to join thousands of players earning real cash rewards.
+                    Welcome to <a href="https://www.jz666apk.com.pk/" className="text-accent hover:text-accent font-semibold" target="_blank" rel="noopener noreferrer">www.jz666apk.com.pk</a>, a trusted platform to provide the latest information about <Link href="/" className="text-accent hover:underline font-semibold">JZ666</Link>. This is one of the most popular online casino games in Pakistan, having <span className="font-bold text-accent">100K+ users</span>. <a href={DOWNLOAD_APP_URL} target="_blank" rel="noopener noreferrer" className="text-accent hover:underline font-semibold">Download JZ666</a> now to join thousands of players earning real cash rewards.
                   </p>
                   <p className="text-lg text-gray-300 leading-relaxed">
                     Hundreds of people are playing these wonderful games and earning a handsome amount on a daily or weekly basis.
@@ -90,7 +90,7 @@ export default function AboutPage() {
           <div className="bg-gradient-to-r from-orange-600 to-orange-500 rounded-2xl shadow-xl p-8 md:p-12 mb-12">
             <h2 className="text-3xl md:text-4xl font-bold mb-6 text-white text-center">Our Aim!</h2>
             <p className="text-lg md:text-xl text-white leading-relaxed text-center">
-              Our aim is to provide the users with the latest and updated information and earning tips about PK365. For any type of information or query, you can visit our <Link href="/contact-us" className="underline hover:text-orange-100 font-semibold">contact us page</Link>.
+              Our aim is to provide the users with the latest and updated information and earning tips about JZ666. For any type of information or query, you can visit our <Link href="/contact-us" className="underline hover:text-orange-100 font-semibold">contact us page</Link>.
             </p>
           </div>
           
@@ -98,7 +98,7 @@ export default function AboutPage() {
           <div className="bg-secondary rounded-2xl shadow-xl p-8 text-center">
             <h2 className="text-2xl font-bold mb-4 text-white">Have Questions?</h2>
             <p className="text-gray-300 mb-6 text-lg">
-              We're here to help! Contact our team for any information or queries about PK365.
+              We're here to help! Contact our team for any information or queries about JZ666.
             </p>
             <Link 
               href="/contact-us" 
@@ -119,11 +119,11 @@ export default function AboutPage() {
             "@type": "AboutPage",
             "mainEntity": {
               "@type": "Organization",
-              "name": "PK365",
-              "alternateName": "PK365",
-              "url": "https://pk365-app.pk",
-              "logo": "https://pk365-app.pk/PK365-Game-Icon.webp",
-              "description": "PK365 is Pakistan's premier Teen Patti gaming platform with real cash rewards.",
+              "name": "JZ666",
+              "alternateName": "JZ666",
+              "url": "https://jz666apk.com.pk",
+              "logo": "https://jz666apk.com.pk/JZ666-Game-Icon.webp",
+              "description": "JZ666 is Pakistan's real-money gaming platform with slots, cards, mini games, and fishing.",
               "foundingDate": "2024",
               "foundingLocation": {
                 "@type": "Country",
@@ -134,17 +134,17 @@ export default function AboutPage() {
               ],
               "founder": {
                 "@type": "Person",
-                "name": "PK365 Dev"
+                "name": "JZ666 Dev"
               }
             },
             "about": {
               "@type": "Thing",
-              "name": "Card Gaming Platform",
-              "description": "Online card gaming platform with real cash rewards serving Pakistani users"
+              "name": "Gaming Platform",
+              "description": "Online gaming platform with real cash rewards serving Pakistani users"
             },
             "mainEntityOfPage": {
               "@type": "WebPage",
-              "@id": "https://pk365-app.pk/about"
+              "@id": "https://jz666apk.com.pk/about"
             }
           })
         }}

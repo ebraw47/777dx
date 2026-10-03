@@ -1,29 +1,30 @@
-# PK365
+# JZ666 — Official Pakistan APK Site
 
-Official website for **PK365** — Pakistan's real-money gaming app (Teen Patti, slots, sports) with JazzCash & EasyPaisa.
+Brand site for **JZ666** at [jz666apk.com.pk](https://jz666apk.com.pk).
 
-**Domain:** [pk365-app.pk](https://pk365-app.pk)
+## Stack
 
-## Getting Started
+- Next.js (App Router)
+- TypeScript
+- Tailwind CSS
+
+## Setup
 
 ```bash
-npm install
+npm i
 npm run dev
 ```
-
-Open [http://localhost:3000](http://localhost:3000).
-
-## Scripts
-
-- `npm run dev` — development server
-- `npm run build` — production build
-- `npm start` — start production server
-- `npm run lint` — ESLint
 
 ## Env
 
 Copy `.env.example` to `.env.local` and set:
 
-- `NEXT_PUBLIC_SITE_URL` (default `https://pk365-app.pk`)
-- `NEXT_PUBLIC_DOWNLOAD_URL` (optional APK / affiliate link)
+- `NEXT_PUBLIC_SITE_URL` (default `https://jz666apk.com.pk`)
+- `NEXT_PUBLIC_DOWNLOAD_URL` (optional APK / referral URL)
 - `NEXT_PUBLIC_GA_MEASUREMENT_ID` (optional)
+
+## Scripts
+
+- `npm run dev` — local development
+- `npm run build` — production build
+- `npm run start` — serve production build

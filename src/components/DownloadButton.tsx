@@ -4,6 +4,8 @@ type DownloadButtonProps = {
   label?: string;
   className?: string;
   size?: 'sm' | 'md' | 'lg';
+  /** Soft endless light blink / shimmer (use on top CTA) */
+  blink?: boolean;
 };
 
 const sizeClasses = {
@@ -22,14 +24,15 @@ export default function DownloadButton({
   label = 'DOWNLOAD NOW',
   className = '',
   size = 'md',
+  blink = false,
 }: DownloadButtonProps) {
   return (
     <a
       href={DOWNLOAD_APP_URL}
       target="_blank"
       rel="noopener noreferrer"
-      aria-label="Download PK365 APK for Android"
-      className={`download-btn inline-flex w-fit max-w-full items-center justify-center font-bold tracking-wide text-[#0a1f1c] ${sizeClasses[size]} ${className}`}
+      aria-label="Download JZ666 APK for Android"
+      className={`download-btn inline-flex w-fit max-w-full items-center justify-center font-bold tracking-wide text-[#0a1f1c] ${sizeClasses[size]} ${blink ? 'download-btn--blink' : ''} ${className}`}
     >
       <svg
         className={`download-icon flex-shrink-0 ${svgSizeClasses[size]}`}

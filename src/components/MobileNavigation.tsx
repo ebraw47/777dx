@@ -30,7 +30,7 @@ const MAIN_LINKS: NavItem[] = [
     ),
   },
   {
-    href: '/download-pk365',
+    href: '/download-jz666',
     label: 'Download',
     icon: (
       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-5 h-5">
@@ -42,7 +42,7 @@ const MAIN_LINKS: NavItem[] = [
 
 const GUIDE_LINKS: NavItem[] = [
   {
-    href: '/deposit-money-in-pk365',
+    href: '/deposit-money-in-jz666',
     label: 'Deposit Guide',
     icon: (
       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-5 h-5">
@@ -51,7 +51,7 @@ const GUIDE_LINKS: NavItem[] = [
     ),
   },
   {
-    href: '/withdraw-money-from-pk365',
+    href: '/withdraw-money-from-jz666',
     label: 'Withdraw Guide',
     icon: (
       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-5 h-5">
@@ -60,7 +60,7 @@ const GUIDE_LINKS: NavItem[] = [
     ),
   },
   {
-    href: '/pk365-for-pc',
+    href: '/jz666-for-pc',
     label: 'PC Version',
     icon: (
       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-5 h-5">
@@ -200,25 +200,30 @@ export default function MobileNavigation() {
       </button>
 
       {isOpen && (
-        <div className="fixed inset-0 z-50 flex flex-col bg-[#002c27]">
+        <div className="fixed inset-0 z-50 flex flex-col bg-[#14100c]" style={{ backgroundImage: "url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='48' height='48' viewBox='0 0 48 48'%3E%3Cpath d='M24 4 L44 24 L24 44 L4 24 Z' fill='none' stroke='%23c9a227' stroke-opacity='0.09' stroke-width='1'/%3E%3C/svg%3E\")" }}>
           {/* Header */}
           <div className="flex justify-between items-center px-5 py-4 border-b border-gray-800/80">
             <Link href="/" className="flex items-center gap-3" onClick={close}>
-              <div className="relative w-9 h-9 flex-shrink-0 rounded-lg overflow-hidden">
-                <Image
-                  src="/PK365-Game-Icon.webp"
-                  alt="PK365 Logo"
-                  fill
-                  sizes="36px"
-                  className="object-contain"
-                  priority
-                />
+              <div className="jz666-logo-shine relative w-9 h-9 flex-shrink-0 rounded-lg p-[2px]">
+                <div className="relative h-full w-full rounded-[6px] overflow-hidden bg-primary">
+                  <Image
+                    src="/JZ666-Game-Icon.webp"
+                    alt="JZ666 Logo"
+                    fill
+                    sizes="36px"
+                    className="object-contain"
+                    priority
+                  />
+                </div>
               </div>
-              <span className="text-white text-lg font-bold tracking-tight">PK365</span>
+              <span className="font-brand text-lg font-bold tracking-[0.06em] uppercase">
+                <span className="text-[#5ee7ff]">JZ</span>
+                <span className="text-white">666</span>
+              </span>
             </Link>
             <button
               onClick={close}
-              className="flex items-center justify-center w-10 h-10 rounded-full bg-[#1a1f35] text-white hover:bg-[#252b45] transition-colors"
+              className="flex items-center justify-center w-10 h-10 rounded-full bg-[#241c14] text-white hover:bg-[#3a2e20] transition-colors"
               aria-label="Close menu"
             >
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" className="w-5 h-5" aria-hidden="true">
@@ -229,7 +234,7 @@ export default function MobileNavigation() {
 
           {/* Scrollable nav */}
           <div className="relative flex-1 overflow-y-auto">
-            <div className="absolute right-0 top-0 bottom-0 w-1 bg-[#0BA5E9]" aria-hidden="true" />
+            <div className="absolute right-0 top-0 bottom-0 w-1 bg-[#FFC107]" aria-hidden="true" />
             <nav className="px-5 py-2 pb-6">
               <NavSection title="MAIN" items={MAIN_LINKS} pathname={pathname} onNavigate={close} />
               <NavSection title="GUIDES" items={GUIDE_LINKS} pathname={pathname} onNavigate={close} />
@@ -241,7 +246,7 @@ export default function MobileNavigation() {
           <div className="px-5 pt-4 pb-8 border-t border-gray-800/80 flex flex-col items-center">
             <DownloadButton size="sm" />
             <p className="text-center text-gray-500 text-xs mt-3">
-              ~20MB · Android 6.0+ · 2026 Update
+              ~20MB · Android 5.0+ · 2026 Update
             </p>
           </div>
         </div>

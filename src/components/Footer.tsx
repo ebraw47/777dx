@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import DownloadButton from '@/components/DownloadButton';
-import { FACEBOOK_URL } from '@/lib/constants';
+import { FACEBOOK_URL, SITE_DOMAIN } from '@/lib/constants';
 
 export default function Footer() {
   return (
@@ -8,22 +8,23 @@ export default function Footer() {
       <div className="container mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
-            <h3 className="text-xl font-bold text-accent mb-4">PK365</h3>
+            <h3 className="text-xl font-bold text-accent mb-4">JZ666</h3>
             <p className="text-sm text-gray-300 mb-4">
-              PK365 is Pakistan&apos;s real-money gaming platform for Teen Patti, slots, and sports.
-              Earn and withdraw with JazzCash &amp; EasyPaisa. Play responsibly (18+).
+              JZ666 is Pakistan&apos;s real-money gaming platform for slots, cards, mini games, and fishing.
+              Deposit and withdraw with JazzCash &amp; EasyPaisa when listed. Play responsibly (18+).
             </p>
             <div className="flex space-x-4">
               <a
                 href={FACEBOOK_URL}
                 target="_blank"
                 rel="noopener noreferrer"
-                aria-label="PK365 on Facebook"
+                aria-label="JZ666 on Facebook"
               >
                 <svg
-                  className="w-5 h-5 text-gray-400 hover:text-accent transition-colors"
-                  fill="currentColor"
+                  className="w-5 h-5 transition-opacity hover:opacity-90"
+                  fill="#1877F2"
                   viewBox="0 0 24 24"
+                  aria-hidden="true"
                 >
                   <path d="M18.77,7.46H14.5v-1.9c0-0.9,0.6-1.1,1-1.1h3V0.13H14.5c-4.1,0-5,2.9-5,4.8v2.5H6v4.5h3.5V22h5V11.96h3.35L18.77,7.46z" />
                 </svg>
@@ -40,12 +41,12 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/download-pk365" className="text-gray-300 hover:text-accent transition-colors">
+                <Link href="/download-jz666" className="text-gray-300 hover:text-accent transition-colors">
                   Download
                 </Link>
               </li>
               <li>
-                <Link href="/pk365-for-pc" className="text-gray-300 hover:text-accent transition-colors">
+                <Link href="/jz666-for-pc" className="text-gray-300 hover:text-accent transition-colors">
                   PC Version
                 </Link>
               </li>
@@ -71,23 +72,23 @@ export default function Footer() {
             <h3 className="text-lg font-semibold mb-4 text-accent">Resources</h3>
             <ul className="space-y-2 text-sm">
               <li>
-                <Link href="/deposit-money-in-pk365" className="text-gray-300 hover:text-accent transition-colors">
+                <Link href="/deposit-money-in-jz666" className="text-gray-300 hover:text-accent transition-colors">
                   Deposit Guide
                 </Link>
               </li>
               <li>
-                <Link href="/withdraw-money-from-pk365" className="text-gray-300 hover:text-accent transition-colors">
+                <Link href="/withdraw-money-from-jz666" className="text-gray-300 hover:text-accent transition-colors">
                   Withdraw Guide
                 </Link>
               </li>
               <li>
-                <Link href="/blog/create-pk365-account-and-login" className="text-gray-300 hover:text-accent transition-colors">
+                <Link href="/blog/create-jz666-account-and-login" className="text-gray-300 hover:text-accent transition-colors">
                   Account & Login
                 </Link>
               </li>
               <li>
-                <Link href="/blog/tips-to-win-big-in-pk365" className="text-gray-300 hover:text-accent transition-colors">
-                  Tips to Win
+                <Link href="/blog/jz666-vip-rebate-bonus-guide" className="text-gray-300 hover:text-accent transition-colors">
+                  VIP & Rebate
                 </Link>
               </li>
               <li>
@@ -106,12 +107,12 @@ export default function Footer() {
           <div>
             <h3 className="text-lg font-semibold mb-4 text-accent">Download App</h3>
             <p className="text-sm text-gray-300 mb-4">
-              Download PK365 to enjoy Teen Patti, slots, and real cash rewards on Android.
+              Download JZ666 to enjoy slots, cards, fishing, VIP rewards, and local wallets on Android.
             </p>
             <div className="flex flex-col gap-3 items-start">
-              <DownloadButton size="sm" label="DOWNLOAD PK365" />
+              <DownloadButton size="sm" label="DOWNLOAD JZ666" />
               <Link
-                href="/download-pk365"
+                href="/download-jz666"
                 className="inline-flex w-fit items-center justify-center px-4 py-2 rounded-full border border-gray-600 text-sm text-white font-semibold hover:border-accent hover:text-accent transition-colors"
               >
                 Installation Guide
@@ -122,9 +123,9 @@ export default function Footer() {
 
         <div className="border-t border-gray-800 mt-8 pt-4 pb-3 text-center text-sm text-gray-400">
           <p className="mb-0">
-            © 2026 PK365. All rights reserved. |{' '}
+            © 2026 JZ666. All rights reserved. |{' '}
             <Link href="/" className="hover:text-accent">
-              pk365-app.pk
+              {SITE_DOMAIN}
             </Link>
           </p>
         </div>

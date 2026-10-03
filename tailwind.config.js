@@ -9,11 +9,12 @@ module.exports = {
     extend: {
       fontFamily: {
         sans: ['var(--font-poppins)', 'Poppins', 'system-ui', 'sans-serif'],
+        brand: ['var(--font-brand)', 'Space Grotesk', 'sans-serif'],
       },
       colors: {
-        // Dark teal derived from #005047 (darker for site bg)
-        primary: '#002c27',
-        secondary: '#004038',
+        // Matched to JZ666 in-app dark charcoal / gold lobby
+        primary: '#14100c',
+        secondary: '#241c14',
         accent: '#FFC107',
       },
     },

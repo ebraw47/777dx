@@ -1,19 +1,19 @@
 import { NextResponse } from 'next/server';
 
 export async function GET() {
-  const baseUrl = 'https://pk365-app.pk';
+  const baseUrl = 'https://jz666apk.com.pk';
 
-  const robotsTxt = `# robots.txt for pk365-app.pk
+  const robotsTxt = `# robots.txt for jz666apk.com.pk
 
 User-agent: *
 Allow: /
 Disallow: /api/
 Disallow: /admin/
 
-Allow: /download-pk365
-Allow: /deposit-money-in-pk365
-Allow: /withdraw-money-from-pk365
-Allow: /pk365-for-pc
+Allow: /download-jz666
+Allow: /deposit-money-in-jz666
+Allow: /withdraw-money-from-jz666
+Allow: /jz666-for-pc
 Allow: /about-us
 Allow: /blog
 Allow: /contact-us

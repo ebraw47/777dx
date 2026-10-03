@@ -1,18 +1,16 @@
 import { NextResponse } from 'next/server';
 
-const baseUrl = 'https://pk365-app.pk';
+const baseUrl = 'https://jz666apk.com.pk';
 
 const blogSlugs = [
-  'pk365-app-review-2026',
-  'how-to-download-install-pk365-apk-pakistan',
-  'create-pk365-account-and-login',
-  'pk365-deposit-jazzcash-easypaisa-guide',
-  'pk365-withdraw-money-guide',
-  'pk365-welcome-bonus-guide',
-  'is-pk365-safe-legal-pakistan',
-  'how-to-use-pk365-app-pakistan-guide',
-  'ways-to-earn-money-with-pk365-2026',
-  'tips-to-win-big-in-pk365',
+  'jz666-app-review-2026',
+  'how-to-download-install-jz666-apk-pakistan',
+  'create-jz666-account-and-login',
+  'jz666-deposit-jazzcash-easypaisa-guide',
+  'jz666-withdraw-money-guide',
+  'jz666-vip-rebate-bonus-guide',
+  'is-jz666-safe-legal-pakistan',
+  'how-to-use-jz666-app-pakistan-guide',
 ];
 
 export async function GET() {
@@ -34,37 +32,37 @@ export async function GET() {
       priority: 1.0,
       images: [
         {
-          loc: '/PK365-Game-Icon.webp',
-          title: 'PK365 Hero Image',
-          caption: 'PK365 gaming platform showcase',
+          loc: '/JZ666-Game-Icon.webp',
+          title: 'JZ666 Hero Image',
+          caption: 'JZ666 gaming platform showcase',
         },
       ],
     },
     {
-      url: '/download-pk365',
+      url: '/download-jz666',
       lastMod: now,
       changeFreq: 'weekly',
       priority: 0.9,
       images: [
         {
-          loc: '/PK365-Game-Icon.webp',
-          title: 'Download PK365',
-          caption: 'Download PK365 APK for Android',
+          loc: '/JZ666-Game-Icon.webp',
+          title: 'Download JZ666',
+          caption: 'Download JZ666 APK for Android',
         },
       ],
     },
-    { url: '/deposit-money-in-pk365', lastMod: now, changeFreq: 'weekly', priority: 0.9 },
-    { url: '/withdraw-money-from-pk365', lastMod: now, changeFreq: 'weekly', priority: 0.9 },
+    { url: '/deposit-money-in-jz666', lastMod: now, changeFreq: 'weekly', priority: 0.9 },
+    { url: '/withdraw-money-from-jz666', lastMod: now, changeFreq: 'weekly', priority: 0.9 },
     {
-      url: '/pk365-for-pc',
+      url: '/jz666-for-pc',
       lastMod: now,
       changeFreq: 'weekly',
       priority: 0.9,
       images: [
         {
-          loc: '/PK365-Game-Icon.webp',
-          title: 'PK365 for PC',
-          caption: 'Play PK365 on PC using Android Emulator',
+          loc: '/JZ666-Game-Icon.webp',
+          title: 'JZ666 for PC',
+          caption: 'Play JZ666 on PC using Android Emulator',
         },
       ],
     },
@@ -75,9 +73,9 @@ export async function GET() {
       priority: 0.7,
       images: [
         {
-          loc: '/PK365-Game-Icon.webp',
-          title: 'About PK365',
-          caption: 'Learn about PK365 gaming platform',
+          loc: '/JZ666-Game-Icon.webp',
+          title: 'About JZ666',
+          caption: 'Learn about JZ666 gaming platform',
         },
       ],
     },
@@ -88,9 +86,9 @@ export async function GET() {
       priority: 0.8,
       images: [
         {
-          loc: '/PK365-Game-Icon.webp',
-          title: 'PK365 Blog',
-          caption: 'Guides and tutorials for PK365',
+          loc: '/JZ666-Game-Icon.webp',
+          title: 'JZ666 Blog',
+          caption: 'Guides and tutorials for JZ666',
         },
       ],
     },

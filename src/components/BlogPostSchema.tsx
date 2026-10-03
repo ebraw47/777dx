@@ -1,4 +1,4 @@
-const BASE = "https://pk365-app.pk";
+const BASE = "https://jz666apk.com.pk";
 
 function safeJsonLd(obj: object): string {
   return JSON.stringify(obj).replace(/</g, "\\u003c");
@@ -20,7 +20,7 @@ export default function BlogPostSchema({
   slug,
   datePublished,
   dateModified,
-  image = `${BASE}/PK365-Game-Icon.webp`,
+  image = `${BASE}/JZ666-Game-Icon.webp`,
   breadcrumbOnly = false,
 }: BlogPostSchemaProps) {
   const url = `${BASE}/blog/${slug}`;
@@ -39,11 +39,11 @@ export default function BlogPostSchema({
     headline: title,
     description,
     image,
-    author: { "@type": "Organization", name: "PK365", url: BASE },
+    author: { "@type": "Organization", name: "JZ666", url: BASE },
     publisher: {
       "@type": "Organization",
-      name: "PK365",
-      logo: { "@type": "ImageObject", url: `${BASE}/PK365-Game-Icon.webp` },
+      name: "JZ666",
+      logo: { "@type": "ImageObject", url: `${BASE}/JZ666-Game-Icon.webp` },
     },
     datePublished,
     dateModified: dateModified || datePublished,

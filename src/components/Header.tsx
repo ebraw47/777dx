@@ -10,19 +10,22 @@ export default function Header() {
       <div className="container mx-auto flex justify-between items-center">
         {/* Logo */}
         <Link href="/" className="flex items-center">
-          <div className="relative h-10 w-10 mr-2">
-            <Image
-              src="/PK365-Game-Icon.webp"
-              alt="PK365 Logo"
-              width={40}
-              height={40}
-              className="object-contain"
-              priority={true}
-              fetchPriority="high"
-            />
+          <div className="jz666-logo-shine relative h-10 w-10 mr-2 rounded-lg p-[2px]" aria-hidden="false">
+            <div className="relative h-full w-full rounded-[6px] overflow-hidden bg-primary">
+              <Image
+                src="/JZ666-Game-Icon.webp"
+                alt="JZ666 Logo"
+                width={40}
+                height={40}
+                className="object-contain"
+                priority={true}
+                fetchPriority="high"
+              />
+            </div>
           </div>
-          <span className="text-accent text-xl md:text-2xl font-bold">
-            PK365
+          <span className="font-brand text-xl md:text-2xl font-bold tracking-[0.06em] uppercase">
+            <span className="text-[#5ee7ff]">JZ</span>
+            <span className="text-white">666</span>
           </span>
         </Link>
 
@@ -31,16 +34,16 @@ export default function Header() {
           <Link href="/" className="text-white hover:text-accent font-medium transition-colors">
             Home
           </Link>
-          <Link href="/download-pk365" className="text-white hover:text-accent font-medium transition-colors">
+          <Link href="/download-jz666" className="text-white hover:text-accent font-medium transition-colors">
             Download
           </Link>
-          <Link href="/deposit-money-in-pk365" className="text-white hover:text-accent font-medium transition-colors">
+          <Link href="/deposit-money-in-jz666" className="text-white hover:text-accent font-medium transition-colors">
             Deposit
           </Link>
-          <Link href="/withdraw-money-from-pk365" className="text-white hover:text-accent font-medium transition-colors">
+          <Link href="/withdraw-money-from-jz666" className="text-white hover:text-accent font-medium transition-colors">
             Withdraw
           </Link>
-          <Link href="/pk365-for-pc" className="text-white hover:text-accent font-medium transition-colors">
+          <Link href="/jz666-for-pc" className="text-white hover:text-accent font-medium transition-colors">
             PC Version
           </Link>
           <Link href="/about-us" className="text-white hover:text-accent font-medium transition-colors">

@@ -20,7 +20,7 @@
 - Card Rummy online
 - Card Rummy play
 - Card Rummy earn money
-- PK365
+- JZ666
 - Card Rummy 2026
 
 **Implementation:**
@@ -37,7 +37,7 @@
 - Add "Card Rummy" in first 100 words (✅ Done)
 - Include keyword in H2, H3 headings
 - Use variations naturally: "Card Rummy game", "Card Rummy app", "Card Rummy download"
-- Add semantic keywords: card gaming platform, online card games, rummy game Pakistan
+- Add semantic keywords: gaming platform, online card games, rummy game Pakistan
 
 **2. Internal Linking Strategy**
 - Use "Card Rummy" as anchor text in internal links

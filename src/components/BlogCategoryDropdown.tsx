@@ -7,14 +7,14 @@ const BlogCategoryDropdown = () => {
   const [isOpen, setIsOpen] = useState(false);
   
   const categories = [
-    { name: 'Account & Login', href: '/blog/create-pk365-account-and-login' },
-    { name: 'Download & Install', href: '/blog/how-to-download-install-pk365-apk-pakistan' },
-    { name: 'Deposit Guide', href: '/blog/pk365-deposit-jazzcash-easypaisa-guide' },
-    { name: 'Withdraw Guide', href: '/blog/pk365-withdraw-money-guide' },
-    { name: 'Bonuses', href: '/blog/pk365-welcome-bonus-guide' },
-    { name: 'App Review', href: '/blog/pk365-app-review-2026' },
-    { name: 'Safety', href: '/blog/is-pk365-safe-legal-pakistan' },
-    { name: 'Tips', href: '/blog/tips-to-win-big-in-pk365' },
+    { name: 'Account & Login', href: '/blog/create-jz666-account-and-login' },
+    { name: 'Download & Install', href: '/blog/how-to-download-install-jz666-apk-pakistan' },
+    { name: 'Deposit Guide', href: '/blog/jz666-deposit-jazzcash-easypaisa-guide' },
+    { name: 'Withdraw Guide', href: '/blog/jz666-withdraw-money-guide' },
+    { name: 'VIP & Rebate', href: '/blog/jz666-vip-rebate-bonus-guide' },
+    { name: 'App Review', href: '/blog/jz666-app-review-2026' },
+    { name: 'Safety', href: '/blog/is-jz666-safe-legal-pakistan' },
+    { name: 'Beginner Guide', href: '/blog/how-to-use-jz666-app-pakistan-guide' },
   ];
 
   return (
