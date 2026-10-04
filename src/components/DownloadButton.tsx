@@ -31,8 +31,8 @@ export default function DownloadButton({
       href={DOWNLOAD_APP_URL}
       target="_blank"
       rel="noopener noreferrer"
-      aria-label="Download JZ666 APK for Android"
-      className={`download-btn inline-flex w-fit max-w-full items-center justify-center font-bold tracking-wide text-[#0a1f1c] ${sizeClasses[size]} ${blink ? 'download-btn--blink' : ''} ${className}`}
+      aria-label="Download SK777 APK for Android"
+      className={`download-btn inline-flex w-fit max-w-full items-center justify-center font-bold tracking-wide text-[#06263a] ${sizeClasses[size]} ${blink ? 'download-btn--blink' : ''} ${className}`}
     >
       <svg
         className={`download-icon flex-shrink-0 ${svgSizeClasses[size]}`}

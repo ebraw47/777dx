@@ -1,24 +1,23 @@
-# robots.txt for jz666apk.com.pk
+# robots.txt for sk777app.com.pk
 
 User-agent: *
 Allow: /
 Disallow: /api/
 Disallow: /admin/
 
-Allow: /download-jz666
-Allow: /deposit-money-in-jz666
-Allow: /withdraw-money-from-jz666
-Allow: /jz666-for-pc
+Allow: /download-sk777
+Allow: /deposit-money-in-sk777
+Allow: /withdraw-money-from-sk777
+Allow: /sk777-for-pc
 Allow: /about-us
 Allow: /blog
-Allow: /blog/jz666-app-review-2026
-Allow: /blog/how-to-download-install-jz666-apk-pakistan
-Allow: /blog/create-jz666-account-and-login
-Allow: /blog/jz666-deposit-jazzcash-easypaisa-guide
-Allow: /blog/jz666-withdraw-money-guide
-Allow: /blog/jz666-vip-rebate-bonus-guide
-Allow: /blog/is-jz666-safe-legal-pakistan
-Allow: /blog/how-to-use-jz666-app-pakistan-guide
+Allow: /blog/sk777-app-review-2026
+Allow: /blog/how-to-download-install-sk777-apk-pakistan
+Allow: /blog/create-sk777-account-and-login
+Allow: /blog/sk777-deposit-jazzcash-easypaisa-guide
+Allow: /blog/sk777-withdraw-money-guide
+Allow: /blog/is-sk777-safe-legal-pakistan
+Allow: /blog/how-to-use-sk777-app-pakistan-guide
 Allow: /contact-us
 Allow: /privacy
 Allow: /disclaimer
@@ -65,6 +64,6 @@ Allow: /
 User-agent: Bingbot
 Allow: /
 
-Sitemap: https://jz666apk.com.pk/sitemap-index.xml
-Sitemap: https://jz666apk.com.pk/sitemap.xml
-Sitemap: https://jz666apk.com.pk/image-sitemap.xml
+Sitemap: https://sk777app.com.pk/sitemap-index.xml
+Sitemap: https://sk777app.com.pk/sitemap.xml
+Sitemap: https://sk777app.com.pk/image-sitemap.xml

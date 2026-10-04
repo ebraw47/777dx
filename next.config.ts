@@ -1,7 +1,7 @@
 import type { NextConfig } from "next";
 
 /**
- * JZ666 - Next.js Configuration
+ * SK777 - Next.js Configuration
  */
 const nextConfig: NextConfig = {
   poweredByHeader: false,
@@ -15,7 +15,7 @@ const nextConfig: NextConfig = {
     remotePatterns: [
       {
         protocol: "https",
-        hostname: "jz666apk.com.pk",
+        hostname: "sk777app.com.pk",
       },
     ],
     formats: ["image/avif", "image/webp"],
@@ -27,36 +27,30 @@ const nextConfig: NextConfig = {
 
   async redirects() {
     return [
-      // Legacy PK365 routes → JZ666
-      { source: "/download-pk365", destination: "/download-jz666", permanent: true },
-      { source: "/deposit-money-in-pk365", destination: "/deposit-money-in-jz666", permanent: true },
-      { source: "/withdraw-money-from-pk365", destination: "/withdraw-money-from-jz666", permanent: true },
-      { source: "/pk365-for-pc", destination: "/jz666-for-pc", permanent: true },
-      { source: "/PK365-Game-Icon.webp", destination: "/JZ666-Game-Icon.webp", permanent: true },
-      { source: "/blog/pk365-app-review-2026", destination: "/blog/jz666-app-review-2026", permanent: true },
-      { source: "/blog/how-to-download-install-pk365-apk-pakistan", destination: "/blog/how-to-download-install-jz666-apk-pakistan", permanent: true },
-      { source: "/blog/create-pk365-account-and-login", destination: "/blog/create-jz666-account-and-login", permanent: true },
-      { source: "/blog/pk365-deposit-jazzcash-easypaisa-guide", destination: "/blog/jz666-deposit-jazzcash-easypaisa-guide", permanent: true },
-      { source: "/blog/pk365-withdraw-money-guide", destination: "/blog/jz666-withdraw-money-guide", permanent: true },
-      { source: "/blog/pk365-welcome-bonus-guide", destination: "/blog/jz666-vip-rebate-bonus-guide", permanent: true },
-      { source: "/blog/is-pk365-safe-legal-pakistan", destination: "/blog/is-jz666-safe-legal-pakistan", permanent: true },
-      { source: "/blog/how-to-use-pk365-app-pakistan-guide", destination: "/blog/how-to-use-jz666-app-pakistan-guide", permanent: true },
-      { source: "/blog/ways-to-earn-money-with-pk365-2026", destination: "/blog/jz666-vip-rebate-bonus-guide", permanent: true },
-      { source: "/blog/tips-to-win-big-in-pk365", destination: "/blog/how-to-use-jz666-app-pakistan-guide", permanent: true },
-      // Older brand routes → JZ666
-      { source: "/download-bn55", destination: "/download-jz666", permanent: true },
-      { source: "/deposit-money-in-bn55", destination: "/deposit-money-in-jz666", permanent: true },
-      { source: "/withdraw-money-from-bn55", destination: "/withdraw-money-from-jz666", permanent: true },
-      { source: "/bn55-for-pc", destination: "/jz666-for-pc", permanent: true },
-      { source: "/BN55.webp", destination: "/JZ666-Game-Icon.webp", permanent: true },
-      { source: "/download-3-patti-world", destination: "/download-jz666", permanent: true },
-      { source: "/deposit-money-in-3-patti-world", destination: "/deposit-money-in-jz666", permanent: true },
-      { source: "/withdraw-money-from-3-patti-world", destination: "/withdraw-money-from-jz666", permanent: true },
-      { source: "/3-patti-world-for-pc", destination: "/jz666-for-pc", permanent: true },
-      { source: "/download-card-rummy", destination: "/download-jz666", permanent: true },
-      { source: "/deposit-money-in-card-rummy", destination: "/deposit-money-in-jz666", permanent: true },
-      { source: "/withdraw-money-from-card-rummy", destination: "/withdraw-money-from-jz666", permanent: true },
-      { source: "/card-rummy-for-pc", destination: "/jz666-for-pc", permanent: true },
+      // Legacy JZ666 → SK777
+      { source: "/download-jz666", destination: "/download-sk777", permanent: true },
+      { source: "/deposit-money-in-jz666", destination: "/deposit-money-in-sk777", permanent: true },
+      { source: "/withdraw-money-from-jz666", destination: "/withdraw-money-from-sk777", permanent: true },
+      { source: "/jz666-for-pc", destination: "/sk777-for-pc", permanent: true },
+      { source: "/JZ666-Game-Icon.png", destination: "/SK777-Game-Icon.png", permanent: true },
+      { source: "/JZ666-Game-Icon.webp", destination: "/SK777-Game-Icon.webp", permanent: true },
+      { source: "/blog/jz666-app-review-2026", destination: "/blog/sk777-app-review-2026", permanent: true },
+      { source: "/blog/how-to-download-install-jz666-apk-pakistan", destination: "/blog/how-to-download-install-sk777-apk-pakistan", permanent: true },
+      { source: "/blog/create-jz666-account-and-login", destination: "/blog/create-sk777-account-and-login", permanent: true },
+      { source: "/blog/jz666-deposit-jazzcash-easypaisa-guide", destination: "/blog/sk777-deposit-jazzcash-easypaisa-guide", permanent: true },
+      { source: "/blog/jz666-withdraw-money-guide", destination: "/blog/sk777-withdraw-money-guide", permanent: true },
+      { source: "/blog/jz666-vip-rebate-bonus-guide", destination: "/blog/how-to-use-sk777-app-pakistan-guide", permanent: true },
+      { source: "/blog/is-jz666-safe-legal-pakistan", destination: "/blog/is-sk777-safe-legal-pakistan", permanent: true },
+      { source: "/blog/how-to-use-jz666-app-pakistan-guide", destination: "/blog/how-to-use-sk777-app-pakistan-guide", permanent: true },
+      // Older brand routes → SK777
+      { source: "/download-pk365", destination: "/download-sk777", permanent: true },
+      { source: "/deposit-money-in-pk365", destination: "/deposit-money-in-sk777", permanent: true },
+      { source: "/withdraw-money-from-pk365", destination: "/withdraw-money-from-sk777", permanent: true },
+      { source: "/pk365-for-pc", destination: "/sk777-for-pc", permanent: true },
+      { source: "/download-bn55", destination: "/download-sk777", permanent: true },
+      { source: "/deposit-money-in-bn55", destination: "/deposit-money-in-sk777", permanent: true },
+      { source: "/withdraw-money-from-bn55", destination: "/withdraw-money-from-sk777", permanent: true },
+      { source: "/bn55-for-pc", destination: "/sk777-for-pc", permanent: true },
     ];
   },
 

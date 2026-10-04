@@ -1,5 +1,5 @@
 import type { Metadata, Viewport } from "next";
-import { Poppins, Space_Grotesk } from "next/font/google";
+import { Chakra_Petch, Poppins } from "next/font/google";
 import "./globals.css";
 import Script from "next/script";
 import Header from "@/components/Header";
@@ -15,11 +15,13 @@ const poppins = Poppins({
   variable: "--font-poppins",
 });
 
-const spaceGrotesk = Space_Grotesk({
+/** Closest match to in-game SK777 wordmark (bold italic geometric) */
+const chakraPetch = Chakra_Petch({
   subsets: ["latin"],
-  weight: ["500", "600", "700"],
+  weight: ["600", "700"],
+  style: ["normal", "italic"],
   display: "swap",
-  variable: "--font-brand",
+  variable: "--font-logo",
 });
 
 export const viewport: Viewport = {
@@ -27,33 +29,33 @@ export const viewport: Viewport = {
   initialScale: 1,
   maximumScale: 5,
   userScalable: true,
-  themeColor: "#14100c",
+  themeColor: "#0a2744",
   viewportFit: "cover",
   interactiveWidget: "resizes-visual",
 };
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://jz666apk.com.pk'),
+  metadataBase: new URL('https://sk777app.com.pk'),
   title: {
-    default: "JZ666 Pakistan Free Download Official APK 2026",
-    template: "%s | JZ666"
+    default: "SK777 Pakistan Free Download Official APK 2026",
+    template: "%s | SK777"
   },
-  description: "JZ666 2026 - Download JZ666 APK for Android. Play with friends, earn real cash, daily rewards. JazzCash & EasyPaisa withdrawals.",
+  description: "SK777 2026 - Download SK777 APK for Android. Play & earn real cash with JazzCash & EasyPaisa. Official Pakistan site sk777app.com.pk.",
   keywords: [
-    "JZ666",
-    "JZ666 APK",
-    "JZ666 download",
-    "JZ666 Pakistan",
-    "JZ666 game",
-    "JZ666 app",
-    "JZ666 slots Pakistan",
-    "JZ666 earning game",
-    "JZ666 2026",
-    "jz666apk.com.pk"
+    "SK777",
+    "SK777 APK",
+    "SK777 download",
+    "SK777 Pakistan",
+    "SK777 game",
+    "SK777 app",
+    "SK777 earning game",
+    "SK777 JazzCash",
+    "SK777 2026",
+    "sk777app.com.pk"
   ],
-  authors: [{ name: "JZ666 Team" }],
-  creator: "JZ666",
-  publisher: "JZ666",
+  authors: [{ name: "SK777 Team" }],
+  creator: "SK777",
+  publisher: "SK777",
   robots: {
     index: true,
     follow: true,
@@ -67,57 +69,59 @@ export const metadata: Metadata = {
   },
   icons: {
     icon: [
-      { url: '/favicon.ico', sizes: 'any' },
-      { url: '/JZ666-Game-Icon.webp', type: 'image/webp', sizes: '1000x1000' }
+      { url: '/favicon-32.png', type: 'image/png', sizes: '32x32' },
+      { url: '/favicon-16.png', type: 'image/png', sizes: '16x16' },
+      { url: '/favicon.png', type: 'image/png', sizes: '32x32' },
+      { url: '/SK777-Game-Icon.png', type: 'image/png', sizes: '512x512' }
     ],
     apple: [
-      { url: '/JZ666-Game-Icon.webp', sizes: '180x180' }
+      { url: '/apple-touch-icon.png', sizes: '180x180' }
     ],
-    shortcut: '/favicon.ico'
+    shortcut: '/favicon-32.png'
   },
   verification: {
     google: "8a7c21f6e90a89ef",
   },
   alternates: {
-    canonical: "https://jz666apk.com.pk",
+    canonical: "https://sk777app.com.pk",
   },
   openGraph: {
-    title: "JZ666 Pakistan Free Download Official APK 2026",
-    description: "JZ666 2026 - Download JZ666 APK. Play with friends, earn real cash, daily rewards. JazzCash & EasyPaisa withdrawals.",
-    url: "https://jz666apk.com.pk",
-    siteName: "JZ666",
+    title: "SK777 Pakistan Free Download Official APK 2026",
+    description: "SK777 2026 - Download SK777 APK. Play & earn real cash with JazzCash & EasyPaisa withdrawals.",
+    url: "https://sk777app.com.pk",
+    siteName: "SK777",
     locale: "en_US",
     type: "website",
     images: [
       {
-        url: "https://jz666apk.com.pk/feature/og-image.webp",
+        url: "https://sk777app.com.pk/feature/og-image.webp",
         width: 1200,
         height: 630,
-        alt: "JZ666 - Real-Money Gaming App",
+        alt: "SK777 - Real-Money Gaming App",
       },
       {
-        url: "https://jz666apk.com.pk/feature/og-image-square.webp",
+        url: "https://sk777app.com.pk/feature/og-image-square.webp",
         width: 800,
         height: 800,
-        alt: "JZ666 - Real-Money Gaming App",
+        alt: "SK777 - Real-Money Gaming App",
       }
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "JZ666 Pakistan Free Download Official APK 2026",
-    description: "JZ666 2026 - Download JZ666 APK. Play with friends, earn real cash, daily rewards.",
-    creator: "@jz666apk",
+    title: "SK777 Pakistan Free Download Official APK 2026",
+    description: "SK777 2026 - Download SK777 APK. Play & earn real cash with JazzCash & EasyPaisa.",
+    creator: "@sk777app",
     images: [
       {
-        url: "https://jz666apk.com.pk/feature/twitter-card.webp",
+        url: "https://sk777app.com.pk/feature/twitter-card.webp",
         width: 1200,
         height: 600,
-        alt: "JZ666 - Real-Money Gaming App",
+        alt: "SK777 - Real-Money Gaming App",
       }
     ],
   },
-  applicationName: "JZ666",
+  applicationName: "SK777",
   category: "Gaming",
   classification: "Real-Money Gaming Platform",
 };
@@ -128,27 +132,25 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${poppins.variable} ${spaceGrotesk.variable}`} suppressHydrationWarning>
+    <html lang="en" className={`${poppins.variable} ${chakraPetch.variable}`} suppressHydrationWarning>
       <head>
         <meta name="mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="black" />
-        {/* GEO: geographic targeting for Pakistan (AEO/GEO) */}
         <meta name="geo.region" content="PK" />
         <meta name="geo.placename" content="Pakistan" />
-        <link rel="icon" href="/favicon.ico" sizes="any" />
-        <link rel="icon" href="/JZ666-Game-Icon.webp" type="image/webp" sizes="1000x1000" />
-        <link rel="shortcut icon" href="/favicon.ico" />
-        <link rel="apple-touch-icon" href="/JZ666-Game-Icon.webp" sizes="180x180" />
+        <link rel="icon" href="/favicon-32.png" type="image/png" sizes="32x32" />
+        <link rel="icon" href="/favicon-16.png" type="image/png" sizes="16x16" />
+        <link rel="icon" href="/favicon.png" type="image/png" sizes="32x32" />
+        <link rel="icon" href="/SK777-Game-Icon.png" type="image/png" sizes="512x512" />
+        <link rel="shortcut icon" href="/favicon-32.png" />
+        <link rel="apple-touch-icon" href="/apple-touch-icon.png" sizes="180x180" />
 
-        {/* Preconnect to external domains for faster loading */}
         <link rel="preconnect" href="https://www.googletagmanager.com" crossOrigin="anonymous" />
         <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
         
-        {/* Defer manifest to avoid critical path (374ms latency) - load after page interactive */}
         <Script id="deferred-manifest" strategy="lazyOnload">
           {`(function(){var l=document.createElement('link');l.rel='manifest';l.href='/manifest.json';document.head.appendChild(l);})();`}
         </Script>
-        {/* Google Analytics - only load if GA ID is set in env (use NEXT_PUBLIC_GA_MEASUREMENT_ID) */}
         {typeof process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID === 'string' &&
          process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID &&
          !/^G-XXXXXXXXXX$/i.test(process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID) && (
@@ -176,10 +178,10 @@ export default function RootLayout({
         className={`${poppins.className} antialiased bg-primary text-white min-h-screen flex flex-col`}
         style={{
           backgroundImage:
-            "radial-gradient(ellipse at 70% 0%, rgba(201, 162, 39, 0.12) 0%, transparent 45%), radial-gradient(ellipse at 10% 80%, rgba(36, 28, 20, 0.9) 0%, transparent 55%)",
+            "radial-gradient(ellipse at 70% 0%, rgba(62, 181, 232, 0.16) 0%, transparent 45%), radial-gradient(ellipse at 10% 80%, rgba(13, 51, 88, 0.95) 0%, transparent 55%)",
           backgroundAttachment: "fixed",
           minHeight: "100vh",
-          backgroundColor: "#14100c",
+          backgroundColor: "#0a2744",
         }}
         suppressHydrationWarning
       >
@@ -193,7 +195,6 @@ export default function RootLayout({
         <ScrollToTopWrapper />
         <WebVitalsTracker />
         
-        {/* Organization schema – sitewide signal for Google */}
         <Script
           id="organization-schema"
           type="application/ld+json"
@@ -201,27 +202,24 @@ export default function RootLayout({
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "Organization",
-              "@id": "https://jz666apk.com.pk/#organization",
-              "name": "JZ666",
-              "url": "https://jz666apk.com.pk",
+              "@id": "https://sk777app.com.pk/#organization",
+              "name": "SK777",
+              "url": "https://sk777app.com.pk",
               "logo": {
                 "@type": "ImageObject",
-                "url": "https://jz666apk.com.pk/JZ666-Game-Icon.webp",
-                "width": 1000,
-                "height": 1000
+                "url": "https://sk777app.com.pk/SK777-Game-Icon.png",
+                "width": 512,
+                "height": 512
               },
-              "description": "JZ666 is Pakistan's real-money gaming platform with slots, cards, mini games, and fishing. Download APK, JazzCash and EasyPaisa deposits and withdrawals.",
+              "description": "SK777 is Pakistan's real-money gaming platform. Download APK, JazzCash and EasyPaisa deposits and withdrawals.",
               "areaServed": { "@type": "Country", "name": "Pakistan", "alternateName": "PK" },
               "contactPoint": {
                 "@type": "ContactPoint",
                 "contactType": "Customer Support",
-                "email": "support@jz666apk.com.pk",
+                "email": "support@sk777app.com.pk",
                 "areaServed": "PK",
                 "availableLanguage": ["English", "Urdu"]
-              },
-              "sameAs": [
-                "https://www.facebook.com/share/1HmqM9JC8s/?mibextid=wwXIfr"
-              ]
+              }
             })
           }}
         />

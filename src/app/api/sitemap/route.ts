@@ -1,16 +1,15 @@
 import { NextResponse } from 'next/server';
 
-const baseUrl = 'https://jz666apk.com.pk';
+const baseUrl = 'https://sk777app.com.pk';
 
 const blogSlugs = [
-  'jz666-app-review-2026',
-  'how-to-download-install-jz666-apk-pakistan',
-  'create-jz666-account-and-login',
-  'jz666-deposit-jazzcash-easypaisa-guide',
-  'jz666-withdraw-money-guide',
-  'jz666-vip-rebate-bonus-guide',
-  'is-jz666-safe-legal-pakistan',
-  'how-to-use-jz666-app-pakistan-guide',
+  'sk777-app-review-2026',
+  'how-to-download-install-sk777-apk-pakistan',
+  'create-sk777-account-and-login',
+  'sk777-deposit-jazzcash-easypaisa-guide',
+  'sk777-withdraw-money-guide',
+  'is-sk777-safe-legal-pakistan',
+  'how-to-use-sk777-app-pakistan-guide',
 ];
 
 export async function GET() {
@@ -32,37 +31,37 @@ export async function GET() {
       priority: 1.0,
       images: [
         {
-          loc: '/JZ666-Game-Icon.webp',
-          title: 'JZ666 Hero Image',
-          caption: 'JZ666 gaming platform showcase',
+          loc: '/SK777-Game-Icon.png',
+          title: 'SK777 Hero Image',
+          caption: 'SK777 gaming platform showcase',
         },
       ],
     },
     {
-      url: '/download-jz666',
+      url: '/download-sk777',
       lastMod: now,
       changeFreq: 'weekly',
       priority: 0.9,
       images: [
         {
-          loc: '/JZ666-Game-Icon.webp',
-          title: 'Download JZ666',
-          caption: 'Download JZ666 APK for Android',
+          loc: '/SK777-Game-Icon.png',
+          title: 'Download SK777',
+          caption: 'Download SK777 APK for Android',
         },
       ],
     },
-    { url: '/deposit-money-in-jz666', lastMod: now, changeFreq: 'weekly', priority: 0.9 },
-    { url: '/withdraw-money-from-jz666', lastMod: now, changeFreq: 'weekly', priority: 0.9 },
+    { url: '/deposit-money-in-sk777', lastMod: now, changeFreq: 'weekly', priority: 0.9 },
+    { url: '/withdraw-money-from-sk777', lastMod: now, changeFreq: 'weekly', priority: 0.9 },
     {
-      url: '/jz666-for-pc',
+      url: '/sk777-for-pc',
       lastMod: now,
       changeFreq: 'weekly',
       priority: 0.9,
       images: [
         {
-          loc: '/JZ666-Game-Icon.webp',
-          title: 'JZ666 for PC',
-          caption: 'Play JZ666 on PC using Android Emulator',
+          loc: '/SK777-Game-Icon.png',
+          title: 'SK777 for PC',
+          caption: 'Play SK777 on PC using Android Emulator',
         },
       ],
     },
@@ -73,9 +72,9 @@ export async function GET() {
       priority: 0.7,
       images: [
         {
-          loc: '/JZ666-Game-Icon.webp',
-          title: 'About JZ666',
-          caption: 'Learn about JZ666 gaming platform',
+          loc: '/SK777-Game-Icon.png',
+          title: 'About SK777',
+          caption: 'Learn about SK777 gaming platform',
         },
       ],
     },
@@ -86,9 +85,9 @@ export async function GET() {
       priority: 0.8,
       images: [
         {
-          loc: '/JZ666-Game-Icon.webp',
-          title: 'JZ666 Blog',
-          caption: 'Guides and tutorials for JZ666',
+          loc: '/SK777-Game-Icon.png',
+          title: 'SK777 Blog',
+          caption: 'Guides and tutorials for SK777',
         },
       ],
     },

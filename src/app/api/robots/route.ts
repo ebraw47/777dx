@@ -1,19 +1,19 @@
 import { NextResponse } from 'next/server';
 
 export async function GET() {
-  const baseUrl = 'https://jz666apk.com.pk';
+  const baseUrl = 'https://sk777app.com.pk';
 
-  const robotsTxt = `# robots.txt for jz666apk.com.pk
+  const robotsTxt = `# robots.txt for sk777app.com.pk
 
 User-agent: *
 Allow: /
 Disallow: /api/
 Disallow: /admin/
 
-Allow: /download-jz666
-Allow: /deposit-money-in-jz666
-Allow: /withdraw-money-from-jz666
-Allow: /jz666-for-pc
+Allow: /download-sk777
+Allow: /deposit-money-in-sk777
+Allow: /withdraw-money-from-sk777
+Allow: /sk777-for-pc
 Allow: /about-us
 Allow: /blog
 Allow: /contact-us

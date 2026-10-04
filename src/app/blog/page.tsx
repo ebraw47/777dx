@@ -3,18 +3,17 @@ import { Metadata } from 'next';
 import { SITE_URL } from '@/lib/constants';
 
 export const metadata: Metadata = {
-  title: 'JZ666 Blog - Guides, Tips, Reviews & Tutorials 2026',
+  title: 'SK777 Blog - Guides, Tips, Reviews & Tutorials 2026',
   description:
-    'JZ666 blog for Pakistan: app review, APK install, JazzCash & EasyPaisa deposits, withdrawals, VIP/rebate, safety, and responsible 18+ gaming guides.',
+    'SK777 blog for Pakistan: app review, APK install, JazzCash & EasyPaisa deposits, withdrawals, safety, and responsible 18+ gaming guides.',
   keywords: [
-    'JZ666 blog',
-    'JZ666 guide',
-    'JZ666 review',
-    'JZ666 APK',
-    'JZ666 deposit',
-    'JZ666 withdraw',
-    'JZ666 VIP',
-    'JZ666 Pakistan 2026',
+    'SK777 blog',
+    'SK777 guide',
+    'SK777 review',
+    'SK777 APK',
+    'SK777 deposit',
+    'SK777 withdraw',
+    'SK777 Pakistan 2026',
   ],
   robots: {
     index: true,
@@ -30,77 +29,71 @@ export const metadata: Metadata = {
     canonical: `${SITE_URL}/blog`,
   },
   openGraph: {
-    title: 'JZ666 Blog - Guides, Tips & Reviews 2026',
-    description: 'Official JZ666 guides for download, payments, VIP/rebate, and safe play in Pakistan.',
+    title: 'SK777 Blog - Guides, Tips & Reviews 2026',
+    description: 'Official SK777 guides for download, payments, and safe play in Pakistan.',
     url: `${SITE_URL}/blog`,
-    siteName: 'JZ666',
+    siteName: 'SK777',
     locale: 'en_US',
     type: 'website',
     images: [
       {
-        url: `${SITE_URL}/JZ666-Game-Icon.webp`,
+        url: `${SITE_URL}/SK777-Game-Icon.png`,
         width: 1200,
         height: 630,
-        alt: 'JZ666 Blog',
+        alt: 'SK777 Blog',
       },
     ],
   },
 };
 
+/** SERP-matched SK777 topics only */
 const posts = [
   {
-    slug: 'jz666-app-review-2026',
-    title: 'JZ666 App Review 2026',
+    slug: 'sk777-app-review-2026',
+    title: 'SK777 App Review 2026',
     description:
-      'Honest review: slots, cards, fishing, VIP, rebate, JazzCash & EasyPaisa, pros, cons, and payout notes.',
-    readTime: '16 min read',
+      'Honest review: earning games, JazzCash & EasyPaisa, pros, cons, and payout notes for Pakistan.',
+    readTime: '12 min read',
     featured: true,
   },
   {
-    slug: 'how-to-download-install-jz666-apk-pakistan',
-    title: 'How to Download & Install JZ666 APK in Pakistan',
+    slug: 'how-to-download-install-sk777-apk-pakistan',
+    title: 'How to Download & Install SK777 APK in Pakistan',
     description: 'Step-by-step Android install: official APK, unknown sources, and troubleshooting.',
     readTime: '10 min read',
     featured: false,
   },
   {
-    slug: 'create-jz666-account-and-login',
-    title: 'How to Create a JZ666 Account and Login',
+    slug: 'create-sk777-account-and-login',
+    title: 'How to Create a SK777 Account and Login',
     description: 'Register, set credentials, and log in safely on your Pakistani number.',
     readTime: '6 min read',
     featured: false,
   },
   {
-    slug: 'jz666-deposit-jazzcash-easypaisa-guide',
-    title: 'JZ666 Deposit Guide: JazzCash & EasyPaisa',
-    description: 'Add balance with local wallets, QR deposits, fix delayed credits, and avoid mistakes.',
+    slug: 'sk777-deposit-jazzcash-easypaisa-guide',
+    title: 'SK777 Deposit Guide: JazzCash & EasyPaisa',
+    description: 'Add balance with local wallets, fix delayed credits, and avoid common mistakes.',
     readTime: '8 min read',
     featured: false,
   },
   {
-    slug: 'jz666-withdraw-money-guide',
-    title: 'JZ666 Withdraw Money Guide',
-    description: 'Cash out with withdrawal PIN to JazzCash, EasyPaisa, or bank — and fix failed requests.',
+    slug: 'sk777-withdraw-money-guide',
+    title: 'SK777 Withdraw Money Guide',
+    description: 'Cash out with withdrawal PIN to JazzCash or EasyPaisa — and fix failed requests.',
     readTime: '9 min read',
     featured: false,
   },
   {
-    slug: 'jz666-vip-rebate-bonus-guide',
-    title: 'JZ666 VIP, Rebate, Mission & Interest Guide',
-    description: 'Offers explained: Events, VIP tiers, agent rebate, missions, interest, and redeem codes.',
-    readTime: '12 min read',
-    featured: false,
-  },
-  {
-    slug: 'is-jz666-safe-legal-pakistan',
-    title: 'Is JZ666 Safe and Legal in Pakistan?',
+    slug: 'is-sk777-safe-legal-pakistan',
+    title: 'Is SK777 Safe and Legal in Pakistan?',
     description: 'Official download tips, scam warnings, legal context, and responsible play.',
     readTime: '12 min read',
     featured: false,
   },
   {
-    slug: 'how-to-use-jz666-app-pakistan-guide',
-    title: 'How to Use JZ666 App in Pakistan: Beginner Guide',
+    slug: 'how-to-use-sk777-app-pakistan-guide',
+    title: 'How to Use SK777 App in Pakistan: Beginner Guide',
     description: 'End-to-end: download, register, deposit, play, withdraw, and stay in control.',
     readTime: '14 min read',
     featured: false,
@@ -110,9 +103,9 @@ const posts = [
 export default function Blog() {
   return (
     <div className="container mx-auto px-4 py-12">
-      <h1 className="text-3xl md:text-4xl font-bold mb-8 text-accent">JZ666 Blog</h1>
+      <h1 className="text-3xl md:text-4xl font-bold mb-8 text-accent">SK777 Blog</h1>
       <p className="text-gray-300 mb-8 text-lg">
-        Guides, payment help, VIP/rebate explainers, and responsible gaming tips for JZ666 players in Pakistan
+        Guides, payment help, and responsible gaming tips for SK777 players in Pakistan
       </p>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -120,11 +113,11 @@ export default function Blog() {
           <div
             key={post.slug}
             className={`bg-secondary px-8 py-8 rounded-lg hover:shadow-lg transition-all border-2 ${
-              post.featured ? 'border-[#FFA500]' : 'border-gray-700 hover:border-accent'
+              post.featured ? 'border-accent' : 'border-gray-700 hover:border-accent'
             }`}
           >
             {post.featured && (
-              <div className="inline-block bg-[#FFA500] text-white text-xs font-bold px-3 py-1 rounded-full mb-3">
+              <div className="inline-block bg-accent text-primary text-xs font-bold px-3 py-1 rounded-full mb-3">
                 FEATURED
               </div>
             )}

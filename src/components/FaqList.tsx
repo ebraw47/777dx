@@ -17,7 +17,7 @@ export default function FaqList({ faqs }: { faqs: FaqItem[] }) {
         return (
           <div
             key={item.q}
-            className="jz666-faq-card bg-secondary rounded-xl border border-gray-800 p-5"
+            className="sk777-faq-card bg-secondary rounded-xl border border-gray-800 p-5"
             onMouseEnter={() => setOpenIndex(index)}
             onMouseLeave={() => setOpenIndex(null)}
             onFocus={() => setOpenIndex(index)}

@@ -1,21 +1,31 @@
 {
-  "name": "JZ666",
-  "short_name": "JZ666",
+  "name": "SK777",
+  "short_name": "SK777",
   "description": "Pakistan's real-money gaming platform — slots, cards, fishing. JazzCash & EasyPaisa.",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#14100c",
-  "theme_color": "#14100c",
+  "background_color": "#0a2744",
+  "theme_color": "#0a2744",
   "icons": [
     {
-      "src": "/favicon.ico",
-      "sizes": "48x48",
-      "type": "image/x-icon"
+      "src": "/favicon-32.png",
+      "sizes": "32x32",
+      "type": "image/png"
     },
     {
-      "src": "/JZ666-Game-Icon.webp",
+      "src": "/favicon-48.png",
+      "sizes": "48x48",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "/SK777-Game-Icon.png",
       "sizes": "512x512",
-      "type": "image/webp",
+      "type": "image/png",
       "purpose": "any maskable"
     }
   ]

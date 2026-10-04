@@ -2,8 +2,8 @@ import Link from 'next/link';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Page Not Found - JZ666',
-  description: 'The page you are looking for does not exist. Return to JZ666 homepage.',
+  title: 'Page Not Found - SK777',
+  description: 'The page you are looking for does not exist. Return to SK777 homepage.',
   robots: {
     index: false,
     follow: true,
@@ -20,7 +20,7 @@ export default function NotFound() {
       </p>
       <Link 
         href="/"
-        className="bg-accent hover:bg-accent-hover text-[#14100c] font-bold py-3 px-8 rounded-full inline-flex items-center transition-all shadow-lg hover:shadow-xl"
+        className="bg-accent hover:bg-accent-hover text-[#0a2744] font-bold py-3 px-8 rounded-full inline-flex items-center transition-all shadow-lg hover:shadow-xl"
       >
         Return to Homepage
       </Link>

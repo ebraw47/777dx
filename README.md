@@ -1,30 +1,33 @@
-# JZ666 — Official Pakistan APK Site
+# SK777 — Pakistan Real-Money Gaming Site
 
-Brand site for **JZ666** at [jz666apk.com.pk](https://jz666apk.com.pk).
+Official marketing site for **SK777** at [sk777app.com.pk](https://sk777app.com.pk).
 
 ## Stack
 
-- Next.js (App Router)
-- TypeScript
+- Next.js 16 (App Router)
+- React 19
 - Tailwind CSS
-
-## Setup
-
-```bash
-npm i
-npm run dev
-```
-
-## Env
-
-Copy `.env.example` to `.env.local` and set:
-
-- `NEXT_PUBLIC_SITE_URL` (default `https://jz666apk.com.pk`)
-- `NEXT_PUBLIC_DOWNLOAD_URL` (optional APK / referral URL)
-- `NEXT_PUBLIC_GA_MEASUREMENT_ID` (optional)
 
 ## Scripts
 
-- `npm run dev` — local development
-- `npm run build` — production build
-- `npm run start` — serve production build
+```bash
+npm install
+npm run dev
+npm run build
+npm start
+```
+
+## Brand
+
+- Domain: `sk777app.com.pk`
+- Accent: neon green on dark charcoal
+- Assets: `/public/SK777-Game-Icon.png`, screenshots, and promo images
+
+## Env (optional)
+
+```bash
+NEXT_PUBLIC_SITE_URL=https://sk777app.com.pk
+NEXT_PUBLIC_DOWNLOAD_URL=https://sk777vip3.bet/?dl=59dxnd
+NEXT_PUBLIC_GA_MEASUREMENT_ID=G-XXXXXXXXXX
+NEXT_PUBLIC_FACEBOOK_URL=https://www.facebook.com/your-page
+```

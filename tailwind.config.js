@@ -9,13 +9,14 @@ module.exports = {
     extend: {
       fontFamily: {
         sans: ['var(--font-poppins)', 'Poppins', 'system-ui', 'sans-serif'],
-        brand: ['var(--font-brand)', 'Space Grotesk', 'sans-serif'],
+        logo: ['var(--font-logo)', 'Chakra Petch', 'sans-serif'],
       },
       colors: {
-        // Matched to JZ666 in-app dark charcoal / gold lobby
-        primary: '#14100c',
-        secondary: '#241c14',
-        accent: '#FFC107',
+        // Matched to SK777.BET in-app navy / gold / cyan lobby
+        primary: '#0a2744',
+        secondary: '#0d3358',
+        accent: '#f5c518',
+        cyan: '#3eb5e8',
       },
     },
   },
