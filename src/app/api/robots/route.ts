@@ -1,24 +1,33 @@
 import { NextResponse } from 'next/server';
 
 export async function GET() {
-  const baseUrl = 'https://sk777app.com.pk';
+  const baseUrl = 'https://777dx-app.com.pk';
 
-  const robotsTxt = `# robots.txt for sk777app.com.pk
+  const robotsTxt = `# robots.txt for 777dx-app.com.pk
 
 User-agent: *
 Allow: /
 Disallow: /api/
 Disallow: /admin/
 
-Allow: /download-sk777
-Allow: /deposit-money-in-sk777
-Allow: /withdraw-money-from-sk777
-Allow: /sk777-for-pc
+Allow: /download-777dx
+Allow: /deposit-money-in-777dx
+Allow: /withdraw-money-from-777dx
+Allow: /777dx-for-pc
 Allow: /about-us
 Allow: /blog
 Allow: /contact-us
 Allow: /privacy
 Allow: /disclaimer
+
+Allow: /blog/777dx-app-review-2026
+Allow: /blog/how-to-download-install-777dx-apk-pakistan
+Allow: /blog/create-777dx-account-and-login
+Allow: /blog/777dx-deposit-jazzcash-easypaisa-guide
+Allow: /blog/777dx-withdraw-money-guide
+Allow: /blog/777dx-vip-rebate-invite-guide
+Allow: /blog/is-777dx-safe-legal-pakistan
+Allow: /blog/how-to-use-777dx-app-pakistan-guide
 
 User-agent: GPTBot
 Disallow: /

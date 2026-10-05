@@ -7,13 +7,14 @@ const BlogCategoryDropdown = () => {
   const [isOpen, setIsOpen] = useState(false);
   
   const categories = [
-    { name: 'Account & Login', href: '/blog/create-sk777-account-and-login' },
-    { name: 'Download & Install', href: '/blog/how-to-download-install-sk777-apk-pakistan' },
-    { name: 'Deposit Guide', href: '/blog/sk777-deposit-jazzcash-easypaisa-guide' },
-    { name: 'Withdraw Guide', href: '/blog/sk777-withdraw-money-guide' },
-    { name: 'App Review', href: '/blog/sk777-app-review-2026' },
-    { name: 'Safety', href: '/blog/is-sk777-safe-legal-pakistan' },
-    { name: 'Beginner Guide', href: '/blog/how-to-use-sk777-app-pakistan-guide' },
+    { name: 'Account & Login', href: '/blog/create-777dx-account-and-login' },
+    { name: 'Download & Install', href: '/blog/how-to-download-install-777dx-apk-pakistan' },
+    { name: 'Deposit Guide', href: '/blog/777dx-deposit-jazzcash-easypaisa-guide' },
+    { name: 'Withdraw Guide', href: '/blog/777dx-withdraw-money-guide' },
+    { name: 'App Review', href: '/blog/777dx-app-review-2026' },
+    { name: 'VIP & Rebate', href: '/blog/777dx-vip-rebate-invite-guide' },
+    { name: 'Safety', href: '/blog/is-777dx-safe-legal-pakistan' },
+    { name: 'Beginner Guide', href: '/blog/how-to-use-777dx-app-pakistan-guide' },
   ];
 
   return (

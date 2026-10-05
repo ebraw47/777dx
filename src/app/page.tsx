@@ -15,26 +15,26 @@ import {
 } from '@/lib/constants';
 
 export const metadata: Metadata = {
-  title: 'SK777 Pakistan Free Download Official APK 2026',
+  title: '777DX Pakistan Free Download Official APK 2026',
   description:
-    'Download SK777 APK for Pakistan. Play earning games, claim rewards, deposit & withdraw with JazzCash & EasyPaisa. Official site sk777app.com.pk.',
+    'Download 777DX APK for Pakistan. Play earning games, claim rewards, deposit & withdraw with JazzCash & EasyPaisa. Official site 777dx-app.com.pk.',
   keywords: [
-    'SK777',
-    'SK777 APK',
-    'SK777 download',
-    'SK777 Pakistan',
-    'SK777 game',
-    'SK777 earning app',
-    'SK777 JazzCash',
-    'SK777 EasyPaisa',
-    'sk777app.com.pk',
-    'SK777 2026',
+    '777DX',
+    '777DX APK',
+    '777DX download',
+    '777DX Pakistan',
+    '777DX game',
+    '777DX earning app',
+    '777DX JazzCash',
+    '777DX EasyPaisa',
+    '777dx-app.com.pk',
+    '777DX 2026',
   ],
   alternates: { canonical: SITE_URL },
   openGraph: {
-    title: 'SK777 Pakistan Free Download Official APK 2026',
+    title: '777DX Pakistan Free Download Official APK 2026',
     description:
-      "Pakistan's SK777 gaming app — play, earn, JazzCash & EasyPaisa wallets.",
+      "Pakistan's 777DX gaming app — play, earn, JazzCash & EasyPaisa wallets.",
     url: SITE_URL,
     siteName: BRAND_NAME,
     locale: 'en_US',
@@ -44,20 +44,20 @@ export const metadata: Metadata = {
         url: `${SITE_URL}/feature/og-image.webp`,
         width: 1200,
         height: 630,
-        alt: 'SK777 - Official Gaming APK Pakistan',
+        alt: '777DX - Official Gaming APK Pakistan',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'SK777 Pakistan Free Download Official APK 2026',
-    description: 'Download SK777 APK — earn real cash with JazzCash & EasyPaisa.',
+    title: '777DX Pakistan Free Download Official APK 2026',
+    description: 'Download 777DX APK — earn real cash with JazzCash & EasyPaisa.',
     images: [`${SITE_URL}/feature/og-image.webp`],
   },
 };
 
 const appInfo = [
-  { label: 'App Name', value: 'SK777' },
+  { label: 'App Name', value: '777DX' },
   { label: 'Category', value: 'Earning Games, Slots, Prediction' },
   { label: 'Size', value: APP_SIZE },
   { label: 'Latest Version', value: APP_VERSION },
@@ -70,20 +70,23 @@ const appInfo = [
 ];
 
 const screenshots = [
-  { src: '/sk777-game-register.webp', alt: 'SK777 register screen', title: 'Register' },
-  { src: '/sk777-game-home.webp', alt: 'SK777 login screen', title: 'Login' },
-  { src: '/sk777-game-login.webp', alt: 'SK777 deposit screen', title: 'Deposit' },
-  { src: '/sk777-game-deposit.webp', alt: 'SK777 withdraw screen', title: 'Withdraw' },
-  { src: '/sk777-game-withdraw.webp', alt: 'SK777 receiving account screen', title: 'Receiving Account' },
-  { src: '/sk777-game-lobby.webp', alt: 'SK777 invite screen', title: 'Invite' },
-  { src: '/sk777-game-wallet.webp', alt: 'SK777 invite friends screen', title: 'Invite Friends' },
-  { src: '/sk777-game-offers.webp', alt: 'SK777 support message center', title: 'Support' },
+  { src: '/777dx-home.webp', alt: '777DX home page', title: 'Home' },
+  { src: '/777dx-register.webp', alt: '777DX register and signup', title: 'Register' },
+  { src: '/777dx-login.webp', alt: '777DX login screen', title: 'Login' },
+  { src: '/777dx-deposit.webp', alt: '777DX deposit funds', title: 'Deposit' },
+  { src: '/777dx-withdraw.webp', alt: '777DX withdrawal methods', title: 'Withdraw' },
+  { src: '/777dx-vip.webp', alt: '777DX VIP program', title: 'VIP' },
+  { src: '/777dx-rebate.webp', alt: '777DX rebate rewards', title: 'Rebate' },
+  { src: '/777dx-invite.webp', alt: '777DX invite and earn', title: 'Invite' },
+  { src: '/777dx-mission.webp', alt: '777DX game missions', title: 'Missions' },
+  { src: '/777dx-night-mode.webp', alt: '777DX night mode', title: 'Night Mode' },
+  { src: '/777dx-support.webp', alt: '777DX customer support', title: 'Support' },
 ];
 
 const features = [
   {
     title: 'Play & Earn on Android',
-    text: 'SK777 is built for Pakistani phones — light APK, fast rounds, and a simple lobby for earning games, slots, and prediction-style play.',
+    text: '777DX is built for Pakistani phones — light APK, fast rounds, and a simple lobby for earning games, slots, and prediction-style play.',
   },
   {
     title: 'JazzCash & EasyPaisa',
@@ -109,12 +112,12 @@ const features = [
 
 const faqs = [
   {
-    q: 'Is SK777 free to download?',
-    a: 'Yes. The APK is free from sk777app.com.pk. Always use the official download button so you avoid modified copies.',
+    q: 'Is 777DX free to download?',
+    a: 'Yes. The APK is free from 777dx-app.com.pk. Always use the official download button so you avoid modified copies.',
   },
   {
-    q: 'Which games can I play on SK777?',
-    a: 'SK777 focuses on mobile earning games popular in Pakistan — including slots, prediction-style games, and other short rounds listed in the lobby. Categories may update over time.',
+    q: 'Which games can I play on 777DX?',
+    a: '777DX focuses on mobile earning games popular in Pakistan — including slots, prediction-style games, and other short rounds listed in the lobby. Categories may update over time.',
   },
   {
     q: 'How do I deposit money?',
@@ -125,7 +128,7 @@ const faqs = [
     a: 'Open Withdraw, set your withdrawal PIN if required, bind JazzCash or EasyPaisa in your name, meet any turnover rules, then submit.',
   },
   {
-    q: 'Is SK777 available on iPhone?',
+    q: 'Is 777DX available on iPhone?',
     a: 'The primary install path is Android APK. Some players use a mobile browser lobby; for PC, use an Android emulator — see our PC guide.',
   },
   {
@@ -145,7 +148,7 @@ export default function HomePage() {
         url: SITE_URL,
         logo: `${SITE_URL}${LOGO_PATH}`,
         description:
-          'SK777 official Pakistan site — earning games, JazzCash & EasyPaisa.',
+          '777DX official Pakistan site — earning games, JazzCash & EasyPaisa.',
         areaServed: { '@type': 'Country', name: 'Pakistan', alternateName: 'PK' },
         contactPoint: {
           '@type': 'ContactPoint',
@@ -175,7 +178,7 @@ export default function HomePage() {
           ratingCount: '10000',
           bestRating: '5',
         },
-        downloadUrl: `${SITE_URL}/download-sk777`,
+        downloadUrl: `${SITE_URL}/download-777dx`,
         softwareVersion: APP_VERSION,
         fileSize: APP_SIZE,
         image: `${SITE_URL}${LOGO_PATH}`,
@@ -200,35 +203,45 @@ export default function HomePage() {
       />
 
       {/* Hero */}
-      <section className="sk777-hero relative py-12 md:py-20 px-4 overflow-hidden">
-        <div className="sk777-hero-bg" aria-hidden="true">
-          <span className="sk777-hero-orb sk777-hero-orb-a" />
-          <span className="sk777-hero-orb sk777-hero-orb-b" />
-          <span className="sk777-hero-orb sk777-hero-orb-c" />
-          <span className="sk777-hero-grid" />
-          <span className="sk777-hero-fade" />
+      <section className="dx-hero relative py-12 md:py-20 px-4 overflow-hidden">
+        <div className="dx-hero-bg" aria-hidden="true">
+          <Image
+            src="/777dx-hero-banner.webp"
+            alt=""
+            fill
+            priority
+            sizes="100vw"
+            className="dx-hero-banner-img"
+          />
+          <span className="dx-hero-orb dx-hero-orb-a" />
+          <span className="dx-hero-orb dx-hero-orb-b" />
+          <span className="dx-hero-orb dx-hero-orb-c" />
+          <span className="dx-hero-grid" />
+          <span className="dx-hero-fade" />
         </div>
         <div className="container mx-auto relative z-[1]">
           <div className="flex flex-col lg:flex-row items-center gap-10 lg:gap-16">
             <div className="flex-1 text-center lg:text-left">
               <h1 className="mb-4 flex justify-center lg:justify-start">
-                <span className="sr-only">SK777</span>
+                <span className="sr-only">777DX</span>
                 <span
-                  className="font-logo italic font-bold text-5xl sm:text-6xl md:text-7xl tracking-tight text-accent drop-shadow-[0_4px_0_#0a2744,0_8px_24px_rgba(0,0,0,0.45)]"
+                  className="dx-wordmark font-logo italic font-bold text-5xl sm:text-6xl md:text-7xl tracking-tight drop-shadow-[0_4px_0_#1a1a1a,0_8px_24px_rgba(0,0,0,0.45)]"
                   aria-hidden="true"
                 >
-                  SK777
+                  <span className="dx-wordmark-orange">7</span>
+                  <span className="dx-wordmark-white">77</span>
+                  <span className="dx-wordmark-orange">DX</span>
                 </span>
               </h1>
               <p className="text-xl md:text-2xl font-semibold mb-6 text-cyan">
                 Pakistan&apos;s Real-Money Gaming App 2026
               </p>
               <p className="text-lg text-gray-300 leading-relaxed mb-8 max-w-xl mx-auto lg:mx-0">
-                Download the official SK777 APK — play earning games, claim rewards, and use JazzCash
+                Download the official 777DX APK — play earning games, claim rewards, and use JazzCash
                 &amp; EasyPaisa for deposits and withdrawals. Get the APK only from the button below.
               </p>
               <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 items-center lg:items-start justify-center lg:justify-start mb-8">
-                <DownloadButton size="lg" label="DOWNLOAD SK777" blink />
+                <DownloadButton size="lg" label="DOWNLOAD 777DX" blink />
               </div>
               <div className="grid grid-cols-3 gap-4 max-w-md mx-auto lg:mx-0">
                 {[
@@ -245,78 +258,88 @@ export default function HomePage() {
               <p className="text-sm text-gray-500 mt-4">*Available for Android devices</p>
             </div>
             <div className="flex-shrink-0">
-              <div className="sk777-main-logo relative w-[260px] h-[260px] md:w-[340px] md:h-[340px] rounded-2xl border border-accent/40 bg-[#0d3358] overflow-hidden">
+              <div className="dx-main-logo relative w-[260px] h-[260px] md:w-[340px] md:h-[340px] rounded-2xl border border-accent/40 bg-[#242424] overflow-hidden flex items-center justify-center">
                 <Image
                   src={LOGO_PATH}
-                  alt="SK777 Official Logo"
-                  width={340}
-                  height={340}
-                  className="relative z-[1] object-contain p-4 w-full h-full"
+                  alt="777DX Official Logo"
+                  width={512}
+                  height={512}
+                  className="relative z-[1] object-contain p-6 w-full h-full"
                   priority
                   fetchPriority="high"
                 />
-                <span className="sk777-star sk777-star-1" aria-hidden="true" />
-                <span className="sk777-star sk777-star-2" aria-hidden="true" />
-                <span className="sk777-star sk777-star-3" aria-hidden="true" />
-                <span className="sk777-star sk777-star-4" aria-hidden="true" />
-                <span className="sk777-star sk777-star-5" aria-hidden="true" />
-                <span className="sk777-star sk777-star-6" aria-hidden="true" />
+                <span className="dx-star dx-star-1" aria-hidden="true" />
+                <span className="dx-star dx-star-2" aria-hidden="true" />
+                <span className="dx-star dx-star-3" aria-hidden="true" />
+                <span className="dx-star dx-star-4" aria-hidden="true" />
+                <span className="dx-star dx-star-5" aria-hidden="true" />
+                <span className="dx-star dx-star-6" aria-hidden="true" />
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* App info — tablet screen */}
-      <section className="py-12 md:py-16 px-4 bg-secondary/40">
+      {/* App info — sci-fi HUD */}
+      <section className="py-12 md:py-16 px-4">
         <div className="container mx-auto max-w-3xl">
           <h2 className="text-2xl md:text-3xl font-bold text-white text-center mb-8">
-            SK777 Download Info
+            777DX Download Info
           </h2>
 
-          <div className="sk777-tablet mx-auto">
-            <div className="sk777-tablet-bezel">
-              <div className="sk777-tablet-camera" aria-hidden="true" />
-              <div className="sk777-tablet-screen">
-                <div className="sk777-tablet-status">
-                  <span>SK777</span>
-                  <span>Info</span>
-                </div>
-                <div className="sk777-tablet-body">
-                  <div className="flex items-center gap-3 mb-5 pb-4 border-b border-[#f5c518]/25">
-                    <div className="relative h-12 w-12 rounded-lg overflow-hidden bg-primary border border-accent/40 flex-shrink-0">
-                      <Image
-                        src={LOGO_PATH}
-                        alt="SK777"
-                        width={48}
-                        height={48}
-                        className="object-contain"
-                      />
-                    </div>
-                    <div>
-                      <p className="text-white font-bold text-lg leading-tight">SK777 App Details</p>
-                      <p className="text-accent text-sm">Official Pakistan APK</p>
-                    </div>
+          <div className="dx-scifi mx-auto">
+            <div className="dx-scifi-frame">
+              <span className="dx-scifi-corner dx-scifi-corner-tl" aria-hidden="true" />
+              <span className="dx-scifi-corner dx-scifi-corner-tr" aria-hidden="true" />
+              <span className="dx-scifi-corner dx-scifi-corner-bl" aria-hidden="true" />
+              <span className="dx-scifi-corner dx-scifi-corner-br" aria-hidden="true" />
+              <span className="dx-scifi-scan" aria-hidden="true" />
+
+              <div className="dx-scifi-header">
+                <span className="dx-scifi-chip">SYS // APK</span>
+                <span className="dx-scifi-chip dx-scifi-chip-live">ONLINE</span>
+              </div>
+
+              <div className="dx-scifi-body">
+                <div className="flex items-center gap-3 mb-5 pb-4 border-b border-orange-500/30">
+                  <div className="relative h-12 w-12 rounded-lg overflow-hidden bg-black/50 border border-[#e67a22]/50 flex-shrink-0 shadow-[0_0_18px_rgba(230,122,34,0.35)]">
+                    <Image
+                      src={LOGO_PATH}
+                      alt="777DX"
+                      width={48}
+                      height={48}
+                      className="object-contain"
+                    />
                   </div>
-                  <table className="w-full text-left">
-                    <tbody>
-                      {appInfo.map((row, i) => (
-                        <tr
-                          key={row.label}
-                          className={i % 2 === 0 ? 'bg-black/25' : 'bg-transparent'}
-                        >
-                          <th className="py-2.5 px-3 md:px-4 text-accent font-semibold text-sm md:text-base w-[42%]">
-                            {row.label}
-                          </th>
-                          <td className="py-2.5 px-3 md:px-4 text-white text-sm md:text-base">
-                            {row.value}
-                          </td>
-                        </tr>
-                      ))}
-                    </tbody>
-                  </table>
+                  <div>
+                    <p className="text-white font-bold text-lg leading-tight tracking-wide">
+                      777DX App Details
+                    </p>
+                    <p className="text-[#e67a22] text-sm font-semibold uppercase tracking-wider">
+                      Official Pakistan APK
+                    </p>
+                  </div>
                 </div>
-                <div className="sk777-tablet-home" aria-hidden="true" />
+                <table className="w-full text-left dx-scifi-table">
+                  <tbody>
+                    {appInfo.map((row, i) => (
+                      <tr key={row.label} className={i % 2 === 0 ? 'bg-orange-500/[0.06]' : 'bg-transparent'}>
+                        <th className="py-2.5 px-3 md:px-4 text-[#ffb347] font-semibold text-sm md:text-base w-[42%]">
+                          {row.label}
+                        </th>
+                        <td className="py-2.5 px-3 md:px-4 text-white text-sm md:text-base">
+                          {row.value}
+                        </td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+
+              <div className="dx-scifi-footer" aria-hidden="true">
+                <span />
+                <span />
+                <span />
               </div>
             </div>
           </div>
@@ -330,11 +353,11 @@ export default function HomePage() {
       {/* Overview */}
       <section className="py-12 md:py-16 px-4">
         <div className="container mx-auto max-w-4xl">
-          <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">What is SK777?</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">What is 777DX?</h2>
           <div className="space-y-4 text-lg text-gray-300 leading-relaxed">
             <p>
               <Link href="/" className="text-accent hover:underline font-semibold">
-                SK777
+                777DX
               </Link>{' '}
               is a Pakistan-focused real-money gaming app for players who want simple Android games,
               local JazzCash and EasyPaisa wallets, and clear deposit/withdraw flows.
@@ -351,7 +374,7 @@ export default function HomePage() {
       <section className="py-12 md:py-16 px-4 bg-secondary/30">
         <div className="container mx-auto max-w-4xl">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
-            Why SK777 is Searched in Pakistan
+            Why 777DX is Searched in Pakistan
           </h2>
           <ul className="space-y-3 text-lg text-gray-300">
             {[
@@ -359,7 +382,7 @@ export default function HomePage() {
               'Lightweight APK suited to mid-range Android phones.',
               'Earning-game style rounds with daily rewards and welcome offers.',
               'Clear wallet history for deposits and cash-outs.',
-              'Guides for download, deposit, and withdraw on sk777app.com.pk.',
+              'Guides for download, deposit, and withdraw on 777dx-app.com.pk.',
             ].map((item) => (
               <li key={item} className="flex gap-3">
                 <span className="text-accent font-bold">✓</span>
@@ -370,41 +393,286 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* How to start */}
-      <section className="py-12 md:py-16 px-4">
-        <div className="container mx-auto max-w-4xl">
-          <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">How to Start with SK777</h2>
-          <ol className="space-y-4">
-            {[
-              'Open sk777app.com.pk and tap Download for the official APK.',
-              'Allow install from unknown sources, open the APK, and finish setup.',
-              'Launch SK777 and register (or log in) with your details.',
-              'Check Offers for welcome or daily rewards.',
-              'Optional: deposit via JazzCash or EasyPaisa, then pick a game.',
-              'Play responsibly (18+) and withdraw when PIN and turnover rules are met.',
-            ].map((step, i) => (
-              <li key={step} className="flex gap-4 bg-secondary rounded-xl p-4 border border-gray-800">
-                <span className="flex-shrink-0 w-8 h-8 rounded-full bg-cyan text-primary font-bold flex items-center justify-center">
-                  {i + 1}
-                </span>
-                <span className="text-gray-300 leading-relaxed">{step}</span>
-              </li>
-            ))}
-          </ol>
-          <div className="mt-8 text-center">
-            <DownloadButton size="lg" label="DOWNLOAD SK777 NOW" />
+      {/* How to start — modern poster */}
+      <section className="py-14 md:py-20 px-4">
+        <div className="container mx-auto max-w-6xl">
+          <div className="dx-poster">
+            <div className="dx-poster-glow" aria-hidden="true" />
+            <div className="dx-poster-inner">
+              <div className="dx-poster-top">
+                <p className="dx-poster-kicker">Player Guide · 2026</p>
+                <h2 className="dx-poster-title">
+                  How to Start
+                  <span>with 777DX</span>
+                </h2>
+                <p className="dx-poster-tagline">
+                  Six clear moves from download to your first cash-out — built for Pakistan players.
+                </p>
+                <div className="dx-poster-rule" aria-hidden="true" />
+              </div>
+
+              <ol className="dx-poster-grid">
+                {[
+                  {
+                    title: 'Get the Official APK',
+                    detail:
+                      'Open 777dx-app.com.pk and tap Download. Use only the official button so you avoid modified copies.',
+                  },
+                  {
+                    title: 'Install on Android',
+                    detail:
+                      'Allow install from unknown sources, open the APK file, and finish setup on Android 5.0+.',
+                  },
+                  {
+                    title: 'Sign Up or Sign In',
+                    detail:
+                      'Launch 777DX, register with your mobile number and OTP, or log in if you already have an account.',
+                  },
+                  {
+                    title: 'Claim Offers',
+                    detail:
+                      'Check welcome bonuses, daily rewards, missions, and VIP promos — always read wagering rules first.',
+                  },
+                  {
+                    title: 'Deposit & Play',
+                    detail:
+                      'Optional: add funds with JazzCash or EasyPaisa, then pick a game from the lobby and start small.',
+                  },
+                  {
+                    title: 'Withdraw Safely',
+                    detail:
+                      'Play responsibly (18+). When ready, withdraw to your wallet after PIN and turnover rules are met.',
+                  },
+                ].map((step, i) => (
+                  <li key={step.title} className="dx-poster-card">
+                    <span className="dx-poster-num" aria-hidden="true">
+                      {String(i + 1).padStart(2, '0')}
+                    </span>
+                    <div className="dx-poster-card-body">
+                      <h3>{step.title}</h3>
+                      <p>{step.detail}</p>
+                    </div>
+                    <span className="dx-poster-card-edge" aria-hidden="true" />
+                  </li>
+                ))}
+              </ol>
+
+              <div className="dx-poster-cta">
+                <p className="dx-poster-cta-note">Official APK · JazzCash &amp; EasyPaisa · 18+ only</p>
+                <DownloadButton size="lg" label="DOWNLOAD 777DX NOW" />
+              </div>
+            </div>
           </div>
         </div>
       </section>
 
-      {/* Screenshots */}
-      <section className="py-12 md:py-16 bg-secondary/30">
-        <div className="container mx-auto px-4 mb-10">
+      {/* Signup */}
+      <section id="signup" className="py-14 md:py-20 px-4">
+        <div className="container mx-auto max-w-6xl">
+          <div className="grid lg:grid-cols-2 gap-10 lg:gap-16 items-center">
+            <div>
+              <p className="text-accent font-semibold tracking-wide uppercase text-sm mb-3">Account</p>
+              <h2 className="text-3xl md:text-4xl font-bold text-white mb-5">777DX Signup — Create Your Account</h2>
+              <p className="text-lg text-gray-300 leading-relaxed mb-5">
+                New to 777DX? Open the app and tap <strong className="text-white">Register / Signup</strong>.
+                Enter your Pakistani mobile number, set a strong password, and verify the OTP sent to your phone.
+                You can also add an invite code if a friend shared one.
+              </p>
+              <ol className="space-y-3 text-gray-300 mb-6">
+                {[
+                  'Tap Register on the welcome screen',
+                  'Enter mobile number + password',
+                  'Verify OTP and set security PIN if asked',
+                  'Start exploring the lobby and offers',
+                ].map((step, i) => (
+                  <li key={step} className="flex gap-3">
+                    <span className="flex-shrink-0 w-7 h-7 rounded-full bg-accent text-primary text-sm font-bold flex items-center justify-center">
+                      {i + 1}
+                    </span>
+                    <span>{step}</span>
+                  </li>
+                ))}
+              </ol>
+              <Link
+                href="/blog/create-777dx-account-and-login"
+                className="text-accent hover:underline font-semibold"
+              >
+                Full signup &amp; login guide →
+              </Link>
+            </div>
+            <div className="flex justify-center lg:justify-end">
+              <div className="dx-phone-shot relative w-[220px] sm:w-[260px] rounded-[1.75rem] overflow-hidden border border-accent/35 shadow-[0_20px_60px_rgba(0,0,0,0.55)] bg-[#111]">
+                <Image
+                  src="/777dx-register.webp"
+                  alt="777DX signup and register screen"
+                  width={720}
+                  height={1280}
+                  className="w-full h-auto object-contain"
+                  sizes="260px"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Sign in */}
+      <section id="signin" className="py-14 md:py-20 px-4 bg-secondary/25">
+        <div className="container mx-auto max-w-6xl">
+          <div className="grid lg:grid-cols-2 gap-10 lg:gap-16 items-center">
+            <div className="order-2 lg:order-1 flex justify-center lg:justify-start">
+              <div className="dx-phone-shot relative w-[220px] sm:w-[260px] rounded-[1.75rem] overflow-hidden border border-cyan/30 shadow-[0_20px_60px_rgba(0,0,0,0.55)] bg-[#111]">
+                <Image
+                  src="/777dx-login.webp"
+                  alt="777DX sign in and login screen"
+                  width={720}
+                  height={1280}
+                  className="w-full h-auto object-contain"
+                  sizes="260px"
+                />
+              </div>
+            </div>
+            <div className="order-1 lg:order-2">
+              <p className="text-cyan font-semibold tracking-wide uppercase text-sm mb-3">Login</p>
+              <h2 className="text-3xl md:text-4xl font-bold text-white mb-5">777DX Sign In — Access Your Account</h2>
+              <p className="text-lg text-gray-300 leading-relaxed mb-5">
+                Already registered? Open 777DX and choose <strong className="text-white">Login / Sign In</strong>.
+                Use the same mobile number and password you created at signup. Never share your OTP or
+                withdrawal PIN with anyone claiming to be support.
+              </p>
+              <ul className="space-y-3 text-gray-300 mb-6">
+                {[
+                  'Enter your registered phone number',
+                  'Type your password carefully',
+                  'Complete any OTP check if prompted',
+                  'If login fails, reset password or contact in-app support',
+                ].map((item) => (
+                  <li key={item} className="flex gap-3">
+                    <span className="text-cyan font-bold">✓</span>
+                    <span>{item}</span>
+                  </li>
+                ))}
+              </ul>
+              <Link
+                href="/blog/create-777dx-account-and-login"
+                className="text-accent hover:underline font-semibold"
+              >
+                Troubleshoot login issues →
+              </Link>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Deposit */}
+      <section id="deposit" className="py-14 md:py-20 px-4">
+        <div className="container mx-auto max-w-6xl">
+          <div className="grid lg:grid-cols-2 gap-10 lg:gap-16 items-center">
+            <div>
+              <p className="text-accent font-semibold tracking-wide uppercase text-sm mb-3">Wallet</p>
+              <h2 className="text-3xl md:text-4xl font-bold text-white mb-5">777DX Deposit — JazzCash &amp; EasyPaisa</h2>
+              <p className="text-lg text-gray-300 leading-relaxed mb-5">
+                Add balance from the <strong className="text-white">Deposit / Funds</strong> screen. Pick JazzCash
+                or EasyPaisa when listed, enter the amount, and pay only to the recipient details shown
+                inside the app — never reuse old numbers from chats.
+              </p>
+              <ol className="space-y-3 text-gray-300 mb-6">
+                {[
+                  'Open Deposit and choose a payment method',
+                  'Enter amount and note any minimum shown',
+                  'Copy exact recipient details from the app',
+                  'Pay in your wallet app and save the transaction ID',
+                ].map((step, i) => (
+                  <li key={step} className="flex gap-3">
+                    <span className="flex-shrink-0 w-7 h-7 rounded-full bg-accent text-primary text-sm font-bold flex items-center justify-center">
+                      {i + 1}
+                    </span>
+                    <span>{step}</span>
+                  </li>
+                ))}
+              </ol>
+              <Link
+                href="/deposit-money-in-777dx"
+                className="text-accent hover:underline font-semibold"
+              >
+                Full deposit guide →
+              </Link>
+            </div>
+            <div className="flex justify-center lg:justify-end">
+              <div className="dx-phone-shot relative w-[220px] sm:w-[260px] rounded-[1.75rem] overflow-hidden border border-accent/35 shadow-[0_20px_60px_rgba(0,0,0,0.55)] bg-[#111]">
+                <Image
+                  src="/777dx-deposit.webp"
+                  alt="777DX deposit funds screen with JazzCash and EasyPaisa"
+                  width={720}
+                  height={1280}
+                  className="w-full h-auto object-contain"
+                  sizes="260px"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Withdrawal */}
+      <section id="withdraw" className="py-14 md:py-20 px-4 bg-secondary/25">
+        <div className="container mx-auto max-w-6xl">
+          <div className="grid lg:grid-cols-2 gap-10 lg:gap-16 items-center">
+            <div className="order-2 lg:order-1 flex justify-center lg:justify-start">
+              <div className="dx-phone-shot relative w-[220px] sm:w-[260px] rounded-[1.75rem] overflow-hidden border border-cyan/30 shadow-[0_20px_60px_rgba(0,0,0,0.55)] bg-[#111]">
+                <Image
+                  src="/777dx-withdraw.webp"
+                  alt="777DX withdrawal methods screen"
+                  width={720}
+                  height={1280}
+                  className="w-full h-auto object-contain"
+                  sizes="260px"
+                />
+              </div>
+            </div>
+            <div className="order-1 lg:order-2">
+              <p className="text-cyan font-semibold tracking-wide uppercase text-sm mb-3">Cash out</p>
+              <h2 className="text-3xl md:text-4xl font-bold text-white mb-5">777DX Withdrawal — Get Your Winnings</h2>
+              <p className="text-lg text-gray-300 leading-relaxed mb-5">
+                When you are ready to cash out, open <strong className="text-white">Withdraw</strong>. Bind a
+                JazzCash or EasyPaisa wallet in your own name, meet any turnover rules, enter the amount,
+                and confirm with your PIN or OTP. Processing is often minutes to a few hours.
+              </p>
+              <ul className="space-y-3 text-gray-300 mb-6">
+                {[
+                  'Bind your wallet account (name must match)',
+                  'Enter amount within the shown min / max',
+                  'Complete PIN or OTP verification',
+                  'Save the request ID until funds arrive',
+                ].map((item) => (
+                  <li key={item} className="flex gap-3">
+                    <span className="text-cyan font-bold">✓</span>
+                    <span>{item}</span>
+                  </li>
+                ))}
+              </ul>
+              <Link
+                href="/withdraw-money-from-777dx"
+                className="text-accent hover:underline font-semibold"
+              >
+                Full withdrawal guide →
+              </Link>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Screenshots gallery */}
+      <section className="py-14 md:py-20 px-4">
+        <div className="container mx-auto px-4 mb-8 md:mb-10">
+          <p className="text-center text-accent font-semibold tracking-wide uppercase text-sm mb-3">
+            Gallery
+          </p>
           <h2 className="text-3xl md:text-4xl font-bold text-white text-center mb-3">
-            SK777 App Screenshots
+            777DX App Screenshots
           </h2>
           <p className="text-gray-300 text-center max-w-2xl mx-auto">
-            Register, login, deposit, withdraw, invite, and support screens from the SK777 app.
+            Browse every screen — signup, login, deposit, withdraw, VIP, and more.
           </p>
         </div>
         <ScreenshotCarousel screenshots={screenshots} />
@@ -414,7 +682,7 @@ export default function HomePage() {
       <section className="py-12 md:py-16 px-4">
         <div className="container mx-auto max-w-5xl">
           <h2 className="text-3xl md:text-4xl font-bold text-white text-center mb-10">
-            Top Features of SK777
+            Top Features of 777DX
           </h2>
           <div className="grid md:grid-cols-2 gap-5">
             {features.map((f, i) => (
@@ -433,33 +701,33 @@ export default function HomePage() {
       <section className="py-12 md:py-16 px-4 bg-secondary/30 overflow-visible">
         <div className="container mx-auto max-w-5xl overflow-visible">
           <h2 className="text-3xl md:text-4xl font-bold text-white text-center mb-10">
-            SK777 Guides
+            777DX Guides
           </h2>
           <div className="grid md:grid-cols-3 gap-6 md:gap-8 py-4 overflow-visible">
             {[
               {
-                href: '/download-sk777',
+                href: '/download-777dx',
                 title: 'Download APK',
-                text: 'Install the latest SK777 build safely on Android.',
-                img: '/sk777-game-home.webp',
+                text: 'Install the latest 777DX build safely on Android.',
+                img: '/777dx-home.webp',
               },
               {
-                href: '/deposit-money-in-sk777',
+                href: '/deposit-money-in-777dx',
                 title: 'Deposit Guide',
                 text: 'Add funds with JazzCash or EasyPaisa step by step.',
-                img: '/sk777-game-deposit.webp',
+                img: '/777dx-deposit.webp',
               },
               {
-                href: '/withdraw-money-from-sk777',
+                href: '/withdraw-money-from-777dx',
                 title: 'Withdraw Guide',
                 text: 'Cash out winnings to your local wallet.',
-                img: '/sk777-game-withdraw.webp',
+                img: '/777dx-withdraw.webp',
               },
             ].map((g) => (
               <Link
                 key={g.href}
                 href={g.href}
-                className="sk777-guide-card bg-primary rounded-xl overflow-hidden border border-gray-800 hover:border-accent group block"
+                className="dx-guide-card bg-primary rounded-xl overflow-hidden border border-gray-800 hover:border-accent group block"
               >
                 <Image
                   src={g.img}
@@ -499,12 +767,12 @@ export default function HomePage() {
       {/* Final CTA */}
       <section className="py-14 px-4 bg-secondary/40">
         <div className="container mx-auto max-w-2xl text-center">
-          <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Ready to Play SK777?</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Ready to Play 777DX?</h2>
           <p className="text-gray-300 mb-8">
-            Get the official APK from sk777app.com.pk — play responsibly, 18+ only.
+            Get the official APK from 777dx-app.com.pk — play responsibly, 18+ only.
           </p>
           <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 items-center justify-center">
-            <DownloadButton size="lg" label="DOWNLOAD SK777 APK" />
+            <DownloadButton size="lg" label="DOWNLOAD 777DX APK" />
           </div>
         </div>
       </section>

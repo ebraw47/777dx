@@ -12,9 +12,9 @@ module.exports = {
         logo: ['var(--font-logo)', 'Chakra Petch', 'sans-serif'],
       },
       colors: {
-        // Matched to SK777.BET in-app navy / gold / cyan lobby
-        primary: '#0a2744',
-        secondary: '#0d3358',
+        // 777DX — charcoal base / gold / cyan
+        primary: '#1a1a1a',
+        secondary: '#242424',
         accent: '#f5c518',
         cyan: '#3eb5e8',
       },

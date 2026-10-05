@@ -1,11 +1,11 @@
 {
-  "name": "SK777",
-  "short_name": "SK777",
-  "description": "Pakistan's real-money gaming platform — slots, cards, fishing. JazzCash & EasyPaisa.",
+  "name": "777DX",
+  "short_name": "777DX",
+  "description": "Pakistan's real-money gaming platform \u2014 earning games, VIP, rebate. JazzCash & EasyPaisa.",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#0a2744",
-  "theme_color": "#0a2744",
+  "background_color": "#1a1a1a",
+  "theme_color": "#1a1a1a",
   "icons": [
     {
       "src": "/favicon-32.png",
@@ -23,9 +23,9 @@
       "type": "image/png"
     },
     {
-      "src": "/SK777-Game-Icon.png",
+      "src": "/777dx-logo.webp",
       "sizes": "512x512",
-      "type": "image/png",
+      "type": "image/webp",
       "purpose": "any maskable"
     }
   ]

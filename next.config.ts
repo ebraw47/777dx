@@ -1,7 +1,7 @@
 import type { NextConfig } from "next";
 
 /**
- * SK777 - Next.js Configuration
+ * 777DX - Next.js Configuration
  */
 const nextConfig: NextConfig = {
   poweredByHeader: false,
@@ -15,7 +15,7 @@ const nextConfig: NextConfig = {
     remotePatterns: [
       {
         protocol: "https",
-        hostname: "sk777app.com.pk",
+        hostname: "777dx-app.com.pk",
       },
     ],
     formats: ["image/avif", "image/webp"],
@@ -27,30 +27,44 @@ const nextConfig: NextConfig = {
 
   async redirects() {
     return [
-      // Legacy JZ666 → SK777
-      { source: "/download-jz666", destination: "/download-sk777", permanent: true },
-      { source: "/deposit-money-in-jz666", destination: "/deposit-money-in-sk777", permanent: true },
-      { source: "/withdraw-money-from-jz666", destination: "/withdraw-money-from-sk777", permanent: true },
-      { source: "/jz666-for-pc", destination: "/sk777-for-pc", permanent: true },
-      { source: "/JZ666-Game-Icon.png", destination: "/SK777-Game-Icon.png", permanent: true },
-      { source: "/JZ666-Game-Icon.webp", destination: "/SK777-Game-Icon.webp", permanent: true },
-      { source: "/blog/jz666-app-review-2026", destination: "/blog/sk777-app-review-2026", permanent: true },
-      { source: "/blog/how-to-download-install-jz666-apk-pakistan", destination: "/blog/how-to-download-install-sk777-apk-pakistan", permanent: true },
-      { source: "/blog/create-jz666-account-and-login", destination: "/blog/create-sk777-account-and-login", permanent: true },
-      { source: "/blog/jz666-deposit-jazzcash-easypaisa-guide", destination: "/blog/sk777-deposit-jazzcash-easypaisa-guide", permanent: true },
-      { source: "/blog/jz666-withdraw-money-guide", destination: "/blog/sk777-withdraw-money-guide", permanent: true },
-      { source: "/blog/jz666-vip-rebate-bonus-guide", destination: "/blog/how-to-use-sk777-app-pakistan-guide", permanent: true },
-      { source: "/blog/is-jz666-safe-legal-pakistan", destination: "/blog/is-sk777-safe-legal-pakistan", permanent: true },
-      { source: "/blog/how-to-use-jz666-app-pakistan-guide", destination: "/blog/how-to-use-sk777-app-pakistan-guide", permanent: true },
-      // Older brand routes → SK777
-      { source: "/download-pk365", destination: "/download-sk777", permanent: true },
-      { source: "/deposit-money-in-pk365", destination: "/deposit-money-in-sk777", permanent: true },
-      { source: "/withdraw-money-from-pk365", destination: "/withdraw-money-from-sk777", permanent: true },
-      { source: "/pk365-for-pc", destination: "/sk777-for-pc", permanent: true },
-      { source: "/download-bn55", destination: "/download-sk777", permanent: true },
-      { source: "/deposit-money-in-bn55", destination: "/deposit-money-in-sk777", permanent: true },
-      { source: "/withdraw-money-from-bn55", destination: "/withdraw-money-from-sk777", permanent: true },
-      { source: "/bn55-for-pc", destination: "/sk777-for-pc", permanent: true },
+      // Legacy SK777 → 777DX
+      { source: "/download-sk777", destination: "/download-777dx", permanent: true },
+      { source: "/deposit-money-in-sk777", destination: "/deposit-money-in-777dx", permanent: true },
+      { source: "/withdraw-money-from-sk777", destination: "/withdraw-money-from-777dx", permanent: true },
+      { source: "/sk777-for-pc", destination: "/777dx-for-pc", permanent: true },
+      { source: "/SK777-Game-Icon.png", destination: "/777dx-logo.webp", permanent: true },
+      { source: "/SK777-Game-Icon.webp", destination: "/777dx-logo.webp", permanent: true },
+      { source: "/blog/sk777-app-review-2026", destination: "/blog/777dx-app-review-2026", permanent: true },
+      { source: "/blog/how-to-download-install-sk777-apk-pakistan", destination: "/blog/how-to-download-install-777dx-apk-pakistan", permanent: true },
+      { source: "/blog/create-sk777-account-and-login", destination: "/blog/create-777dx-account-and-login", permanent: true },
+      { source: "/blog/sk777-deposit-jazzcash-easypaisa-guide", destination: "/blog/777dx-deposit-jazzcash-easypaisa-guide", permanent: true },
+      { source: "/blog/sk777-withdraw-money-guide", destination: "/blog/777dx-withdraw-money-guide", permanent: true },
+      { source: "/blog/is-sk777-safe-legal-pakistan", destination: "/blog/is-777dx-safe-legal-pakistan", permanent: true },
+      { source: "/blog/how-to-use-sk777-app-pakistan-guide", destination: "/blog/how-to-use-777dx-app-pakistan-guide", permanent: true },
+      // Legacy JZ666 → 777DX
+      { source: "/download-jz666", destination: "/download-777dx", permanent: true },
+      { source: "/deposit-money-in-jz666", destination: "/deposit-money-in-777dx", permanent: true },
+      { source: "/withdraw-money-from-jz666", destination: "/withdraw-money-from-777dx", permanent: true },
+      { source: "/jz666-for-pc", destination: "/777dx-for-pc", permanent: true },
+      { source: "/JZ666-Game-Icon.png", destination: "/777dx-logo.webp", permanent: true },
+      { source: "/JZ666-Game-Icon.webp", destination: "/777dx-logo.webp", permanent: true },
+      { source: "/blog/jz666-app-review-2026", destination: "/blog/777dx-app-review-2026", permanent: true },
+      { source: "/blog/how-to-download-install-jz666-apk-pakistan", destination: "/blog/how-to-download-install-777dx-apk-pakistan", permanent: true },
+      { source: "/blog/create-jz666-account-and-login", destination: "/blog/create-777dx-account-and-login", permanent: true },
+      { source: "/blog/jz666-deposit-jazzcash-easypaisa-guide", destination: "/blog/777dx-deposit-jazzcash-easypaisa-guide", permanent: true },
+      { source: "/blog/jz666-withdraw-money-guide", destination: "/blog/777dx-withdraw-money-guide", permanent: true },
+      { source: "/blog/jz666-vip-rebate-bonus-guide", destination: "/blog/777dx-vip-rebate-invite-guide", permanent: true },
+      { source: "/blog/is-jz666-safe-legal-pakistan", destination: "/blog/is-777dx-safe-legal-pakistan", permanent: true },
+      { source: "/blog/how-to-use-jz666-app-pakistan-guide", destination: "/blog/how-to-use-777dx-app-pakistan-guide", permanent: true },
+      // Older brand routes → 777DX
+      { source: "/download-pk365", destination: "/download-777dx", permanent: true },
+      { source: "/deposit-money-in-pk365", destination: "/deposit-money-in-777dx", permanent: true },
+      { source: "/withdraw-money-from-pk365", destination: "/withdraw-money-from-777dx", permanent: true },
+      { source: "/pk365-for-pc", destination: "/777dx-for-pc", permanent: true },
+      { source: "/download-bn55", destination: "/download-777dx", permanent: true },
+      { source: "/deposit-money-in-bn55", destination: "/deposit-money-in-777dx", permanent: true },
+      { source: "/withdraw-money-from-bn55", destination: "/withdraw-money-from-777dx", permanent: true },
+      { source: "/bn55-for-pc", destination: "/777dx-for-pc", permanent: true },
     ];
   },
 

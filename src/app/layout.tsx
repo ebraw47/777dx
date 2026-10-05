@@ -15,7 +15,7 @@ const poppins = Poppins({
   variable: "--font-poppins",
 });
 
-/** Closest match to in-game SK777 wordmark (bold italic geometric) */
+/** Closest match to in-game 777DX wordmark (bold italic geometric) */
 const chakraPetch = Chakra_Petch({
   subsets: ["latin"],
   weight: ["600", "700"],
@@ -29,33 +29,33 @@ export const viewport: Viewport = {
   initialScale: 1,
   maximumScale: 5,
   userScalable: true,
-  themeColor: "#0a2744",
+  themeColor: "#1a1a1a",
   viewportFit: "cover",
   interactiveWidget: "resizes-visual",
 };
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://sk777app.com.pk'),
+  metadataBase: new URL('https://777dx-app.com.pk'),
   title: {
-    default: "SK777 Pakistan Free Download Official APK 2026",
-    template: "%s | SK777"
+    default: "777DX Pakistan Free Download Official APK 2026",
+    template: "%s | 777DX"
   },
-  description: "SK777 2026 - Download SK777 APK for Android. Play & earn real cash with JazzCash & EasyPaisa. Official Pakistan site sk777app.com.pk.",
+  description: "777DX 2026 - Download 777DX APK for Android. Play & earn real cash with JazzCash & EasyPaisa. Official Pakistan site 777dx-app.com.pk.",
   keywords: [
-    "SK777",
-    "SK777 APK",
-    "SK777 download",
-    "SK777 Pakistan",
-    "SK777 game",
-    "SK777 app",
-    "SK777 earning game",
-    "SK777 JazzCash",
-    "SK777 2026",
-    "sk777app.com.pk"
+    "777DX",
+    "777DX APK",
+    "777DX download",
+    "777DX Pakistan",
+    "777DX game",
+    "777DX app",
+    "777DX earning game",
+    "777DX JazzCash",
+    "777DX 2026",
+    "777dx-app.com.pk"
   ],
-  authors: [{ name: "SK777 Team" }],
-  creator: "SK777",
-  publisher: "SK777",
+  authors: [{ name: "777DX Team" }],
+  creator: "777DX",
+  publisher: "777DX",
   robots: {
     index: true,
     follow: true,
@@ -72,7 +72,7 @@ export const metadata: Metadata = {
       { url: '/favicon-32.png', type: 'image/png', sizes: '32x32' },
       { url: '/favicon-16.png', type: 'image/png', sizes: '16x16' },
       { url: '/favicon.png', type: 'image/png', sizes: '32x32' },
-      { url: '/SK777-Game-Icon.png', type: 'image/png', sizes: '512x512' }
+      { url: '/777dx-logo.webp', type: 'image/webp', sizes: '512x512' }
     ],
     apple: [
       { url: '/apple-touch-icon.png', sizes: '180x180' }
@@ -83,45 +83,45 @@ export const metadata: Metadata = {
     google: "8a7c21f6e90a89ef",
   },
   alternates: {
-    canonical: "https://sk777app.com.pk",
+    canonical: "https://777dx-app.com.pk",
   },
   openGraph: {
-    title: "SK777 Pakistan Free Download Official APK 2026",
-    description: "SK777 2026 - Download SK777 APK. Play & earn real cash with JazzCash & EasyPaisa withdrawals.",
-    url: "https://sk777app.com.pk",
-    siteName: "SK777",
+    title: "777DX Pakistan Free Download Official APK 2026",
+    description: "777DX 2026 - Download 777DX APK. Play & earn real cash with JazzCash & EasyPaisa withdrawals.",
+    url: "https://777dx-app.com.pk",
+    siteName: "777DX",
     locale: "en_US",
     type: "website",
     images: [
       {
-        url: "https://sk777app.com.pk/feature/og-image.webp",
+        url: "https://777dx-app.com.pk/feature/og-image.webp",
         width: 1200,
         height: 630,
-        alt: "SK777 - Real-Money Gaming App",
+        alt: "777DX - Real-Money Gaming App",
       },
       {
-        url: "https://sk777app.com.pk/feature/og-image-square.webp",
+        url: "https://777dx-app.com.pk/feature/og-image-square.webp",
         width: 800,
         height: 800,
-        alt: "SK777 - Real-Money Gaming App",
+        alt: "777DX - Real-Money Gaming App",
       }
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "SK777 Pakistan Free Download Official APK 2026",
-    description: "SK777 2026 - Download SK777 APK. Play & earn real cash with JazzCash & EasyPaisa.",
-    creator: "@sk777app",
+    title: "777DX Pakistan Free Download Official APK 2026",
+    description: "777DX 2026 - Download 777DX APK. Play & earn real cash with JazzCash & EasyPaisa.",
+    creator: "@777dxapp",
     images: [
       {
-        url: "https://sk777app.com.pk/feature/twitter-card.webp",
+        url: "https://777dx-app.com.pk/feature/twitter-card.webp",
         width: 1200,
         height: 600,
-        alt: "SK777 - Real-Money Gaming App",
+        alt: "777DX - Real-Money Gaming App",
       }
     ],
   },
-  applicationName: "SK777",
+  applicationName: "777DX",
   category: "Gaming",
   classification: "Real-Money Gaming Platform",
 };
@@ -141,7 +141,7 @@ export default function RootLayout({
         <link rel="icon" href="/favicon-32.png" type="image/png" sizes="32x32" />
         <link rel="icon" href="/favicon-16.png" type="image/png" sizes="16x16" />
         <link rel="icon" href="/favicon.png" type="image/png" sizes="32x32" />
-        <link rel="icon" href="/SK777-Game-Icon.png" type="image/png" sizes="512x512" />
+        <link rel="icon" href="/777dx-logo.webp" type="image/webp" sizes="512x512" />
         <link rel="shortcut icon" href="/favicon-32.png" />
         <link rel="apple-touch-icon" href="/apple-touch-icon.png" sizes="180x180" />
 
@@ -175,17 +175,17 @@ export default function RootLayout({
         )}
       </head>
       <body
-        className={`${poppins.className} antialiased bg-primary text-white min-h-screen flex flex-col`}
-        style={{
-          backgroundImage:
-            "radial-gradient(ellipse at 70% 0%, rgba(62, 181, 232, 0.16) 0%, transparent 45%), radial-gradient(ellipse at 10% 80%, rgba(13, 51, 88, 0.95) 0%, transparent 55%)",
-          backgroundAttachment: "fixed",
-          minHeight: "100vh",
-          backgroundColor: "#0a2744",
-        }}
+        className={`${poppins.className} antialiased bg-primary text-white min-h-screen flex flex-col game-theme`}
         suppressHydrationWarning
       >
-        <div className="stars-bg fixed inset-0 z-0" aria-hidden="true"></div>
+        <div className="game-bg fixed inset-0 z-0" aria-hidden="true">
+          <span className="game-bg-glow game-bg-glow-a" />
+          <span className="game-bg-glow game-bg-glow-b" />
+          <span className="game-bg-glow game-bg-glow-c" />
+          <span className="game-bg-grid" />
+          <span className="game-bg-scan" />
+          <span className="game-bg-vignette" />
+        </div>
         <Header />
         <main className="flex-grow relative z-10">
         {children}
@@ -202,21 +202,21 @@ export default function RootLayout({
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "Organization",
-              "@id": "https://sk777app.com.pk/#organization",
-              "name": "SK777",
-              "url": "https://sk777app.com.pk",
+              "@id": "https://777dx-app.com.pk/#organization",
+              "name": "777DX",
+              "url": "https://777dx-app.com.pk",
               "logo": {
                 "@type": "ImageObject",
-                "url": "https://sk777app.com.pk/SK777-Game-Icon.png",
+                "url": "https://777dx-app.com.pk/777dx-logo.webp",
                 "width": 512,
                 "height": 512
               },
-              "description": "SK777 is Pakistan's real-money gaming platform. Download APK, JazzCash and EasyPaisa deposits and withdrawals.",
+              "description": "777DX is Pakistan's real-money gaming platform. Download APK, JazzCash and EasyPaisa deposits and withdrawals.",
               "areaServed": { "@type": "Country", "name": "Pakistan", "alternateName": "PK" },
               "contactPoint": {
                 "@type": "ContactPoint",
                 "contactType": "Customer Support",
-                "email": "support@sk777app.com.pk",
+                "email": "support@777dx-app.com.pk",
                 "areaServed": "PK",
                 "availableLanguage": ["English", "Urdu"]
               }

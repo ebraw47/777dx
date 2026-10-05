@@ -1,6 +1,6 @@
-# SK777 — Pakistan Real-Money Gaming Site
+# 777DX — Pakistan Real-Money Gaming Site
 
-Official marketing site for **SK777** at [sk777app.com.pk](https://sk777app.com.pk).
+Official marketing site for **777DX** at [777dx-app.com.pk](https://777dx-app.com.pk).
 
 ## Stack
 
@@ -19,15 +19,15 @@ npm start
 
 ## Brand
 
-- Domain: `sk777app.com.pk`
-- Accent: neon green on dark charcoal
-- Assets: `/public/SK777-Game-Icon.png`, screenshots, and promo images
+- Domain: `777dx-app.com.pk`
+- Accent: gold / cyan on deep navy
+- Assets: `/public/777dx-logo.webp` and in-app screenshots
 
 ## Env (optional)
 
 ```bash
-NEXT_PUBLIC_SITE_URL=https://sk777app.com.pk
-NEXT_PUBLIC_DOWNLOAD_URL=https://sk777vip3.bet/?dl=59dxnd
+NEXT_PUBLIC_SITE_URL=https://777dx-app.com.pk
+NEXT_PUBLIC_DOWNLOAD_URL=https://www.9777dx.com/?dl=9ehuo1
 NEXT_PUBLIC_GA_MEASUREMENT_ID=G-XXXXXXXXXX
-NEXT_PUBLIC_FACEBOOK_URL=https://www.facebook.com/your-page
+NEXT_PUBLIC_FACEBOOK_URL=https://www.facebook.com/share/1GinVdqpLL/?mibextid=wwXIfr
 ```

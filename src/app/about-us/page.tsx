@@ -5,9 +5,9 @@ import { DOWNLOAD_APP_URL } from '@/lib/constants';
 import Script from 'next/script';
 
 export const metadata: Metadata = {
-  title: 'About SK777 - Pakistan\'s Premier Gaming Platform',
-  description: 'Learn about SK777, our history, mission, and vision for creating the best gaming platform in Pakistan with earning games and more.',
-  keywords: ['SK777 about', 'about us', 'gaming company Pakistan', 'SK777 history', 'gaming platform', 'slots', 'SK777'],
+  title: 'About 777DX - Pakistan\'s Premier Gaming Platform',
+  description: 'Learn about 777DX, our history, mission, and vision for creating the best gaming platform in Pakistan with earning games and more.',
+  keywords: ['777DX about', 'about us', 'gaming company Pakistan', '777DX history', 'gaming platform', 'slots', '777DX'],
   robots: {
     index: true,
     follow: true,
@@ -19,29 +19,29 @@ export const metadata: Metadata = {
     },
   },
   alternates: {
-    canonical: "https://sk777app.com.pk/about-us",
+    canonical: "https://777dx-app.com.pk/about-us",
   },
   openGraph: {
-    title: 'About SK777 - Pakistan\'s Premier Gaming Platform',
-    description: 'Learn about SK777, our history, mission, and vision for creating the best gaming platform in Pakistan with real cash rewards.',
-    url: "https://sk777app.com.pk/about-us",
-    siteName: "SK777",
+    title: 'About 777DX - Pakistan\'s Premier Gaming Platform',
+    description: 'Learn about 777DX, our history, mission, and vision for creating the best gaming platform in Pakistan with real cash rewards.',
+    url: "https://777dx-app.com.pk/about-us",
+    siteName: "777DX",
     locale: "en_US",
     type: "website",
     images: [
       {
-        url: "https://sk777app.com.pk/SK777-Game-Icon.png",
+        url: "https://777dx-app.com.pk/777dx-logo.webp",
         width: 1200,
         height: 630,
-        alt: "About SK777 - Premier Gaming Platform",
+        alt: "About 777DX - Premier Gaming Platform",
       }
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: 'About SK777 - Pakistan\'s Premier Gaming Platform',
-    description: 'Learn about SK777, our history, mission, and vision for creating the best gaming platform in Pakistan with real cash rewards.',
-    images: ["https://sk777app.com.pk/SK777-Game-Icon.png"],
+    title: 'About 777DX - Pakistan\'s Premier Gaming Platform',
+    description: 'Learn about 777DX, our history, mission, and vision for creating the best gaming platform in Pakistan with real cash rewards.',
+    images: ["https://777dx-app.com.pk/777dx-logo.webp"],
   },
 };
 
@@ -60,10 +60,10 @@ export default function AboutPage() {
             <div className="flex flex-col md:flex-row items-center gap-10 md:gap-14 mb-8">
               <div className="w-full md:w-1/3 flex-shrink-0 flex justify-center md:justify-start">
                 <Link href="/" className="block">
-                  <div className="relative w-[280px] h-[280px] md:w-[320px] md:h-[320px] mx-auto md:mx-0 rounded-lg overflow-hidden bg-[#0d3358]">
+                  <div className="relative w-[280px] h-[280px] md:w-[320px] md:h-[320px] mx-auto md:mx-0 rounded-lg overflow-hidden bg-[#242424]">
                     <Image 
-                      src="/SK777-Game-Icon.png" 
-                      alt="SK777 Logo" 
+                      src="/777dx-logo.webp" 
+                      alt="777DX Logo" 
                       width={320}
                       height={320}
                       sizes="(max-width: 768px) 280px, 320px"
@@ -76,7 +76,7 @@ export default function AboutPage() {
               <div className="w-full md:w-2/3 md:pl-4">
                 <div className="prose prose-lg max-w-none">
                   <p className="text-lg text-gray-300 leading-relaxed mb-6">
-                    Welcome to <a href="https://www.sk777app.com.pk/" className="text-accent hover:text-accent font-semibold" target="_blank" rel="noopener noreferrer">www.sk777app.com.pk</a>, a trusted platform to provide the latest information about <Link href="/" className="text-accent hover:underline font-semibold">SK777</Link>. This is one of the most popular online casino games in Pakistan, having <span className="font-bold text-accent">100K+ users</span>. <a href={DOWNLOAD_APP_URL} target="_blank" rel="noopener noreferrer" className="text-accent hover:underline font-semibold">Download SK777</a> now to join thousands of players earning real cash rewards.
+                    Welcome to <a href="https://www.777dx-app.com.pk/" className="text-accent hover:text-accent font-semibold" target="_blank" rel="noopener noreferrer">www.777dx-app.com.pk</a>, a trusted platform to provide the latest information about <Link href="/" className="text-accent hover:underline font-semibold">777DX</Link>. This is one of the most popular online casino games in Pakistan, having <span className="font-bold text-accent">100K+ users</span>. <a href={DOWNLOAD_APP_URL} target="_blank" rel="noopener noreferrer" className="text-accent hover:underline font-semibold">Download 777DX</a> now to join thousands of players earning real cash rewards.
                   </p>
                   <p className="text-lg text-gray-300 leading-relaxed">
                     Hundreds of people are playing these wonderful games and earning a handsome amount on a daily or weekly basis.
@@ -90,7 +90,7 @@ export default function AboutPage() {
           <div className="bg-gradient-to-r from-orange-600 to-orange-500 rounded-2xl shadow-xl p-8 md:p-12 mb-12">
             <h2 className="text-3xl md:text-4xl font-bold mb-6 text-white text-center">Our Aim!</h2>
             <p className="text-lg md:text-xl text-white leading-relaxed text-center">
-              Our aim is to provide the users with the latest and updated information and earning tips about SK777. For any type of information or query, you can visit our <Link href="/contact-us" className="underline hover:text-orange-100 font-semibold">contact us page</Link>.
+              Our aim is to provide the users with the latest and updated information and earning tips about 777DX. For any type of information or query, you can visit our <Link href="/contact-us" className="underline hover:text-orange-100 font-semibold">contact us page</Link>.
             </p>
           </div>
           
@@ -98,7 +98,7 @@ export default function AboutPage() {
           <div className="bg-secondary rounded-2xl shadow-xl p-8 text-center">
             <h2 className="text-2xl font-bold mb-4 text-white">Have Questions?</h2>
             <p className="text-gray-300 mb-6 text-lg">
-              We're here to help! Contact our team for any information or queries about SK777.
+              We're here to help! Contact our team for any information or queries about 777DX.
             </p>
             <Link 
               href="/contact-us" 
@@ -119,22 +119,22 @@ export default function AboutPage() {
             "@type": "AboutPage",
             "mainEntity": {
               "@type": "Organization",
-              "name": "SK777",
-              "alternateName": "SK777",
-              "url": "https://sk777app.com.pk",
-              "logo": "https://sk777app.com.pk/SK777-Game-Icon.png",
-              "description": "SK777 is Pakistan's real-money gaming platform with earning games and short mobile rounds.",
+              "name": "777DX",
+              "alternateName": "777DX",
+              "url": "https://777dx-app.com.pk",
+              "logo": "https://777dx-app.com.pk/777dx-logo.webp",
+              "description": "777DX is Pakistan's real-money gaming platform with earning games and short mobile rounds.",
               "foundingDate": "2024",
               "foundingLocation": {
                 "@type": "Country",
                 "name": "Pakistan"
               },
               "sameAs": [
-                "https://www.facebook.com/share/1C1XW5hdAv/?mibextid=wwXIfr"
+                "https://www.facebook.com/share/1GinVdqpLL/?mibextid=wwXIfr"
               ],
               "founder": {
                 "@type": "Person",
-                "name": "SK777 Dev"
+                "name": "777DX Dev"
               }
             },
             "about": {
@@ -144,7 +144,7 @@ export default function AboutPage() {
             },
             "mainEntityOfPage": {
               "@type": "WebPage",
-              "@id": "https://sk777app.com.pk/about"
+              "@id": "https://777dx-app.com.pk/about"
             }
           })
         }}

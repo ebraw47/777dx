@@ -29,7 +29,7 @@ const MAIN_LINKS: NavItem[] = [
     ),
   },
   {
-    href: '/download-sk777',
+    href: '/download-777dx',
     label: 'Download',
     icon: (
       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-5 h-5">
@@ -41,7 +41,7 @@ const MAIN_LINKS: NavItem[] = [
 
 const GUIDE_LINKS: NavItem[] = [
   {
-    href: '/deposit-money-in-sk777',
+    href: '/deposit-money-in-777dx',
     label: 'Deposit Guide',
     icon: (
       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-5 h-5">
@@ -50,7 +50,7 @@ const GUIDE_LINKS: NavItem[] = [
     ),
   },
   {
-    href: '/withdraw-money-from-sk777',
+    href: '/withdraw-money-from-777dx',
     label: 'Withdraw Guide',
     icon: (
       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-5 h-5">
@@ -59,7 +59,7 @@ const GUIDE_LINKS: NavItem[] = [
     ),
   },
   {
-    href: '/sk777-for-pc',
+    href: '/777dx-for-pc',
     label: 'PC Version',
     icon: (
       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-5 h-5">
@@ -199,17 +199,19 @@ export default function MobileNavigation() {
       </button>
 
       {isOpen && (
-        <div className="fixed inset-0 z-50 flex flex-col bg-[#0a2744]" style={{ backgroundImage: "url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='48' height='48' viewBox='0 0 48 48'%3E%3Cpath d='M24 4 L44 24 L24 44 L4 24 Z' fill='none' stroke='%233eb5e8' stroke-opacity='0.12' stroke-width='1'/%3E%3C/svg%3E\")" }}>
+        <div className="fixed inset-0 z-50 flex flex-col bg-[#1a1a1a]" style={{ backgroundImage: "radial-gradient(ellipse 80% 50% at 50% -10%, rgba(245,197,24,0.12), transparent 50%), linear-gradient(rgba(245,197,24,0.04) 1px, transparent 1px), linear-gradient(90deg, rgba(245,197,24,0.04) 1px, transparent 1px)", backgroundSize: "auto, 48px 48px, 48px 48px" }}>
           {/* Header */}
           <div className="flex justify-between items-center px-5 py-4 border-b border-gray-800/80">
-            <Link href="/" className="flex items-center" onClick={close}>
-              <span className="font-logo italic font-bold text-xl tracking-tight text-accent">
-                SK777
+            <Link href="/" className="flex items-center gap-2" onClick={close}>
+              <span className="font-logo italic font-bold text-xl tracking-tight">
+                <span className="dx-wordmark-orange">7</span>
+                <span className="dx-wordmark-white">77</span>
+                <span className="dx-wordmark-orange">DX</span>
               </span>
             </Link>
             <button
               onClick={close}
-              className="flex items-center justify-center w-10 h-10 rounded-full bg-[#0d3358] text-white hover:bg-[#15466e] transition-colors"
+              className="flex items-center justify-center w-10 h-10 rounded-full bg-[#242424] text-white hover:bg-[#333333] transition-colors"
               aria-label="Close menu"
             >
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" className="w-5 h-5" aria-hidden="true">
