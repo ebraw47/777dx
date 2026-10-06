@@ -20,7 +20,7 @@
 - Card Rummy online
 - Card Rummy play
 - Card Rummy earn money
-- 777DX
+- K666
 - Card Rummy 2026
 
 **Implementation:**

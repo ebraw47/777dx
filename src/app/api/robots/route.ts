@@ -1,33 +1,32 @@
 import { NextResponse } from 'next/server';
 
 export async function GET() {
-  const baseUrl = 'https://777dx-app.com.pk';
+  const baseUrl = 'https://k666-app.com.pk';
 
-  const robotsTxt = `# robots.txt for 777dx-app.com.pk
+  const robotsTxt = `# robots.txt for k666-app.com.pk
 
 User-agent: *
 Allow: /
 Disallow: /api/
 Disallow: /admin/
 
-Allow: /download-777dx
-Allow: /deposit-money-in-777dx
-Allow: /withdraw-money-from-777dx
-Allow: /777dx-for-pc
+Allow: /download-k666
+Allow: /deposit-money-in-k666
+Allow: /withdraw-money-from-k666
+Allow: /k666-for-pc
 Allow: /about-us
 Allow: /blog
 Allow: /contact-us
 Allow: /privacy
 Allow: /disclaimer
 
-Allow: /blog/777dx-app-review-2026
-Allow: /blog/how-to-download-install-777dx-apk-pakistan
-Allow: /blog/create-777dx-account-and-login
-Allow: /blog/777dx-deposit-jazzcash-easypaisa-guide
-Allow: /blog/777dx-withdraw-money-guide
-Allow: /blog/777dx-vip-rebate-invite-guide
-Allow: /blog/is-777dx-safe-legal-pakistan
-Allow: /blog/how-to-use-777dx-app-pakistan-guide
+Allow: /blog/k666-app-review-2026
+Allow: /blog/how-to-download-install-k666-apk-pakistan
+Allow: /blog/create-k666-account-and-login
+Allow: /blog/k666-deposit-jazzcash-easypaisa-guide
+Allow: /blog/k666-withdraw-money-guide
+Allow: /blog/is-k666-safe-legal-pakistan
+Allow: /blog/how-to-use-k666-app-pakistan-guide
 
 User-agent: GPTBot
 Disallow: /

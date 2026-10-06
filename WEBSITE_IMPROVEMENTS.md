@@ -10,7 +10,7 @@ This document suggests changes to improve search visibility and fix “0 impress
 - **Wrong property in GSC** – You might be viewing `www` vs non-`www`, or `http` vs `https`. Add all variants and use the one that matches your canonical URLs.
 - **Robots / noindex** – A single `noindex` or misconfigured `robots.txt` can block indexing.
 - **No backlinks / no traffic** – Google discovers and ranks pages partly via links and usage; no links often means slow or no impressions.
-- **Very competitive keywords** – Terms like “777DX download” or “teen patti real money” are crowded; without strong signals you may get few or zero impressions.
+- **Very competitive keywords** – Terms like “K666 download” or “teen patti real money” are crowded; without strong signals you may get few or zero impressions.
 
 ---
 
@@ -18,10 +18,10 @@ This document suggests changes to improve search visibility and fix “0 impress
 
 ### 2.1 Google Search Console
 
-- Add and verify **all** URL variants: `https://777dx-app.com.pk`, `https://www.777dx-app.com.pk` (if you use www).
+- Add and verify **all** URL variants: `https://k666-app.com.pk`, `https://www.k666-app.com.pk` (if you use www).
 - Use **URL Inspection** on your homepage and 2–3 key URLs. Request indexing after fixing any issues.
 - Check **Coverage / Pages**: see if pages are “Indexed”, “Discovered – currently not indexed”, or “Crawled – currently not indexed”. Fix errors and remove unnecessary blocks.
-- Confirm **Sitemaps**: submit `https://777dx-app.com.pk/sitemap.xml` (or your dynamic sitemap URL). Ensure all important pages are listed and return 200.
+- Confirm **Sitemaps**: submit `https://k666-app.com.pk/sitemap.xml` (or your dynamic sitemap URL). Ensure all important pages are listed and return 200.
 
 ### 2.2 Robots & Canonical
 
@@ -45,14 +45,14 @@ This document suggests changes to improve search visibility and fix “0 impress
 
 ### 3.2 Target Clear Queries
 
-- **Informational**: “how to deposit in 777DX”, “is 777DX safe”, “777DX withdrawal time”.
-- **Transactional**: “777DX download”, “777DX APK Pakistan”, “777DX latest version”.
+- **Informational**: “how to deposit in K666”, “is K666 safe”, “K666 withdrawal time”.
+- **Transactional**: “K666 download”, “K666 APK Pakistan”, “K666 latest version”.
 - Use one main keyword per page in title, meta description, and one H1. Keep titles under ~60 characters and descriptions under ~155 so they don’t get cut off in results.
 
 ### 3.3 Content Depth & Uniqueness
 
 - Add **unique value**: comparison tables, step-by-step with exact button names, min/max amounts, screenshots (with alt text), FAQs that match real user questions.
-- **Blog**: Publish new guides (e.g. “777DX vs [other app]”, “How to fix login/OTP issues”, “JazzCash deposit not showing”). Update old posts with new info and dates.
+- **Blog**: Publish new guides (e.g. “K666 vs [other app]”, “How to fix login/OTP issues”, “JazzCash deposit not showing”). Update old posts with new info and dates.
 - **Internal links**: Link from homepage and blog index to each important guide; link between related posts (e.g. deposit ↔ withdraw, account ↔ login). You already have some – expand deliberately.
 
 ---
@@ -61,7 +61,7 @@ This document suggests changes to improve search visibility and fix “0 impress
 
 - **Backlinks**: Get links from Pakistani tech/gaming forums, WhatsApp groups (share useful guides), or relevant directories. Quality and relevance matter more than quantity.
 - **Social**: Share new posts and the download page on Facebook, Twitter, or any platform your audience uses. Consistent sharing can lead to more visits and eventually more crawls and impressions.
-- **Brand searches**: If people search “777DXapk” or “777DX official”, a clear site name and consistent NAP (name, address, phone if you show them) help.
+- **Brand searches**: If people search “K666apk” or “K666 official”, a clear site name and consistent NAP (name, address, phone if you show them) help.
 
 ---
 
@@ -86,11 +86,11 @@ The following are already in place to support **rich results**, **GEO (Generativ
 
 ### 6.1 HowTo Schema
 
-- **Homepage**: HowTo “How to Download and Install 777DX APK on Android” in the `@graph` (5 steps, totalTime PT5M, url with #download).
-- **Deposit page** (`/deposit-money-in-777dx`): HowTo + WebPage in `@graph` (7 steps, totalTime PT3M).
-- **Withdraw page** (`/withdraw-money-from-777dx`): HowTo + WebPage in `@graph` (9 steps, totalTime PT5M).
-- **Create account blog** (`/blog/create-777DX-account-and-login`): HowTo in `@graph` with BlogPosting (8 steps, totalTime PT2M).
-- **How-to-use guide** (`/blog/how-to-use-777DX-app-pakistan-guide-2026`): HowTo “How to Use 777DX App in Pakistan” (6 steps, totalTime PT15M).
+- **Homepage**: HowTo “How to Download and Install K666 APK on Android” in the `@graph` (5 steps, totalTime PT5M, url with #download).
+- **Deposit page** (`/deposit-money-in-k666`): HowTo + WebPage in `@graph` (7 steps, totalTime PT3M).
+- **Withdraw page** (`/withdraw-money-from-k666`): HowTo + WebPage in `@graph` (9 steps, totalTime PT5M).
+- **Create account blog** (`/blog/create-K666-account-and-login`): HowTo in `@graph` with BlogPosting (8 steps, totalTime PT2M).
+- **How-to-use guide** (`/blog/how-to-use-K666-app-pakistan-guide-2026`): HowTo “How to Use K666 App in Pakistan” (6 steps, totalTime PT15M).
 
 Reusable component: `src/components/HowToSchema.tsx` for future step-by-step pages.
 

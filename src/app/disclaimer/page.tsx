@@ -2,23 +2,23 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Disclaimer - 777DX | Legal Information',
-  description: 'Read the disclaimer for 777DX. Important legal information about the use of this blog and third-party platforms.',
-  keywords: ['777DX disclaimer', 'legal disclaimer', 'terms', 'conditions', 'gambling disclaimer'],
+  title: 'Disclaimer - K666 | Legal Information',
+  description: 'Read the disclaimer for K666. Important legal information about the use of this blog and third-party platforms.',
+  keywords: ['K666 disclaimer', 'legal disclaimer', 'terms', 'conditions', 'gambling disclaimer'],
   openGraph: {
-    title: 'Disclaimer - 777DX',
-    description: 'Legal disclaimer and important information about 777DX.',
-    url: 'https://777dx-app.com.pk/disclaimer',
-    siteName: '777DX',
+    title: 'Disclaimer - K666',
+    description: 'Legal disclaimer and important information about K666.',
+    url: 'https://k666-app.com.pk/disclaimer',
+    siteName: 'K666',
     type: 'website',
   },
   twitter: {
     card: 'summary',
-    title: 'Disclaimer - 777DX',
-    description: 'Legal disclaimer and important information about 777DX.',
+    title: 'Disclaimer - K666',
+    description: 'Legal disclaimer and important information about K666.',
   },
   alternates: {
-    canonical: 'https://777dx-app.com.pk/disclaimer',
+    canonical: 'https://k666-app.com.pk/disclaimer',
   },
   robots: {
     index: true,
@@ -41,7 +41,7 @@ export default function Disclaimer() {
           <div className="bg-secondary rounded-2xl shadow-xl p-8 md:p-12">
             <div className="prose prose-lg max-w-none">
               {/* Warning Banner */}
-              <div className="bg-[#242424] border-l-4 border-accent p-6 mb-8 rounded-r-lg">
+              <div className="bg-[#134e22] border-l-4 border-accent p-6 mb-8 rounded-r-lg">
                 <div className="flex items-start">
                   <svg className="w-6 h-6 text-accent mr-3 flex-shrink-0 mt-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                     <path fillRule="evenodd" d="M8.257 3.099c.765-1.36 2.722-1.36 3.486 0l5.58 9.92c.75 1.334-.213 2.98-1.742 2.98H4.42c-1.53 0-2.493-1.646-1.743-2.98l5.58-9.92zM11 13a1 1 0 11-2 0 1 1 0 012 0zm-1-8a1 1 0 00-1 1v3a1 1 0 002 0V6a1 1 0 00-1-1z" clipRule="evenodd"></path>
@@ -58,15 +58,15 @@ export default function Disclaimer() {
               {/* Main Disclaimer Content */}
               <div className="space-y-6 text-gray-300">
                 <p className="text-lg leading-relaxed">
-                  The information provided on this blog (<a href="https://www.777dx-app.com.pk" className="text-accent hover:text-accent font-semibold" target="_blank" rel="noopener noreferrer">www.777dx-app.com.pk</a>) about <Link href="/" className="text-accent hover:underline font-semibold">777DX</Link> is for <strong>general informational and entertainment purposes only</strong>. We do not host, promote, or encourage any form of gambling or betting activities.
+                  The information provided on this blog (<a href="https://www.k666-app.com.pk" className="text-accent hover:text-accent font-semibold" target="_blank" rel="noopener noreferrer">www.k666-app.com.pk</a>) about <Link href="/" className="text-accent hover:underline font-semibold">K666</Link> is for <strong>general informational and entertainment purposes only</strong>. We do not host, promote, or encourage any form of gambling or betting activities.
                 </p>
 
-                <div className="bg-[#242424] rounded-xl p-6 border border-accent">
+                <div className="bg-[#134e22] rounded-xl p-6 border border-accent">
                   <h2 className="text-2xl font-bold mb-4 text-white">⚠️ Important Warnings</h2>
                   <ul className="space-y-3 text-gray-300">
                     <li className="flex items-start">
                       <span className="text-accent mr-2 font-bold">•</span>
-                      <span>777DX is a card game that may involve <strong>real money</strong> when played on certain platforms.</span>
+                      <span>K666 is a card game that may involve <strong>real money</strong> when played on certain platforms.</span>
                     </li>
                     <li className="flex items-start">
                       <span className="text-accent mr-2 font-bold">•</span>
@@ -75,14 +75,14 @@ export default function Disclaimer() {
               </ul>
                 </div>
 
-                <div className="bg-[#242424] rounded-xl p-6 border border-red-200">
+                <div className="bg-[#134e22] rounded-xl p-6 border border-red-200">
                   <h2 className="text-2xl font-bold mb-4 text-red-400">🚫 No Liability</h2>
                   <p className="text-gray-300 leading-relaxed mb-0">
                     We are <strong>not responsible</strong> for any loss, risk, or legal issues resulting from the use of third-party platforms. All app names, logos, and trademarks belong to their respective owners, and we do not claim any affiliation or endorsement.
                   </p>
                 </div>
 
-                <div className="bg-[#242424] rounded-xl p-6 border border-blue-200">
+                <div className="bg-[#134e22] rounded-xl p-6 border border-blue-200">
                   <h2 className="text-2xl font-bold mb-4 text-blue-400">📋 User Responsibility</h2>
                   <p className="text-gray-300 leading-relaxed mb-0">
                     By using this blog, you agree that any actions you take based on the content are <strong>strictly at your own risk</strong>. We encourage all users to:
@@ -107,7 +107,7 @@ export default function Disclaimer() {
               </ul>
                 </div>
 
-                <div className="bg-[#242424] rounded-xl p-6 border border-accent">
+                <div className="bg-[#134e22] rounded-xl p-6 border border-accent">
                   <h2 className="text-2xl font-bold mb-4 text-white">™️ Trademarks & Affiliations</h2>
                   <p className="text-gray-300 leading-relaxed mb-0">
                     All app names, logos, and trademarks mentioned on this website belong to their respective owners. We do not claim any affiliation, endorsement, or partnership with any of the apps or platforms mentioned on this blog.
@@ -140,9 +140,9 @@ export default function Disclaimer() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "WebPage",
-            "name": "Disclaimer - 777DX",
-            "description": "Legal disclaimer and important information about 777DX website.",
-            "url": "https://777dx-app.com.pk/disclaimer"
+            "name": "Disclaimer - K666",
+            "description": "Legal disclaimer and important information about K666 website.",
+            "url": "https://k666-app.com.pk/disclaimer"
           })
         }}
       />

@@ -7,14 +7,13 @@ const BlogCategoryDropdown = () => {
   const [isOpen, setIsOpen] = useState(false);
   
   const categories = [
-    { name: 'Account & Login', href: '/blog/create-777dx-account-and-login' },
-    { name: 'Download & Install', href: '/blog/how-to-download-install-777dx-apk-pakistan' },
-    { name: 'Deposit Guide', href: '/blog/777dx-deposit-jazzcash-easypaisa-guide' },
-    { name: 'Withdraw Guide', href: '/blog/777dx-withdraw-money-guide' },
-    { name: 'App Review', href: '/blog/777dx-app-review-2026' },
-    { name: 'VIP & Rebate', href: '/blog/777dx-vip-rebate-invite-guide' },
-    { name: 'Safety', href: '/blog/is-777dx-safe-legal-pakistan' },
-    { name: 'Beginner Guide', href: '/blog/how-to-use-777dx-app-pakistan-guide' },
+    { name: 'Account & Login', href: '/blog/create-k666-account-and-login' },
+    { name: 'Download & Install', href: '/blog/how-to-download-install-k666-apk-pakistan' },
+    { name: 'Deposit Guide', href: '/blog/k666-deposit-jazzcash-easypaisa-guide' },
+    { name: 'Withdraw Guide', href: '/blog/k666-withdraw-money-guide' },
+    { name: 'App Review', href: '/blog/k666-app-review-2026' },
+    { name: 'Safety', href: '/blog/is-k666-safe-legal-pakistan' },
+    { name: 'Beginner Guide', href: '/blog/how-to-use-k666-app-pakistan-guide' },
   ];
 
   return (

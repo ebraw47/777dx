@@ -2,107 +2,38 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
-    <loc>https://777dx-app.com.pk/</loc>
+    <loc>https://k666-app.com.pk/</loc>
     <image:image>
-      <image:loc>https://777dx-app.com.pk/777dx-logo.webp</image:loc>
-      <image:title>777DX Logo</image:title>
-      <image:caption>Official 777DX logo</image:caption>
+      <image:loc>https://k666-app.com.pk/k666-logo.webp</image:loc>
+      <image:title>K666 Logo</image:title>
     </image:image>
-  </url>
-  <url>
-    <loc>https://777dx-app.com.pk/</loc>
     <image:image>
-      <image:loc>https://777dx-app.com.pk/777dx-home.webp</image:loc>
-      <image:title>777DX Home</image:title>
-      <image:caption>777DX app home page</image:caption>
+      <image:loc>https://k666-app.com.pk/k666-home.webp</image:loc>
+      <image:title>K666 Home</image:title>
     </image:image>
-  </url>
-  <url>
-    <loc>https://777dx-app.com.pk/</loc>
     <image:image>
-      <image:loc>https://777dx-app.com.pk/777dx-login.webp</image:loc>
-      <image:title>777DX Login</image:title>
-      <image:caption>777DX login screen</image:caption>
+      <image:loc>https://k666-app.com.pk/k666-signup.webp</image:loc>
+      <image:title>K666 Signup</image:title>
     </image:image>
-  </url>
-  <url>
-    <loc>https://777dx-app.com.pk/</loc>
     <image:image>
-      <image:loc>https://777dx-app.com.pk/777dx-register.webp</image:loc>
-      <image:title>777DX Register</image:title>
-      <image:caption>777DX signup screen</image:caption>
+      <image:loc>https://k666-app.com.pk/k666-login.webp</image:loc>
+      <image:title>K666 Login</image:title>
     </image:image>
-  </url>
-  <url>
-    <loc>https://777dx-app.com.pk/</loc>
     <image:image>
-      <image:loc>https://777dx-app.com.pk/777dx-deposit.webp</image:loc>
-      <image:title>777DX Deposit</image:title>
-      <image:caption>777DX deposit funds</image:caption>
+      <image:loc>https://k666-app.com.pk/k666-deposit.webp</image:loc>
+      <image:title>K666 Deposit</image:title>
     </image:image>
-  </url>
-  <url>
-    <loc>https://777dx-app.com.pk/</loc>
     <image:image>
-      <image:loc>https://777dx-app.com.pk/777dx-withdraw.webp</image:loc>
-      <image:title>777DX Withdraw</image:title>
-      <image:caption>777DX withdrawal methods</image:caption>
+      <image:loc>https://k666-app.com.pk/k666-withdraw.webp</image:loc>
+      <image:title>K666 Withdraw</image:title>
     </image:image>
-  </url>
-  <url>
-    <loc>https://777dx-app.com.pk/</loc>
     <image:image>
-      <image:loc>https://777dx-app.com.pk/777dx-vip.webp</image:loc>
-      <image:title>777DX VIP</image:title>
-      <image:caption>777DX VIP program</image:caption>
+      <image:loc>https://k666-app.com.pk/k666-support.webp</image:loc>
+      <image:title>K666 Support</image:title>
     </image:image>
-  </url>
-  <url>
-    <loc>https://777dx-app.com.pk/</loc>
     <image:image>
-      <image:loc>https://777dx-app.com.pk/777dx-rebate.webp</image:loc>
-      <image:title>777DX Rebate</image:title>
-      <image:caption>777DX rebate rewards</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://777dx-app.com.pk/</loc>
-    <image:image>
-      <image:loc>https://777dx-app.com.pk/777dx-invite.webp</image:loc>
-      <image:title>777DX Invite</image:title>
-      <image:caption>777DX invite and earn</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://777dx-app.com.pk/</loc>
-    <image:image>
-      <image:loc>https://777dx-app.com.pk/777dx-mission.webp</image:loc>
-      <image:title>777DX Mission</image:title>
-      <image:caption>777DX game missions</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://777dx-app.com.pk/</loc>
-    <image:image>
-      <image:loc>https://777dx-app.com.pk/777dx-night-mode.webp</image:loc>
-      <image:title>777DX Night Mode</image:title>
-      <image:caption>777DX night mode feature</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://777dx-app.com.pk/</loc>
-    <image:image>
-      <image:loc>https://777dx-app.com.pk/777dx-support.webp</image:loc>
-      <image:title>777DX Support</image:title>
-      <image:caption>777DX customer support</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://777dx-app.com.pk/</loc>
-    <image:image>
-      <image:loc>https://777dx-app.com.pk/feature/og-image.webp</image:loc>
-      <image:title>777DX OG Image</image:title>
-      <image:caption>777DX Open Graph image</image:caption>
+      <image:loc>https://k666-app.com.pk/feature/og-image.webp</image:loc>
+      <image:title>K666 Open Graph</image:title>
     </image:image>
   </url>
 </urlset>

@@ -12,11 +12,11 @@ module.exports = {
         logo: ['var(--font-logo)', 'Chakra Petch', 'sans-serif'],
       },
       colors: {
-        // 777DX — charcoal base / gold / cyan
-        primary: '#1a1a1a',
-        secondary: '#242424',
-        accent: '#f5c518',
-        cyan: '#3eb5e8',
+        // K666 official app — deep forest green / gold / mint
+        primary: '#0d3a14',
+        secondary: '#134e22',
+        accent: '#fbdf03',
+        cyan: '#8fd99a',
       },
     },
   },

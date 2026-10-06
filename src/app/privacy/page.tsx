@@ -2,18 +2,18 @@ import { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Privacy Policy - 777DX | Your Privacy Matters',
-  description: 'Read our privacy policy to understand how 777DX collects, uses, and protects your personal information. We are committed to your data security.',
-  keywords: ['777DX privacy policy', 'privacy', 'data protection', 'user privacy', 'data security'],
+  title: 'Privacy Policy - K666 | Your Privacy Matters',
+  description: 'Read our privacy policy to understand how K666 collects, uses, and protects your personal information. We are committed to your data security.',
+  keywords: ['K666 privacy policy', 'privacy', 'data protection', 'user privacy', 'data security'],
   openGraph: {
-    title: 'Privacy Policy - 777DX',
-    description: 'Learn how 777DX protects your personal information and data.',
-    url: 'https://777dx-app.com.pk/privacy',
-    siteName: '777DX',
+    title: 'Privacy Policy - K666',
+    description: 'Learn how K666 protects your personal information and data.',
+    url: 'https://k666-app.com.pk/privacy',
+    siteName: 'K666',
     type: 'website',
   },
   alternates: {
-    canonical: 'https://777dx-app.com.pk/privacy',
+    canonical: 'https://k666-app.com.pk/privacy',
   },
 };
 
@@ -31,10 +31,10 @@ export default function PrivacyPolicyPage() {
           <div className="bg-secondary rounded-2xl shadow-xl p-8 md:p-12">
             <div className="prose prose-lg max-w-none">
               
-              <div className="bg-[#242424] border-l-4 border-accent rounded-r-lg p-6 mb-8">
+              <div className="bg-[#134e22] border-l-4 border-accent rounded-r-lg p-6 mb-8">
                 <h2 className="text-2xl font-bold mb-4 text-white">Introduction</h2>
                 <p className="text-gray-300 mb-4">
-                  <Link href="/" className="text-accent hover:underline font-semibold">777DX</Link> ("we", "our", or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our mobile application and website at <a href="https://www.777dx-app.com.pk" className="text-accent hover:underline" target="_blank" rel="noopener noreferrer">www.777dx-app.com.pk</a> (collectively, the "Service").
+                  <Link href="/" className="text-accent hover:underline font-semibold">K666</Link> ("we", "our", or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our mobile application and website at <a href="https://www.k666-app.com.pk" className="text-accent hover:underline" target="_blank" rel="noopener noreferrer">www.k666-app.com.pk</a> (collectively, the "Service").
               </p>
                 <p className="text-gray-300">
                 Please read this Privacy Policy carefully. By accessing or using our Service, you acknowledge that you have read, understood, and agree to be bound by all the terms outlined in this Privacy Policy.
@@ -43,7 +43,7 @@ export default function PrivacyPolicyPage() {
               
               <h2 className="text-3xl font-bold mt-12 mb-6 text-white">Information We Collect</h2>
               
-              <div className="bg-[#242424] rounded-xl p-6 mb-6">
+              <div className="bg-[#134e22] rounded-xl p-6 mb-6">
                 <h3 className="text-2xl font-semibold mb-4 text-accent">Personal Data</h3>
                 <p className="text-gray-300 mb-4">
                 When you use our Service, we may collect personally identifiable information, such as:
@@ -59,7 +59,7 @@ export default function PrivacyPolicyPage() {
               </ul>
               </div>
               
-              <div className="bg-[#242424] rounded-xl p-6 mb-8">
+              <div className="bg-[#134e22] rounded-xl p-6 mb-8">
                 <h3 className="text-2xl font-semibold mb-4 text-accent">Usage Data</h3>
                 <p className="text-gray-300 mb-4">
                 We may also collect information on how the Service is accessed and used ("Usage Data"). This Usage Data may include:
@@ -75,12 +75,12 @@ export default function PrivacyPolicyPage() {
               </div>
               
               <h2 className="text-3xl font-bold mt-12 mb-6 text-white">How We Use Your Information</h2>
-              <div className="bg-[#242424] rounded-xl p-6 mb-8">
+              <div className="bg-[#134e22] rounded-xl p-6 mb-8">
                 <p className="text-gray-300 mb-4">
                 We use the collected data for various purposes:
               </p>
                 <ul className="list-disc pl-6 space-y-2 text-gray-300">
-                  <li>To provide and maintain our 777DX gaming Service</li>
+                  <li>To provide and maintain our K666 gaming Service</li>
                   <li>To verify your identity and prevent fraud</li>
                   <li>To process deposits and withdrawals through JazzCash and EasyPaisa</li>
                   <li>To notify you about changes, updates, or new features</li>
@@ -94,7 +94,7 @@ export default function PrivacyPolicyPage() {
               </div>
               
               <h2 className="text-3xl font-bold mt-12 mb-6 text-white">Payment Information Security</h2>
-              <div className="bg-[#242424] rounded-xl p-6 mb-8">
+              <div className="bg-[#134e22] rounded-xl p-6 mb-8">
                 <p className="text-gray-300 mb-4">
                   Your payment security is our top priority. When you use JazzCash or EasyPaisa for deposits and withdrawals:
                 </p>
@@ -109,14 +109,14 @@ export default function PrivacyPolicyPage() {
               
               <h2 className="text-3xl font-bold mt-12 mb-6 text-white">Disclosure of Data</h2>
               
-              <div className="bg-[#242424] rounded-xl p-6 mb-6">
+              <div className="bg-[#134e22] rounded-xl p-6 mb-6">
                 <h3 className="text-2xl font-semibold mb-4 text-accent">Legal Requirements</h3>
                 <p className="text-gray-300">
                   We may disclose your Personal Data if required to do so by law or in response to valid requests by public authorities in Pakistan (e.g., a court or a government agency).
               </p>
               </div>
               
-              <div className="bg-[#242424] rounded-xl p-6 mb-8">
+              <div className="bg-[#134e22] rounded-xl p-6 mb-8">
                 <h3 className="text-2xl font-semibold mb-4 text-accent">Third-Party Services</h3>
                 <p className="text-gray-300 mb-4">
                   We may share limited data with:
@@ -132,7 +132,7 @@ export default function PrivacyPolicyPage() {
               </div>
               
               <h2 className="text-3xl font-bold mt-12 mb-6 text-white">Data Security</h2>
-              <div className="bg-[#242424] rounded-xl p-6 mb-8">
+              <div className="bg-[#134e22] rounded-xl p-6 mb-8">
                 <p className="text-gray-300 mb-4">
                   The security of your data is important to us. We implement various security measures including:
                 </p>
@@ -149,7 +149,7 @@ export default function PrivacyPolicyPage() {
               </div>
               
               <h2 className="text-3xl font-bold mt-12 mb-6 text-white">Your Data Protection Rights</h2>
-              <div className="bg-[#242424] rounded-xl p-6 mb-8">
+              <div className="bg-[#134e22] rounded-xl p-6 mb-8">
                 <p className="text-gray-300 mb-4">
                   You have the following rights regarding your personal data:
               </p>
@@ -162,14 +162,14 @@ export default function PrivacyPolicyPage() {
                   <li><strong className="text-white">Right to Withdraw Consent:</strong> Withdraw consent for data processing at any time</li>
               </ul>
                 <p className="text-gray-300 mt-4">
-                  To exercise any of these rights, please contact us at <a href="mailto:support@777dx-app.com.pk" className="text-accent hover:underline">support@777dx-app.com.pk</a>
+                  To exercise any of these rights, please contact us at <a href="mailto:support@k666-app.com.pk" className="text-accent hover:underline">support@k666-app.com.pk</a>
               </p>
               </div>
               
               <h2 className="text-3xl font-bold mt-12 mb-6 text-white">Age Restriction</h2>
               <div className="bg-red-900/20 border-l-4 border-red-500 rounded-r-lg p-6 mb-8">
                 <p className="text-gray-300 mb-4">
-                  <strong className="text-white">Important:</strong> 777DX is intended only for users who are 18 years of age or older. We do not knowingly collect personally identifiable information from anyone under 18 years of age.
+                  <strong className="text-white">Important:</strong> K666 is intended only for users who are 18 years of age or older. We do not knowingly collect personally identifiable information from anyone under 18 years of age.
                 </p>
                 <p className="text-gray-300">
                   If you are a parent or guardian and you are aware that your child has provided us with Personal Data, please contact us immediately. If we become aware that we have collected Personal Data from users under 18 without verification of parental consent, we will take steps to remove that information from our servers.
@@ -177,7 +177,7 @@ export default function PrivacyPolicyPage() {
               </div>
               
               <h2 className="text-3xl font-bold mt-12 mb-6 text-white">Cookies and Tracking</h2>
-              <div className="bg-[#242424] rounded-xl p-6 mb-8">
+              <div className="bg-[#134e22] rounded-xl p-6 mb-8">
                 <p className="text-gray-300 mb-4">
                   We use cookies and similar tracking technologies to track activity on our Service and hold certain information. Cookies are files with small amounts of data which may include an anonymous unique identifier.
                 </p>
@@ -187,7 +187,7 @@ export default function PrivacyPolicyPage() {
               </div>
               
               <h2 className="text-3xl font-bold mt-12 mb-6 text-white">Changes to This Privacy Policy</h2>
-              <div className="bg-[#242424] rounded-xl p-6 mb-8">
+              <div className="bg-[#134e22] rounded-xl p-6 mb-8">
                 <p className="text-gray-300 mb-4">
                   We may update our Privacy Policy from time to time to reflect changes in our practices or for legal, regulatory, or operational reasons. We will notify you of any material changes by:
                 </p>
@@ -213,14 +213,14 @@ export default function PrivacyPolicyPage() {
                       <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"/>
                     </svg>
                     <strong className="text-white mr-2">Email:</strong>
-                    <a href="mailto:support@777dx-app.com.pk" className="text-accent hover:underline">support@777dx-app.com.pk</a>
+                    <a href="mailto:support@k666-app.com.pk" className="text-accent hover:underline">support@k666-app.com.pk</a>
                   </li>
                   <li className="flex items-center">
                     <svg className="w-5 h-5 text-accent mr-3" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M12.586 4.586a2 2 0 112.828 2.828l-3 3a2 2 0 01-2.828 0 1 1 0 00-1.414 1.414 4 4 0 005.656 0l3-3a4 4 0 00-5.656-5.656l-1.5 1.5a1 1 0 101.414 1.414l1.5-1.5zm-5 5a2 2 0 012.828 0 1 1 0 101.414-1.414 4 4 0 00-5.656 0l-3 3a4 4 0 105.656 5.656l1.5-1.5a1 1 0 10-1.414-1.414l-1.5 1.5a2 2 0 11-2.828-2.828l3-3z" clipRule="evenodd"/>
                     </svg>
                     <strong className="text-white mr-2">Website:</strong>
-                    <a href="https://www.777dx-app.com.pk" className="text-accent hover:underline" target="_blank" rel="noopener noreferrer">www.777dx-app.com.pk</a>
+                    <a href="https://www.k666-app.com.pk" className="text-accent hover:underline" target="_blank" rel="noopener noreferrer">www.k666-app.com.pk</a>
                   </li>
                   <li className="flex items-center">
                     <svg className="w-5 h-5 text-accent mr-3" fill="currentColor" viewBox="0 0 20 20">
@@ -233,12 +233,12 @@ export default function PrivacyPolicyPage() {
               </ul>
               </div>
               
-              <div className="bg-[#242424] rounded-xl p-6 mt-8 text-center">
+              <div className="bg-[#134e22] rounded-xl p-6 mt-8 text-center">
                 <p className="text-gray-400 text-sm mb-4">
-                  By using 777DX, you consent to this Privacy Policy and agree to its terms.
+                  By using K666, you consent to this Privacy Policy and agree to its terms.
                 </p>
                 <p className="text-gray-400 text-sm">
-                  © 2026 777DX. All rights reserved.
+                  © 2026 K666. All rights reserved.
                 </p>
               </div>
             </div>
