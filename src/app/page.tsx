@@ -241,7 +241,7 @@ export default function HomePage() {
                 &amp; EasyPaisa for deposits and withdrawals. Get the APK only from the button below.
               </p>
               <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 items-center lg:items-start justify-center lg:justify-start mb-8">
-                <DownloadButton size="lg" label="DOWNLOAD 777DX" blink />
+                <DownloadButton size="lg" label="DOWNLOAD 777DX" />
               </div>
               <div className="grid grid-cols-3 gap-4 max-w-md mx-auto lg:mx-0">
                 {[
@@ -345,7 +345,7 @@ export default function HomePage() {
           </div>
 
           <div className="text-center mt-8">
-            <DownloadButton />
+            <DownloadButton size="md" />
           </div>
         </div>
       </section>
@@ -459,7 +459,7 @@ export default function HomePage() {
 
               <div className="dx-poster-cta">
                 <p className="dx-poster-cta-note">Official APK · JazzCash &amp; EasyPaisa · 18+ only</p>
-                <DownloadButton size="lg" label="DOWNLOAD 777DX NOW" />
+                <DownloadButton size="md" label="DOWNLOAD 777DX NOW" />
               </div>
             </div>
           </div>

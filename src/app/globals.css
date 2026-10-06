@@ -183,6 +183,34 @@ section.overflow-visible {
   contain: none;
 }
 
+.download-gif-btn {
+  display: inline-block !important;
+  line-height: 0;
+  width: 156px !important;
+  max-width: 156px !important;
+  flex: 0 0 156px;
+}
+
+.download-gif-btn img {
+  display: block !important;
+  width: 156px !important;
+  max-width: 156px !important;
+  height: auto !important;
+}
+
+@media (min-width: 768px) {
+  .download-gif-btn {
+    width: 176px !important;
+    max-width: 176px !important;
+    flex-basis: 176px;
+  }
+
+  .download-gif-btn img {
+    width: 176px !important;
+    max-width: 176px !important;
+  }
+}
+
 /* Cyan CTA — matches 777DX.BET Deposit button */
 .download-btn {
   position: relative;

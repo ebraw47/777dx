@@ -14,8 +14,15 @@ export default function ScrollToTop() {
     }
   };
 
-  // Set the scroll event listener
   useEffect(() => {
+    if ('scrollRestoration' in history) {
+      history.scrollRestoration = 'manual';
+    }
+
+    if (!window.location.hash) {
+      window.scrollTo(0, 0);
+    }
+
     window.addEventListener('scroll', toggleVisibility);
     return () => {
       window.removeEventListener('scroll', toggleVisibility);

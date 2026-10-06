@@ -1,25 +1,29 @@
-import Image from 'next/image';
 import { DOWNLOAD_APP_URL } from '@/lib/constants';
 
 type DownloadButtonProps = {
   label?: string;
   className?: string;
   size?: 'sm' | 'md' | 'lg';
-  /** Kept for compatibility — GIF/WebP is already animated */
   blink?: boolean;
 };
 
 const sizeClasses = {
-  sm: 'w-[150px] sm:w-[170px]',
-  md: 'w-[200px] sm:w-[240px] md:w-[260px]',
-  lg: 'w-[240px] sm:w-[280px] md:w-[320px]',
+  sm: 'px-4 py-2 text-sm gap-2 rounded-xl',
+  md: 'px-5 py-2.5 text-sm sm:px-7 sm:py-3.5 sm:text-base gap-2.5 rounded-xl sm:rounded-2xl',
+  lg: 'px-6 py-3 text-base sm:px-9 sm:py-4 sm:text-lg md:px-10 md:py-5 md:text-xl gap-3 rounded-2xl',
+};
+
+const svgSizeClasses = {
+  sm: 'w-4 h-4',
+  md: 'w-4 h-4 sm:w-5 sm:h-5',
+  lg: 'w-5 h-5 sm:w-6 sm:h-6',
 };
 
 export default function DownloadButton({
   label = 'DOWNLOAD NOW',
   className = '',
   size = 'md',
-  blink: _blink = false,
+  blink = false,
 }: DownloadButtonProps) {
   return (
     <a
@@ -28,17 +32,23 @@ export default function DownloadButton({
       rel="noopener noreferrer"
       aria-label="Download 777DX APK for Android"
       title={label}
-      className={`download-gif-btn inline-flex leading-none w-fit max-w-full items-center justify-center p-0 m-0 bg-transparent transition-transform duration-250 hover:scale-[1.05] active:scale-[0.98] ${sizeClasses[size]} ${className}`}
+      className={`download-btn inline-flex w-fit max-w-full items-center justify-center font-bold tracking-wide text-white ${sizeClasses[size]} ${blink ? 'download-btn--blink' : ''} ${className}`}
     >
-      <Image
-        src="/download-btn.webp"
-        alt={label}
-        width={335}
-        height={147}
-        unoptimized
-        priority={size === 'lg'}
-        className="block w-full h-auto object-contain"
-      />
+      <svg
+        className={`download-icon flex-shrink-0 ${svgSizeClasses[size]}`}
+        fill="none"
+        stroke="currentColor"
+        viewBox="0 0 24 24"
+        aria-hidden="true"
+      >
+        <path
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth={2.25}
+          d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"
+        />
+      </svg>
+      <span>{label}</span>
     </a>
   );
 }

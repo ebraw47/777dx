@@ -28,8 +28,11 @@ export default function ScreenshotCarousel({ screenshots }: ScreenshotCarouselPr
   );
 
   useEffect(() => {
-    const el = railRef.current?.querySelector<HTMLElement>(`[data-thumb="${active}"]`);
-    el?.scrollIntoView({ behavior: 'smooth', inline: 'center', block: 'nearest' });
+    const rail = railRef.current;
+    const el = rail?.querySelector<HTMLElement>(`[data-thumb="${active}"]`);
+    if (!rail || !el) return;
+    const left = el.offsetLeft - rail.clientWidth / 2 + el.clientWidth / 2;
+    rail.scrollTo({ left: Math.max(0, left), behavior: 'smooth' });
   }, [active]);
 
   useEffect(() => {

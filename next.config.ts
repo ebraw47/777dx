@@ -134,7 +134,7 @@ const nextConfig: NextConfig = {
   experimental: {
     optimizeCss: true,
     inlineCss: true,
-    scrollRestoration: true,
+    scrollRestoration: false,
     optimizePackageImports: ["react-icons"],
   },
 
