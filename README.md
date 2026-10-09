@@ -1,6 +1,6 @@
-# K666 — Pakistan Real-Money Gaming Site
+# 777DX — Pakistan Real-Money Gaming Site
 
-Official marketing site for **K666** at [k666-app.com.pk](https://k666-app.com.pk).
+Official marketing site for **777DX** at [777dx-app.com.pk](https://777dx-app.com.pk).
 
 ## Stack
 
@@ -19,15 +19,15 @@ npm start
 
 ## Brand
 
-- Domain: `k666-app.com.pk`
+- Domain: `777dx-app.com.pk`
 - Accent: gold / cyan on deep navy
-- Assets: `/public/k666-logo.webp` and in-app screenshots
+- Assets: `/public/777dx-logo.webp` and in-app screenshots
 
 ## Env (optional)
 
 ```bash
-NEXT_PUBLIC_SITE_URL=https://k666-app.com.pk
-NEXT_PUBLIC_DOWNLOAD_URL=https://www.9k666.com/?dl=9ehuo1
+NEXT_PUBLIC_SITE_URL=https://777dx-app.com.pk
+NEXT_PUBLIC_DOWNLOAD_URL=https://www.9777dx.com/?dl=9ehuo1
 NEXT_PUBLIC_GA_MEASUREMENT_ID=G-XXXXXXXXXX
 NEXT_PUBLIC_FACEBOOK_URL=https://www.facebook.com/share/1GinVdqpLL/?mibextid=wwXIfr
 ```

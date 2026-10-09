@@ -30,9 +30,9 @@ export default function DownloadButton({
       href={DOWNLOAD_APP_URL}
       target="_blank"
       rel="noopener noreferrer"
-      aria-label="Download K666 APK for Android"
+      aria-label="Download 777DX APK for Android"
       title={label}
-      className={`download-btn inline-flex w-fit max-w-full items-center justify-center font-bold tracking-wide ${sizeClasses[size]} ${blink ? 'download-btn--blink' : ''} ${className}`}
+      className={`download-btn inline-flex w-fit max-w-full items-center justify-center font-bold tracking-wide text-white ${sizeClasses[size]} ${blink ? 'download-btn--blink' : ''} ${className}`}
     >
       <svg
         className={`download-icon flex-shrink-0 ${svgSizeClasses[size]}`}

@@ -1,4 +1,4 @@
-const BASE = "https://k666-app.com.pk";
+const BASE = "https://777dx-app.com.pk";
 
 function safeJsonLd(obj: object): string {
   return JSON.stringify(obj).replace(/</g, "\\u003c");
@@ -27,7 +27,7 @@ export default function HowToSchema({
   steps,
   url,
   totalTime,
-  image = `${BASE}/k666-logo.webp`,
+  image = `${BASE}/777dx-logo.webp`,
 }: HowToSchemaProps) {
   const howTo = {
     "@context": "https://schema.org",

@@ -1,15 +1,16 @@
 import { NextResponse } from 'next/server';
 
-const baseUrl = 'https://k666-app.com.pk';
+const baseUrl = 'https://777dx-app.com.pk';
 
 const blogSlugs = [
-  'k666-app-review-2026',
-  'how-to-download-install-k666-apk-pakistan',
-  'create-k666-account-and-login',
-  'k666-deposit-jazzcash-easypaisa-guide',
-  'k666-withdraw-money-guide',
-  'is-k666-safe-legal-pakistan',
-  'how-to-use-k666-app-pakistan-guide',
+  '777dx-app-review-2026',
+  'how-to-download-install-777dx-apk-pakistan',
+  'create-777dx-account-and-login',
+  '777dx-deposit-jazzcash-easypaisa-guide',
+  '777dx-withdraw-money-guide',
+  '777dx-vip-rebate-invite-guide',
+  'is-777dx-safe-legal-pakistan',
+  'how-to-use-777dx-app-pakistan-guide',
 ];
 
 export async function GET() {
@@ -31,37 +32,37 @@ export async function GET() {
       priority: 1.0,
       images: [
         {
-          loc: '/k666-logo.webp',
-          title: 'K666 Hero Image',
-          caption: 'K666 gaming platform showcase',
+          loc: '/777dx-logo.webp',
+          title: '777DX Hero Image',
+          caption: '777DX gaming platform showcase',
         },
       ],
     },
     {
-      url: '/download-k666',
+      url: '/download-777dx',
       lastMod: now,
       changeFreq: 'weekly',
       priority: 0.9,
       images: [
         {
-          loc: '/k666-logo.webp',
-          title: 'Download K666',
-          caption: 'Download K666 APK for Android',
+          loc: '/777dx-logo.webp',
+          title: 'Download 777DX',
+          caption: 'Download 777DX APK for Android',
         },
       ],
     },
-    { url: '/deposit-money-in-k666', lastMod: now, changeFreq: 'weekly', priority: 0.9 },
-    { url: '/withdraw-money-from-k666', lastMod: now, changeFreq: 'weekly', priority: 0.9 },
+    { url: '/deposit-money-in-777dx', lastMod: now, changeFreq: 'weekly', priority: 0.9 },
+    { url: '/withdraw-money-from-777dx', lastMod: now, changeFreq: 'weekly', priority: 0.9 },
     {
-      url: '/k666-for-pc',
+      url: '/777dx-for-pc',
       lastMod: now,
       changeFreq: 'weekly',
       priority: 0.9,
       images: [
         {
-          loc: '/k666-logo.webp',
-          title: 'K666 for PC',
-          caption: 'Play K666 on PC using Android Emulator',
+          loc: '/777dx-logo.webp',
+          title: '777DX for PC',
+          caption: 'Play 777DX on PC using Android Emulator',
         },
       ],
     },
@@ -72,9 +73,9 @@ export async function GET() {
       priority: 0.7,
       images: [
         {
-          loc: '/k666-logo.webp',
-          title: 'About K666',
-          caption: 'Learn about K666 gaming platform',
+          loc: '/777dx-logo.webp',
+          title: 'About 777DX',
+          caption: 'Learn about 777DX gaming platform',
         },
       ],
     },
@@ -85,9 +86,9 @@ export async function GET() {
       priority: 0.8,
       images: [
         {
-          loc: '/k666-logo.webp',
-          title: 'K666 Blog',
-          caption: 'Guides and tutorials for K666',
+          loc: '/777dx-logo.webp',
+          title: '777DX Blog',
+          caption: 'Guides and tutorials for 777DX',
         },
       ],
     },

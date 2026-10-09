@@ -15,7 +15,7 @@ const poppins = Poppins({
   variable: "--font-poppins",
 });
 
-/** Closest match to in-game K666 wordmark (bold italic geometric) */
+/** Closest match to in-game 777DX wordmark (bold italic geometric) */
 const chakraPetch = Chakra_Petch({
   subsets: ["latin"],
   weight: ["600", "700"],
@@ -29,33 +29,33 @@ export const viewport: Viewport = {
   initialScale: 1,
   maximumScale: 5,
   userScalable: true,
-  themeColor: "#0d3a14",
+  themeColor: "#1a1a1a",
   viewportFit: "cover",
   interactiveWidget: "resizes-visual",
 };
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://k666-app.com.pk'),
+  metadataBase: new URL('https://777dx-app.com.pk'),
   title: {
-    default: "K666 Pakistan Free Download Official APK 2026",
-    template: "%s | K666"
+    default: "777DX Pakistan Free Download Official APK 2026",
+    template: "%s | 777DX"
   },
-  description: "K666 2026 - Download K666 APK for Android. Play & earn real cash with JazzCash & EasyPaisa. Official Pakistan site k666-app.com.pk.",
+  description: "777DX 2026 - Download 777DX APK for Android. Play & earn real cash with JazzCash & EasyPaisa. Official Pakistan site 777dx-app.com.pk.",
   keywords: [
-    "K666",
-    "K666 APK",
-    "K666 download",
-    "K666 Pakistan",
-    "K666 game",
-    "K666 app",
-    "K666 earning game",
-    "K666 JazzCash",
-    "K666 2026",
-    "k666-app.com.pk"
+    "777DX",
+    "777DX APK",
+    "777DX download",
+    "777DX Pakistan",
+    "777DX game",
+    "777DX app",
+    "777DX earning game",
+    "777DX JazzCash",
+    "777DX 2026",
+    "777dx-app.com.pk"
   ],
-  authors: [{ name: "K666 Team" }],
-  creator: "K666",
-  publisher: "K666",
+  authors: [{ name: "777DX Team" }],
+  creator: "777DX",
+  publisher: "777DX",
   robots: {
     index: true,
     follow: true,
@@ -72,7 +72,7 @@ export const metadata: Metadata = {
       { url: '/favicon-32.png', type: 'image/png', sizes: '32x32' },
       { url: '/favicon-16.png', type: 'image/png', sizes: '16x16' },
       { url: '/favicon.png', type: 'image/png', sizes: '32x32' },
-      { url: '/k666-logo.webp', type: 'image/webp', sizes: '512x512' }
+      { url: '/777dx-logo.webp', type: 'image/webp', sizes: '512x512' }
     ],
     apple: [
       { url: '/apple-touch-icon.png', sizes: '180x180' }
@@ -83,45 +83,45 @@ export const metadata: Metadata = {
     google: "8a7c21f6e90a89ef",
   },
   alternates: {
-    canonical: "https://k666-app.com.pk",
+    canonical: "https://777dx-app.com.pk",
   },
   openGraph: {
-    title: "K666 Pakistan Free Download Official APK 2026",
-    description: "K666 2026 - Download K666 APK. Play & earn real cash with JazzCash & EasyPaisa withdrawals.",
-    url: "https://k666-app.com.pk",
-    siteName: "K666",
+    title: "777DX Pakistan Free Download Official APK 2026",
+    description: "777DX 2026 - Download 777DX APK. Play & earn real cash with JazzCash & EasyPaisa withdrawals.",
+    url: "https://777dx-app.com.pk",
+    siteName: "777DX",
     locale: "en_US",
     type: "website",
     images: [
       {
-        url: "https://k666-app.com.pk/feature/og-image.webp",
+        url: "https://777dx-app.com.pk/feature/og-image.webp",
         width: 1200,
         height: 630,
-        alt: "K666 - Real-Money Gaming App",
+        alt: "777DX - Real-Money Gaming App",
       },
       {
-        url: "https://k666-app.com.pk/feature/og-image-square.webp",
+        url: "https://777dx-app.com.pk/feature/og-image-square.webp",
         width: 800,
         height: 800,
-        alt: "K666 - Real-Money Gaming App",
+        alt: "777DX - Real-Money Gaming App",
       }
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "K666 Pakistan Free Download Official APK 2026",
-    description: "K666 2026 - Download K666 APK. Play & earn real cash with JazzCash & EasyPaisa.",
-    creator: "@k666app",
+    title: "777DX Pakistan Free Download Official APK 2026",
+    description: "777DX 2026 - Download 777DX APK. Play & earn real cash with JazzCash & EasyPaisa.",
+    creator: "@777dxapp",
     images: [
       {
-        url: "https://k666-app.com.pk/feature/twitter-card.webp",
+        url: "https://777dx-app.com.pk/feature/twitter-card.webp",
         width: 1200,
         height: 600,
-        alt: "K666 - Real-Money Gaming App",
+        alt: "777DX - Real-Money Gaming App",
       }
     ],
   },
-  applicationName: "K666",
+  applicationName: "777DX",
   category: "Gaming",
   classification: "Real-Money Gaming Platform",
 };
@@ -141,7 +141,7 @@ export default function RootLayout({
         <link rel="icon" href="/favicon-32.png" type="image/png" sizes="32x32" />
         <link rel="icon" href="/favicon-16.png" type="image/png" sizes="16x16" />
         <link rel="icon" href="/favicon.png" type="image/png" sizes="32x32" />
-        <link rel="icon" href="/k666-logo.webp" type="image/webp" sizes="512x512" />
+        <link rel="icon" href="/777dx-logo.webp" type="image/webp" sizes="512x512" />
         <link rel="shortcut icon" href="/favicon-32.png" />
         <link rel="apple-touch-icon" href="/apple-touch-icon.png" sizes="180x180" />
 
@@ -202,21 +202,21 @@ export default function RootLayout({
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "Organization",
-              "@id": "https://k666-app.com.pk/#organization",
-              "name": "K666",
-              "url": "https://k666-app.com.pk",
+              "@id": "https://777dx-app.com.pk/#organization",
+              "name": "777DX",
+              "url": "https://777dx-app.com.pk",
               "logo": {
                 "@type": "ImageObject",
-                "url": "https://k666-app.com.pk/k666-logo.webp",
+                "url": "https://777dx-app.com.pk/777dx-logo.webp",
                 "width": 512,
                 "height": 512
               },
-              "description": "K666 is Pakistan's real-money gaming platform. Download APK, JazzCash and EasyPaisa deposits and withdrawals.",
+              "description": "777DX is Pakistan's real-money gaming platform. Download APK, JazzCash and EasyPaisa deposits and withdrawals.",
               "areaServed": { "@type": "Country", "name": "Pakistan", "alternateName": "PK" },
               "contactPoint": {
                 "@type": "ContactPoint",
                 "contactType": "Customer Support",
-                "email": "support@k666-app.com.pk",
+                "email": "support@777dx-app.com.pk",
                 "areaServed": "PK",
                 "availableLanguage": ["English", "Urdu"]
               }

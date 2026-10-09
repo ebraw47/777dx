@@ -53,7 +53,7 @@ export default function ScreenshotCarousel({ screenshots }: ScreenshotCarouselPr
   if (!current) return null;
 
   return (
-    <div className="dx-gallery container mx-auto px-4" aria-label="K666 app screenshots gallery">
+    <div className="dx-gallery container mx-auto px-4" aria-label="777DX app screenshots gallery">
       {/* Featured stage */}
       <div className="dx-gallery-stage relative mx-auto max-w-5xl">
         <div className="absolute inset-0 dx-gallery-aura pointer-events-none" aria-hidden="true" />

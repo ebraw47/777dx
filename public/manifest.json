@@ -1,7 +1,7 @@
 {
-  "name": "K666",
-  "short_name": "K666",
-  "description": "Pakistan's real-money gaming platform — earning games, JazzCash & EasyPaisa.",
+  "name": "777DX",
+  "short_name": "777DX",
+  "description": "Pakistan's real-money gaming platform \u2014 earning games, VIP, rebate. JazzCash & EasyPaisa.",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#1a1a1a",
@@ -23,7 +23,7 @@
       "type": "image/png"
     },
     {
-      "src": "/k666-logo.webp",
+      "src": "/777dx-logo.webp",
       "sizes": "512x512",
       "type": "image/webp",
       "purpose": "any maskable"
